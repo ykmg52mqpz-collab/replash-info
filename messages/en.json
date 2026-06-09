@@ -368,11 +368,11 @@
     "competitors": {
       "eyebrow": "Where REPLASH Fits",
       "title": "Existing sports-video companies serve the wrong market.",
-      "desc": "VEO, Pixellot and similar players focus on professional clubs and academies — expensive cameras, tactical analysis tools, narrow market. They ignored amateur sport, which is the real mass of the market. REPLASH was built exactly for that gap.",
+      "desc": "Existing professional video-analysis platforms focus on professional clubs and academies — expensive cameras, tactical analysis tools, narrow market. They ignored amateur sport, which is the real mass of the market. REPLASH was built exactly for that gap.",
       "comparison": {
         "header": {
           "feature": "Feature",
-          "pro": "Professional (VEO / Pixellot)",
+          "pro": "Professional platforms",
           "replash": "REPLASH"
         },
         "rows": {
