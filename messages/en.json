@@ -536,36 +536,6 @@
       "title": "Bring REPLASH to your facility.",
       "subtitle": "Talk to us about installation, timelines, and how it works for your venue.",
       "button": "Become a Pilot Facility"
-    },
-    "roi": {
-      "eyebrow": "REVENUE CALCULATOR",
-      "title": "Calculate your monthly upside",
-      "subtitle": "Three numbers. Live estimate. No commitment.",
-      "sport": {
-        "padel": "Padel",
-        "football": "Football"
-      },
-      "inputs": {
-        "courts": "Number of courts",
-        "courtsSuffix": "courts",
-        "bookings": "Bookings / court / day",
-        "bookingsSuffix": "per day",
-        "days": "Active days per month",
-        "daysSuffix": "days"
-      },
-      "results": {
-        "eyebrow": "YOUR ESTIMATE",
-        "matches": "Matches recorded",
-        "matchesHint": "per month",
-        "unlocked": "Videos unlocked",
-        "unlockedHint": "~40% of matches",
-        "share": "Your share",
-        "shareHint": "15% monthly",
-        "yearlyEyebrow": "YEARLY POTENTIAL",
-        "yearlySuffix": "per year",
-        "yearlyNote": "With zero extra work for your staff."
-      },
-      "disclaimer": "* Estimates based on pilot facility averages. Actual revenue depends on activation rate, currently averaging 40% across early pilots."
     }
   },
   "forPlayers": {

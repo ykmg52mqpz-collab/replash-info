@@ -536,36 +536,6 @@
       "title": "Porta REPLASH nel tuo centro.",
       "subtitle": "Parlaci di installazione, tempi e di come funziona per il tuo centro.",
       "button": "Diventa Centro Pilota"
-    },
-    "roi": {
-      "eyebrow": "CALCOLATORE DI RICAVI",
-      "title": "Calcola il tuo guadagno mensile",
-      "subtitle": "Tre numeri. Stima in tempo reale. Nessun impegno.",
-      "sport": {
-        "padel": "Padel",
-        "football": "Calcio"
-      },
-      "inputs": {
-        "courts": "Numero di campi",
-        "courtsSuffix": "campi",
-        "bookings": "Prenotazioni / campo / giorno",
-        "bookingsSuffix": "al giorno",
-        "days": "Giorni attivi al mese",
-        "daysSuffix": "giorni"
-      },
-      "results": {
-        "eyebrow": "LA TUA STIMA",
-        "matches": "Partite registrate",
-        "matchesHint": "al mese",
-        "unlocked": "Video sbloccati",
-        "unlockedHint": "~40% delle partite",
-        "share": "La tua quota",
-        "shareHint": "15% al mese",
-        "yearlyEyebrow": "POTENZIALE ANNUO",
-        "yearlySuffix": "all'anno",
-        "yearlyNote": "Con zero lavoro aggiuntivo per il tuo staff."
-      },
-      "disclaimer": "* Stime basate sui dati medi dei centri pilota. I ricavi effettivi dipendono dal tasso di attivazione, attualmente in media il 40% nei centri pilota iniziali."
     }
   },
   "forPlayers": {

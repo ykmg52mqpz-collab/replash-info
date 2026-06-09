@@ -536,36 +536,6 @@
       "title": "REPLASH'i sahanıza getirin.",
       "subtitle": "Bizimle kurulum, zamanlama ve sahanız için nasıl çalıştığını konuşun.",
       "button": "Pilot Saha Ol"
-    },
-    "roi": {
-      "eyebrow": "GELIR HESAPLAYICI",
-      "title": "Aylık potansiyel gelirinizi hesaplayın",
-      "subtitle": "Üç sayı. Anlık tahmin. Hiçbir taahhüt yok.",
-      "sport": {
-        "padel": "Padel",
-        "football": "Futbol"
-      },
-      "inputs": {
-        "courts": "Saha sayısı",
-        "courtsSuffix": "saha",
-        "bookings": "Rezervasyon / saha / gün",
-        "bookingsSuffix": "günlük",
-        "days": "Aylık aktif gün",
-        "daysSuffix": "gün"
-      },
-      "results": {
-        "eyebrow": "TAHMINI GELIR",
-        "matches": "Kaydedilen maç",
-        "matchesHint": "aylık",
-        "unlocked": "Açılan video",
-        "unlockedHint": "maçların ~%40'ı",
-        "share": "Payınız",
-        "shareHint": "aylık %15",
-        "yearlyEyebrow": "YILLIK POTANSIYEL",
-        "yearlySuffix": "yıllık",
-        "yearlyNote": "Personelinize sıfır ek iş yükü ile."
-      },
-      "disclaimer": "* Tahminler pilot sahaların ortalamasına dayanmaktadır. Gerçek gelir aktivasyon oranına bağlıdır, şu anda erken pilotlarda ortalama %40 seviyesindedir."
     }
   },
   "forPlayers": {

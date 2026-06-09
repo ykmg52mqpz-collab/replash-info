@@ -536,36 +536,6 @@
       "title": "Trae REPLASH a tu centro.",
       "subtitle": "Habla con nosotros sobre instalación, plazos y cómo funciona para tu centro.",
       "button": "Conviértete en Sede Piloto"
-    },
-    "roi": {
-      "eyebrow": "CALCULADORA DE INGRESOS",
-      "title": "Calcula tu ganancia mensual",
-      "subtitle": "Tres números. Estimación en tiempo real. Sin compromiso.",
-      "sport": {
-        "padel": "Pádel",
-        "football": "Fútbol"
-      },
-      "inputs": {
-        "courts": "Número de pistas",
-        "courtsSuffix": "pistas",
-        "bookings": "Reservas / pista / día",
-        "bookingsSuffix": "al día",
-        "days": "Días activos al mes",
-        "daysSuffix": "días"
-      },
-      "results": {
-        "eyebrow": "TU ESTIMACIÓN",
-        "matches": "Partidos grabados",
-        "matchesHint": "al mes",
-        "unlocked": "Videos desbloqueados",
-        "unlockedHint": "~40% de partidos",
-        "share": "Tu parte",
-        "shareHint": "15% mensual",
-        "yearlyEyebrow": "POTENCIAL ANUAL",
-        "yearlySuffix": "al año",
-        "yearlyNote": "Sin trabajo extra para tu personal."
-      },
-      "disclaimer": "* Estimaciones basadas en promedios de centros piloto. Los ingresos reales dependen de la tasa de activación, actualmente promediando el 40% en pilotos iniciales."
     }
   },
   "forPlayers": {
