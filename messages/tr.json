@@ -844,8 +844,9 @@
       "sportOptions": {
         "football": "Futbol / Futsal",
         "padel": "Padel",
-        "both": "İkisi"
-      }
+        "other": "Diğer"
+      },
+      "sportOtherPlaceholder": "Sporu belirtin..."
     },
     "submit": "Mesaj Gönder",
     "submitting": "Gönderiliyor...",

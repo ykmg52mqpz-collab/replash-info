@@ -5,12 +5,13 @@ import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import SectionHeading from "./SectionHeading";
 
-const sportOptions = ["football", "padel", "both"] as const;
+const sportOptions = ["football", "padel", "other"] as const;
 type Status = "idle" | "submitting" | "success" | "error";
 
 export default function ContactSection() {
   const t = useTranslations("contact");
   const [status, setStatus] = useState<Status>("idle");
+  const [sport, setSport] = useState<string>("");
 
   async function onSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -70,7 +71,8 @@ export default function ContactSection() {
               <select
                 name="sport"
                 required
-                defaultValue=""
+                value={sport}
+                onChange={(e) => setSport(e.target.value)}
                 className="rounded-lg border border-white/10 bg-white/[0.04] px-3 py-2.5 text-sm text-white outline-none focus:border-accent"
               >
                 <option value="" disabled className="bg-ink-900">—</option>
@@ -80,6 +82,15 @@ export default function ContactSection() {
                   </option>
                 ))}
               </select>
+              {sport === "other" && (
+                <input
+                  type="text"
+                  name="sportOther"
+                  required
+                  placeholder={t("fields.sportOtherPlaceholder")}
+                  className="mt-2 rounded-lg border border-white/10 bg-white/[0.04] px-3 py-2.5 text-sm text-white placeholder:text-white/30 outline-none focus:border-accent"
+                />
+              )}
             </div>
           </div>
 

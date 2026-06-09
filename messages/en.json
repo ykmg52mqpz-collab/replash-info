@@ -844,8 +844,9 @@
       "sportOptions": {
         "football": "Football / Futsal",
         "padel": "Padel",
-        "both": "Both"
-      }
+        "other": "Other"
+      },
+      "sportOtherPlaceholder": "Specify your sport..."
     },
     "submit": "Send Message",
     "submitting": "Sending...",
