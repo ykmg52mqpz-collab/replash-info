@@ -8,12 +8,25 @@ export default function FacilitiesRevenueShare() {
 
   return (
     <section className="section-y border-t border-white/5 bg-ink-900 relative overflow-hidden">
+      {/* Background image */}
+      <img
+        src="/images/gen_facility_owner_pov.jpg"
+        alt=""
+        aria-hidden
+        className="pointer-events-none absolute inset-0 h-full w-full object-cover opacity-35"
+      />
+      {/* Dark gradient overlay for legibility */}
+      <div
+        className="pointer-events-none absolute inset-0 bg-gradient-to-b from-ink-900 via-ink-900/70 to-ink-900"
+        aria-hidden
+      />
+      {/* Soft accent glow */}
       <div
         className="pointer-events-none absolute inset-0"
         style={{ background: "radial-gradient(ellipse 70% 50% at 50% 50%, rgba(253,230,138,0.10), transparent 70%)" }}
         aria-hidden
       />
-      <div className="container-x relative">
+      <div className="container-x relative z-10">
         <motion.div
           initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}
