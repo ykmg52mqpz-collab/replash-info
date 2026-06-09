@@ -55,9 +55,6 @@ export default function FacilitiesROI() {
 
       <div className="container-x relative z-10">
         <SectionHeading eyebrow={t("eyebrow")} title={t("title")} align="center" />
-        <p className="mx-auto mt-4 max-w-2xl text-center text-sm leading-relaxed text-white/55 md:text-base">
-          {t("subtitle")}
-        </p>
 
         <motion.div
           initial={{ opacity: 0, y: 24 }}
