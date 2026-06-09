@@ -53,7 +53,7 @@
         },
         "3": {
           "title": "Mira, Recorta, Comparte",
-          "desc": "Los jugadores ven su partido, recortan highlights de 10–30 segundos, los descargan y los comparten en redes sociales. No se necesita app. No se necesita cuenta."
+          "desc": "Los jugadores ven su partido, recortan highlights de 10–45 segundos, los descargan y los comparten en redes sociales. No se necesita app. No se necesita cuenta."
         }
       }
     },
@@ -112,7 +112,7 @@
         },
         "2": {
           "title": "Recorta los Mejores Momentos",
-          "desc": "Corta highlights de 10–30 segundos dentro de REPLASH — un gol, un peloteo, una celebración. Descarga al móvil al instante."
+          "desc": "Corta highlights de 10–45 segundos dentro de REPLASH — un gol, un peloteo, una celebración. Descarga al móvil al instante."
         },
         "3": {
           "title": "Comparte en Redes",
@@ -552,7 +552,7 @@
     "clipping": {
       "eyebrow": "Recorta los Mejores Momentos",
       "title": "Corta un gol. Guarda un peloteo. Publica en segundos.",
-      "desc": "REPLASH tiene un clip cutter integrado. Recorre tu partido, elige un momento de 10–30 segundos y descárgalo directamente a tu móvil. Un gol en el minuto 17. El golpe ganador del último set. La celebración. Elige los segundos que quieras, recórtalos y estarán en el carrete de tu móvil.",
+      "desc": "REPLASH tiene un clip cutter integrado. Recorre tu partido, elige un momento de 10–45 segundos y descárgalo directamente a tu móvil. Un gol en el minuto 17. El golpe ganador del último set. La celebración. Elige los segundos que quieras, recórtalos y estarán en el carrete de tu móvil.",
       "features": {
         "1": {
           "label": "Abre la grabación",
@@ -560,7 +560,7 @@
         },
         "2": {
           "label": "Elige el momento",
-          "desc": "Recorre la línea de tiempo, selecciona 10–30 seg."
+          "desc": "Recorre la línea de tiempo, selecciona 10–45 seg."
         },
         "3": {
           "label": "Descarga",
@@ -782,7 +782,7 @@
       },
       "8": {
         "q": "¿Pueden los jugadores compartir clips en redes sociales?",
-        "a": "Sí — esa es la experiencia central. REPLASH tiene un clip cutter integrado dentro de la plataforma. Los jugadores eligen un momento de 10–30 segundos del partido, descargan el clip a su móvil y lo comparten en plataformas de redes sociales bajo su propia cuenta. REPLASH es el lugar donde se hace el clip — el compartir ocurre en los canales propios del jugador."
+        "a": "Sí — esa es la experiencia central. REPLASH tiene un clip cutter integrado dentro de la plataforma. Los jugadores eligen un momento de 10–45 segundos del partido, descargan el clip a su móvil y lo comparten en plataformas de redes sociales bajo su propia cuenta. REPLASH es el lugar donde se hace el clip — el compartir ocurre en los canales propios del jugador."
       },
       "9": {
         "q": "¿Son públicos los videos? ¿Podría alguien encontrarlos online?",

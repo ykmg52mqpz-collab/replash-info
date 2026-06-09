@@ -53,7 +53,7 @@
         },
         "3": {
           "title": "Watch, Clip, Share",
-          "desc": "Players watch their match, cut 10–30 second highlights, download them, and share them on social media. No app needed. No account needed."
+          "desc": "Players watch their match, cut 10–45 second highlights, download them, and share them on social media. No app needed. No account needed."
         }
       }
     },
@@ -112,7 +112,7 @@
         },
         "2": {
           "title": "Clip Best Moments",
-          "desc": "Cut 10–30 second highlights right inside REPLASH — a goal, a rally, a celebration. Download to phone instantly."
+          "desc": "Cut 10–45 second highlights right inside REPLASH — a goal, a rally, a celebration. Download to phone instantly."
         },
         "3": {
           "title": "Share to Social",
@@ -552,7 +552,7 @@
     "clipping": {
       "eyebrow": "Clip the Best Moments",
       "title": "Cut a goal. Save a rally. Post in seconds.",
-      "desc": "REPLASH has a built-in clip cutter. Scrub through your match, pick a 10–30 second moment, and download it straight to your phone. A goal at minute 17. The winning shot of the last set. The celebration. Pick the seconds you want, clip them, and they're on your camera roll.",
+      "desc": "REPLASH has a built-in clip cutter. Scrub through your match, pick a 10–45 second moment, and download it straight to your phone. A goal at minute 17. The winning shot of the last set. The celebration. Pick the seconds you want, clip them, and they're on your camera roll.",
       "features": {
         "1": {
           "label": "Open recording",
@@ -560,7 +560,7 @@
         },
         "2": {
           "label": "Pick the moment",
-          "desc": "Scrub the timeline, select 10–30 sec."
+          "desc": "Scrub the timeline, select 10–45 sec."
         },
         "3": {
           "label": "Download",
@@ -782,7 +782,7 @@
       },
       "8": {
         "q": "Can players actually share clips on social media?",
-        "a": "Yes — that's the core experience. REPLASH has a built-in clip cutter inside the platform. Players pick a 10–30 second moment from the match, download the clip to their phone, and share it on social media platforms under their own account. REPLASH is the place where the clip is made — sharing happens on the player's own channels."
+        "a": "Yes — that's the core experience. REPLASH has a built-in clip cutter inside the platform. Players pick a 10–45 second moment from the match, download the clip to their phone, and share it on social media platforms under their own account. REPLASH is the place where the clip is made — sharing happens on the player's own channels."
       },
       "9": {
         "q": "Are videos public? Could anyone find them online?",

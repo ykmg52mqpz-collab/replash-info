@@ -114,7 +114,7 @@ export default function PlayersClipping() {
                   <div className="flex items-center gap-1.5">
                     <span className="rounded-md border border-white/10 bg-white/5 px-2 py-1 text-[10px] text-white/50">10s</span>
                     <span className="rounded-md border border-accent/30 bg-accent/15 px-2 py-1 text-[10px] font-semibold text-accent">15s</span>
-                    <span className="rounded-md border border-white/10 bg-white/5 px-2 py-1 text-[10px] text-white/50">30s</span>
+                    <span className="rounded-md border border-white/10 bg-white/5 px-2 py-1 text-[10px] text-white/50">45s</span>
                   </div>
                   <button type="button" className="inline-flex items-center gap-1 rounded-full bg-accent px-3 py-1.5 text-[10px] font-semibold text-ink-900">
                     <svg className="h-3 w-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" /><polyline points="7 10 12 15 17 10" /><line x1="12" y1="15" x2="12" y2="3" /></svg>

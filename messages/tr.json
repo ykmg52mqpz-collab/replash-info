@@ -53,7 +53,7 @@
         },
         "3": {
           "title": "İzle, Kes, Paylaş",
-          "desc": "Oyuncular maçlarını izler, 10–30 saniyelik highlight'lar keser, indirir ve sosyal medyada paylaşır. Uygulama gerekmez. Hesap gerekmez."
+          "desc": "Oyuncular maçlarını izler, 10–45 saniyelik highlight'lar keser, indirir ve sosyal medyada paylaşır. Uygulama gerekmez. Hesap gerekmez."
         }
       }
     },
@@ -112,7 +112,7 @@
         },
         "2": {
           "title": "En İyi Anları Kesin",
-          "desc": "REPLASH içinde 10–30 saniyelik highlight'lar kesin — gol, rali, kutlama. Telefona anında indirin."
+          "desc": "REPLASH içinde 10–45 saniyelik highlight'lar kesin — gol, rali, kutlama. Telefona anında indirin."
         },
         "3": {
           "title": "Sosyal Medyada Paylaşın",
@@ -552,7 +552,7 @@
     "clipping": {
       "eyebrow": "En İyi Anları Kesin",
       "title": "Bir gol kes. Bir rali sakla. Saniyeler içinde paylaş.",
-      "desc": "REPLASH'in dahili bir clip cutter'ı var. Maçınızı tarayın, 10–30 saniyelik bir an seçin ve doğrudan telefonunuza indirin. 17. dakikadaki gol. Son setin galibiyet vuruşu. Kutlama. İstediğiniz saniyeleri seçin, kesin ve telefonunuzun rulosunda olsun.",
+      "desc": "REPLASH'in dahili bir clip cutter'ı var. Maçınızı tarayın, 10–45 saniyelik bir an seçin ve doğrudan telefonunuza indirin. 17. dakikadaki gol. Son setin galibiyet vuruşu. Kutlama. İstediğiniz saniyeleri seçin, kesin ve telefonunuzun rulosunda olsun.",
       "features": {
         "1": {
           "label": "Kaydı aç",
@@ -560,7 +560,7 @@
         },
         "2": {
           "label": "Anı seç",
-          "desc": "Zaman çizelgesini tara, 10–30 saniye seç."
+          "desc": "Zaman çizelgesini tara, 10–45 saniye seç."
         },
         "3": {
           "label": "İndir",
@@ -782,7 +782,7 @@
       },
       "8": {
         "q": "Oyuncular gerçekten klipleri sosyal medyada paylaşabilir mi?",
-        "a": "Evet — bu çekirdek deneyim. REPLASH platformun içinde dahili bir clip cutter'a sahip. Oyuncular maçtan 10–30 saniyelik bir an seçer, klibi telefonlarına indirir ve kendi hesapları altında sosyal medya platformlarında paylaşır. REPLASH klibin yapıldığı yerdir — paylaşım oyuncunun kendi kanallarında gerçekleşir."
+        "a": "Evet — bu çekirdek deneyim. REPLASH platformun içinde dahili bir clip cutter'a sahip. Oyuncular maçtan 10–45 saniyelik bir an seçer, klibi telefonlarına indirir ve kendi hesapları altında sosyal medya platformlarında paylaşır. REPLASH klibin yapıldığı yerdir — paylaşım oyuncunun kendi kanallarında gerçekleşir."
       },
       "9": {
         "q": "Videolar genel midir? Kimse internette bulabilir mi?",
