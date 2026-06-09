@@ -22,7 +22,7 @@ export default function FacilitiesMarketing() {
     <section className="section-y border-t border-white/5 bg-ink-900 relative overflow-hidden">
       {/* Background — court atmosphere */}
       <div className="absolute inset-0" aria-hidden>
-        <img src="/images/gen_player_watching.jpg" alt="" className="h-full w-full object-cover object-center" style={{ opacity: 0.12 }} />
+        <img src="/images/gen_marketing_bright.jpg" alt="" className="h-full w-full object-cover object-center" style={{ opacity: 0.28 }} />
         <div className="absolute inset-0 bg-gradient-to-b from-ink-900 via-ink-900/70 to-ink-900" />
       </div>
       <div className="container-x relative">
