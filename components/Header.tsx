@@ -45,7 +45,7 @@ export default function Header() {
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-accent opacity-50" />
               <span className="relative inline-flex h-2.5 w-2.5 rounded-full bg-accent shadow-glow-sm" />
             </span>
-            <span className="text-white">replash<span className="text-white/40">.info</span></span>
+            <span lang="en" className="text-white">replash<span className="text-white/40">.info</span></span>
           </div>
 
           {/* Desktop nav links */}

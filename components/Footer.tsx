@@ -26,7 +26,7 @@ export default function Footer() {
           <div className="flex flex-col gap-4">
             <div className="flex items-center gap-2 font-display text-lg font-semibold tracking-tight">
               <span className="inline-block h-2 w-2 rounded-full bg-accent shadow-glow-sm" />
-              <span>replash<span className="text-white/40">.info</span></span>
+              <span lang="en">replash<span className="text-white/40">.info</span></span>
             </div>
             <p className="max-w-xs text-sm text-white/50 leading-relaxed">{t("tagline")}</p>
             <LanguageToggle />
@@ -86,7 +86,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 flex flex-col items-start justify-between gap-3 border-t border-white/5 pt-6 text-xs text-white/35 md:flex-row md:items-center">
-          <span>© {year} replash.info. {t("rights")}</span>
+          <span>© {year} <span lang="en">replash.info</span>. {t("rights")}</span>
           <a href="#" className="hover:text-white transition">{t("privacy")}</a>
         </div>
       </div>
