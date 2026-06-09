@@ -537,10 +537,31 @@
       "subtitle": "Talk to us about installation, timelines, and how it works for your venue.",
       "button": "Become a Pilot Facility"
     },
-    "revenueShare": {
-      "eyebrow": "AND ON TOP OF THAT",
-      "title": "15% of every video sold at your facility lands in your account each month, automatically.",
-      "subtitle": "No extra work. No payments to chase. Every match unlocked is a small win for you, too."
+    "roi": {
+      "eyebrow": "REVENUE CALCULATOR",
+      "title": "Calculate your passive monthly income",
+      "subtitle": "How many videos do you expect to sell per day? Enter your number and see your monthly share.",
+      "sport": {
+        "padel": "Padel",
+        "football": "Football"
+      },
+      "inputs": {
+        "videos": "Videos sold per day",
+        "videosSuffix": "per day",
+        "days": "Active days per month",
+        "daysSuffix": "days"
+      },
+      "results": {
+        "eyebrow": "YOUR ESTIMATE",
+        "videos": "Videos sold",
+        "videosHint": "per month",
+        "share": "Your share (15%)",
+        "shareHint": "monthly earning",
+        "yearlyEyebrow": "YEARLY POTENTIAL",
+        "yearlySuffix": "per year",
+        "yearlyNote": "With zero extra work for your staff."
+      },
+      "disclaimer": "* Estimate based on average video sale price per sport. The calculation is purely illustrative — enter your own numbers to see your potential."
     }
   },
   "forPlayers": {

@@ -537,10 +537,31 @@
       "subtitle": "Parlaci di installazione, tempi e di come funziona per il tuo centro.",
       "button": "Diventa Centro Pilota"
     },
-    "revenueShare": {
-      "eyebrow": "E IN PIÙ",
-      "title": "Ogni mese, il 15% di ogni video venduto presso il tuo centro arriva automaticamente sul tuo conto.",
-      "subtitle": "Nessun lavoro aggiuntivo. Nessun pagamento da inseguire. Ogni partita sbloccata è anche una piccola vittoria per te."
+    "roi": {
+      "eyebrow": "CALCOLATORE DI RICAVI",
+      "title": "Calcola la tua entrata mensile passiva",
+      "subtitle": "Quanti video pensi di vendere al giorno? Inserisci il tuo numero e scopri la tua quota mensile.",
+      "sport": {
+        "padel": "Padel",
+        "football": "Calcio"
+      },
+      "inputs": {
+        "videos": "Video venduti al giorno",
+        "videosSuffix": "al giorno",
+        "days": "Giorni attivi al mese",
+        "daysSuffix": "giorni"
+      },
+      "results": {
+        "eyebrow": "LA TUA STIMA",
+        "videos": "Video venduti",
+        "videosHint": "al mese",
+        "share": "La tua quota (15%)",
+        "shareHint": "guadagno mensile",
+        "yearlyEyebrow": "POTENZIALE ANNUO",
+        "yearlySuffix": "all'anno",
+        "yearlyNote": "Con zero lavoro aggiuntivo per il tuo staff."
+      },
+      "disclaimer": "* Stima basata sul prezzo medio di vendita del video per sport. Il calcolo è puramente illustrativo — inserisci i tuoi numeri per vedere il tuo potenziale."
     }
   },
   "forPlayers": {

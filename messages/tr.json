@@ -537,10 +537,31 @@
       "subtitle": "Bizimle kurulum, zamanlama ve sahanız için nasıl çalıştığını konuşun.",
       "button": "Pilot Saha Ol"
     },
-    "revenueShare": {
-      "eyebrow": "ÜSTÜNE ÜSTLÜK",
-      "title": "Her ay sahanızda satılan tüm video ücretlerinin %15'i otomatik olarak sizin olur.",
-      "subtitle": "Hiçbir ek iş yok. Takip edilecek ödeme yok. Açılan her maç, sizin için de küçük bir kazançtır."
+    "roi": {
+      "eyebrow": "GELİR HESAPLAYICI",
+      "title": "Aylık pasif gelirinizi hesaplayın",
+      "subtitle": "Günde kaç video satmayı bekliyorsunuz? Rakamınızı girin, aylık payınızı görün.",
+      "sport": {
+        "padel": "Padel",
+        "football": "Futbol"
+      },
+      "inputs": {
+        "videos": "Günlük satılan video",
+        "videosSuffix": "günlük",
+        "days": "Aylık aktif gün",
+        "daysSuffix": "gün"
+      },
+      "results": {
+        "eyebrow": "TAHMINI GELIRINIZ",
+        "videos": "Satılan video",
+        "videosHint": "aylık",
+        "share": "Payınız (%15)",
+        "shareHint": "aylık kazanç",
+        "yearlyEyebrow": "YILLIK POTANSIYEL",
+        "yearlySuffix": "yıllık",
+        "yearlyNote": "Personelinize sıfır ek iş yükü ile."
+      },
+      "disclaimer": "* Tahmin spor başına ortalama video satış fiyatına dayanmaktadır. Hesaplama tamamen örnektir — kendi rakamlarınızı girip potansiyelinizi görün."
     }
   },
   "forPlayers": {

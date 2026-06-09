@@ -3,7 +3,7 @@ import Footer from "@/components/Footer";
 import PageHero from "@/components/PageHero";
 import FacilitiesCompetitors from "@/components/facilities/FacilitiesCompetitors";
 import FacilitiesEngagement from "@/components/facilities/FacilitiesEngagement";
-import FacilitiesRevenueShare from "@/components/facilities/FacilitiesRevenueShare";
+import FacilitiesROI from "@/components/facilities/FacilitiesROI";
 import FacilitiesObjections from "@/components/facilities/FacilitiesObjections";
 import FacilitiesMarketing from "@/components/facilities/FacilitiesMarketing";
 import FacilitiesWhatYouDo from "@/components/facilities/FacilitiesWhatYouDo";
@@ -34,7 +34,7 @@ export default async function ForFacilitiesPage() {
       />
       <FacilitiesCompetitors />
       <FacilitiesEngagement />
-      <FacilitiesRevenueShare />
+      <FacilitiesROI />
       <FacilitiesObjections />
       <FacilitiesMarketing />
       <FacilitiesWhatYouDo />
