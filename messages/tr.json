@@ -540,16 +540,18 @@
     "roi": {
       "eyebrow": "GELİR HESAPLAYICI",
       "title": "Aylık pasif gelirinizi hesaplayın",
-      "subtitle": "Günde kaç video satmayı bekliyorsunuz? Rakamınızı girin, aylık payınızı görün.",
+      "subtitle": "Kaç sahanız var? Saha başına günlük kaç video satmayı bekliyorsunuz? Rakamlarınızı girin, aylık payınızı görün.",
       "sport": {
         "padel": "Padel",
         "football": "Futbol"
       },
       "inputs": {
-        "videos": "Günlük satılan video",
-        "videosSuffix": "günlük",
+        "videos": "Saha başı günlük satılan video",
+        "videosSuffix": "saha başı",
         "days": "Aylık aktif gün",
-        "daysSuffix": "gün"
+        "daysSuffix": "gün",
+        "courts": "Saha sayısı",
+        "courtsSuffix": "saha"
       },
       "results": {
         "eyebrow": "TAHMINI GELIRINIZ",

@@ -19,18 +19,19 @@ export default function FacilitiesROI() {
   const tCta = useTranslations("forFacilities.cta");
 
   const [sport, setSport] = useState<Sport>("padel");
-  const [videosPerDay, setVideosPerDay] = useState(5);
+  const [courts, setCourts] = useState(3);
+  const [videosPerDay, setVideosPerDay] = useState(3);
   const [days, setDays] = useState(26);
 
   const { monthlyVideos, monthly, yearly } = useMemo(() => {
-    const v = videosPerDay * days;
+    const v = courts * videosPerDay * days;
     const mo = v * FACILITY_SHARE[sport];
     return {
       monthlyVideos: v,
       monthly: Math.round(mo),
       yearly: Math.round(mo * 12),
     };
-  }, [sport, videosPerDay, days]);
+  }, [sport, courts, videosPerDay, days]);
 
   return (
     <section className="section-y border-t border-white/5 bg-ink-900 relative overflow-hidden">
@@ -84,12 +85,20 @@ export default function FacilitiesROI() {
           </div>
 
           {/* Inputs */}
-          <div className="grid gap-6 md:grid-cols-2">
+          <div className="grid gap-6 md:grid-cols-3">
+            <Slider
+              label={t("inputs.courts")}
+              value={courts}
+              min={1}
+              max={12}
+              suffix={t("inputs.courtsSuffix")}
+              onChange={setCourts}
+            />
             <Slider
               label={t("inputs.videos")}
               value={videosPerDay}
               min={1}
-              max={30}
+              max={15}
               suffix={t("inputs.videosSuffix")}
               onChange={setVideosPerDay}
             />

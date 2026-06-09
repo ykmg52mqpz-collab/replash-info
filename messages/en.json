@@ -540,16 +540,18 @@
     "roi": {
       "eyebrow": "REVENUE CALCULATOR",
       "title": "Calculate your passive monthly income",
-      "subtitle": "How many videos do you expect to sell per day? Enter your number and see your monthly share.",
+      "subtitle": "How many courts do you have? How many videos do you expect to sell per day per court? Enter your numbers and see your monthly share.",
       "sport": {
         "padel": "Padel",
         "football": "Football"
       },
       "inputs": {
-        "videos": "Videos sold per day",
-        "videosSuffix": "per day",
+        "videos": "Videos sold / court / day",
+        "videosSuffix": "per court",
         "days": "Active days per month",
-        "daysSuffix": "days"
+        "daysSuffix": "days",
+        "courts": "Number of courts",
+        "courtsSuffix": "courts"
       },
       "results": {
         "eyebrow": "YOUR ESTIMATE",

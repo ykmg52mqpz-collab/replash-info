@@ -540,16 +540,18 @@
     "roi": {
       "eyebrow": "CALCOLATORE DI RICAVI",
       "title": "Calcola la tua entrata mensile passiva",
-      "subtitle": "Quanti video pensi di vendere al giorno? Inserisci il tuo numero e scopri la tua quota mensile.",
+      "subtitle": "¿Quanti campi hai? Quanti video pensi di vendere al giorno per campo? Inserisci i tuoi numeri e scopri la tua quota mensile.",
       "sport": {
         "padel": "Padel",
         "football": "Calcio"
       },
       "inputs": {
-        "videos": "Video venduti al giorno",
-        "videosSuffix": "al giorno",
+        "videos": "Video venduti / campo / giorno",
+        "videosSuffix": "per campo",
         "days": "Giorni attivi al mese",
-        "daysSuffix": "giorni"
+        "daysSuffix": "giorni",
+        "courts": "Numero di campi",
+        "courtsSuffix": "campi"
       },
       "results": {
         "eyebrow": "LA TUA STIMA",

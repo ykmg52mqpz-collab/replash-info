@@ -540,16 +540,18 @@
     "roi": {
       "eyebrow": "CALCULADORA DE INGRESOS",
       "title": "Calcula tu ingreso pasivo mensual",
-      "subtitle": "¿Cuántos videos esperas vender al día? Ingresa tu número y descubre tu parte mensual.",
+      "subtitle": "¿Cuántas pistas tienes? ¿Cuántos videos esperas vender al día por pista? Ingresa tus números y descubre tu parte mensual.",
       "sport": {
         "padel": "Pádel",
         "football": "Fútbol"
       },
       "inputs": {
-        "videos": "Videos vendidos al día",
-        "videosSuffix": "al día",
+        "videos": "Videos vendidos / pista / día",
+        "videosSuffix": "por pista",
         "days": "Días activos al mes",
-        "daysSuffix": "días"
+        "daysSuffix": "días",
+        "courts": "Número de pistas",
+        "courtsSuffix": "pistas"
       },
       "results": {
         "eyebrow": "TU ESTIMACIÓN",
