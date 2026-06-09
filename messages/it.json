@@ -536,6 +536,11 @@
       "title": "Porta REPLASH nel tuo centro.",
       "subtitle": "Parlaci di installazione, tempi e di come funziona per il tuo centro.",
       "button": "Diventa Centro Pilota"
+    },
+    "revenueShare": {
+      "eyebrow": "E IN PIÙ",
+      "title": "Ogni mese, il 15% di ogni video venduto presso il tuo centro arriva automaticamente sul tuo conto.",
+      "subtitle": "Nessun lavoro aggiuntivo. Nessun pagamento da inseguire. Ogni partita sbloccata è anche una piccola vittoria per te."
     }
   },
   "forPlayers": {

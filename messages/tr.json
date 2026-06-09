@@ -536,6 +536,11 @@
       "title": "REPLASH'i sahanıza getirin.",
       "subtitle": "Bizimle kurulum, zamanlama ve sahanız için nasıl çalıştığını konuşun.",
       "button": "Pilot Saha Ol"
+    },
+    "revenueShare": {
+      "eyebrow": "ÜSTÜNE ÜSTLÜK",
+      "title": "Her ay sahanızda satılan tüm video ücretlerinin %15'i otomatik olarak sizin olur.",
+      "subtitle": "Hiçbir ek iş yok. Takip edilecek ödeme yok. Açılan her maç, sizin için de küçük bir kazançtır."
     }
   },
   "forPlayers": {

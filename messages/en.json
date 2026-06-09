@@ -536,6 +536,11 @@
       "title": "Bring REPLASH to your facility.",
       "subtitle": "Talk to us about installation, timelines, and how it works for your venue.",
       "button": "Become a Pilot Facility"
+    },
+    "revenueShare": {
+      "eyebrow": "AND ON TOP OF THAT",
+      "title": "15% of every video sold at your facility lands in your account each month, automatically.",
+      "subtitle": "No extra work. No payments to chase. Every match unlocked is a small win for you, too."
     }
   },
   "forPlayers": {

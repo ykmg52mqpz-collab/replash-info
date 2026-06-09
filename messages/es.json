@@ -536,6 +536,11 @@
       "title": "Trae REPLASH a tu centro.",
       "subtitle": "Habla con nosotros sobre instalación, plazos y cómo funciona para tu centro.",
       "button": "Conviértete en Sede Piloto"
+    },
+    "revenueShare": {
+      "eyebrow": "Y ADEMÁS",
+      "title": "Cada mes, el 15% de cada video vendido en tu centro llega automáticamente a tu cuenta.",
+      "subtitle": "Sin trabajo extra. Sin pagos que perseguir. Cada partido desbloqueado es también una pequeña victoria para ti."
     }
   },
   "forPlayers": {
