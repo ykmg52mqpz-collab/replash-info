@@ -3,25 +3,51 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0A0A0A;
+  --foreground: #ededed;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-feature-settings: "ss01", "cv11";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Display font (Bebas Neue) — vintage sport letterforms.
+   Slight letter-spacing + line-height tightening for editorial poster feel. */
+.font-display {
+  letter-spacing: 0.01em;
+  line-height: 0.95;
+  font-feature-settings: "ss01";
+}
+
+/* Apply natural condensed proportions to display headings */
+h1.font-display,
+h2.font-display,
+h3.font-display {
+  letter-spacing: 0.015em;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+  .container-x {
+    @apply mx-auto w-full max-w-6xl px-6 lg:px-8;
+  }
+  .section-y {
+    @apply py-20 md:py-28 lg:py-32;
+  }
+  .grid-noise {
+    background-image:
+      linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+    background-size: 48px 48px;
   }
 }
