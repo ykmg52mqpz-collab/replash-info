@@ -9,9 +9,10 @@ import SectionHeading from "@/components/SectionHeading";
 type Sport = "padel" | "football";
 
 // Facility share per unlocked match (=15% revenue share, raw price kept private).
+// Padel €8 total, Football €15 total — facility keeps 15%.
 const FACILITY_SHARE: Record<Sport, number> = {
-  padel: 1.2,
-  football: 1.8,
+  padel: 8 * 0.15,
+  football: 15 * 0.15,
 };
 // Average activation rate across early pilots.
 const ACTIVATION_RATE = 0.4;
