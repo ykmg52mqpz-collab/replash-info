@@ -19,8 +19,8 @@ export default function FacilitiesROI() {
   const tCta = useTranslations("forFacilities.cta");
 
   const [sport, setSport] = useState<Sport>("padel");
-  const [courts, setCourts] = useState(3);
-  const [videosPerDay, setVideosPerDay] = useState(3);
+  const [courts, setCourts] = useState(4);
+  const [videosPerDay, setVideosPerDay] = useState(4);
   const [days, setDays] = useState(26);
 
   const { monthlyVideos, monthly, yearly } = useMemo(() => {
