@@ -44,20 +44,13 @@ export default function AboutFounders() {
             className="grid grid-cols-2 gap-4"
           >
             {[
-              { name: "Ömer Sager", role: "Founder", subtitle: "Economics, Behaviour Data and Policy" },
-              { name: "Yiğit Ünal", role: "Co-founder", subtitle: "Economics, Behaviour Data and Policy" },
+              { name: "Ömer Sager", role: "Founder" },
+              { name: "Yiğit Ünal", role: "Co-founder" },
             ].map((founder) => (
-              <div key={founder.name} className="overflow-hidden rounded-2xl border border-white/10 bg-white/[0.03] p-5">
-                {/* Avatar placeholder */}
-                <div className="mb-4 flex h-20 w-20 items-center justify-center rounded-full border border-white/10 bg-gradient-to-br from-accent/20 to-accent/5">
-                  <span className="font-display text-2xl font-bold text-accent">
-                    {founder.name.split(" ").map((n) => n[0]).join("")}
-                  </span>
-                </div>
-                <h3 className="text-sm font-semibold text-white">{founder.name}</h3>
-                <p className="mt-0.5 text-xs text-accent">{founder.role}</p>
-                <p className="mt-2 text-[11px] leading-relaxed text-white/40">{founder.subtitle}</p>
-                <p className="mt-1 text-[10px] uppercase tracking-widest text-white/30">UniMi</p>
+              <div key={founder.name} className="overflow-hidden rounded-2xl border border-white/10 bg-white/[0.03] p-6">
+                <h3 className="font-display text-lg font-bold text-white">{founder.name}</h3>
+                <p className="mt-1 text-xs text-accent">{founder.role}</p>
+                <p className="mt-3 text-[10px] uppercase tracking-widest text-white/35">UniMi</p>
               </div>
             ))}
           </motion.div>
