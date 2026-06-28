@@ -49,7 +49,7 @@ export default function Header() {
             />
             <span
               lang="en"
-              className="font-display text-xl font-bold tracking-wide text-accent md:text-2xl"
+              className="font-display text-xl font-bold tracking-[0.18em] text-accent md:text-2xl"
             >
               REPLASH
             </span>
