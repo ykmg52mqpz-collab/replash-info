@@ -39,13 +39,14 @@ export default function Header() {
         }`}
       >
         <div className="container-x flex h-16 items-center justify-between gap-4">
-          {/* Logo — non-clickable wordmark */}
-          <div className="flex items-center gap-2 font-display text-lg font-semibold tracking-tight">
-            <span className="relative flex h-2.5 w-2.5">
-              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-accent opacity-50" />
-              <span className="relative inline-flex h-2.5 w-2.5 rounded-full bg-accent shadow-glow-sm" />
-            </span>
-            <span lang="en" className="text-white">replash<span className="text-white/40">.info</span></span>
+          {/* Logo */}
+          <div className="flex items-center">
+            <img
+              src="/images/replash-logo.png"
+              alt="REPLASH"
+              className="h-10 w-auto select-none md:h-11"
+              draggable={false}
+            />
           </div>
 
           {/* Desktop nav links */}

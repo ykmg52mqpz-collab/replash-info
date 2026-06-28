@@ -24,9 +24,13 @@ export default function Footer() {
         <div className="flex flex-col gap-10 md:flex-row md:justify-between">
           {/* Brand */}
           <div className="flex flex-col gap-4">
-            <div className="flex items-center gap-2 font-display text-lg font-semibold tracking-tight">
-              <span className="inline-block h-2 w-2 rounded-full bg-accent shadow-glow-sm" />
-              <span lang="en">replash<span className="text-white/40">.info</span></span>
+            <div className="flex items-center">
+              <img
+                src="/images/replash-logo.png"
+                alt="REPLASH"
+                className="h-12 w-auto select-none"
+                draggable={false}
+              />
             </div>
             <p className="max-w-xs text-sm text-white/50 leading-relaxed">{t("tagline")}</p>
             <LanguageToggle />
