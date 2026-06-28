@@ -31,7 +31,7 @@ export default function Footer() {
                 className="h-12 w-auto select-none"
                 draggable={false}
               />
-              <span lang="en" className="font-display text-2xl font-bold tracking-wide text-white">
+              <span lang="en" className="font-display text-2xl font-bold tracking-wide text-accent">
                 REPLASH
               </span>
             </div>
