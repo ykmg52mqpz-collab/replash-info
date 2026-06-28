@@ -40,13 +40,19 @@ export default function Header() {
       >
         <div className="container-x flex h-16 items-center justify-between gap-4">
           {/* Logo */}
-          <div className="flex items-center">
+          <div className="flex items-center gap-2.5">
             <img
               src="/images/replash-logo.png"
               alt="REPLASH"
               className="h-10 w-auto select-none md:h-11"
               draggable={false}
             />
+            <span
+              lang="en"
+              className="font-display text-xl font-bold tracking-wide text-white md:text-2xl"
+            >
+              REPLASH
+            </span>
           </div>
 
           {/* Desktop nav links */}
