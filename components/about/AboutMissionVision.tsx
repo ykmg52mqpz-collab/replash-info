@@ -40,7 +40,7 @@ export default function AboutMissionVision() {
               transition={{ duration: 0.5, delay: i * 0.12 }}
               className="rounded-2xl border border-white/8 bg-white/[0.03] p-8"
             >
-              <div className="mb-4 inline-flex h-10 w-10 items-center justify-center rounded-xl border border-accent/25 bg-accent/10 text-accent">
+              <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-xl border border-accent/25 bg-accent/10 text-accent">
                 {item.icon}
               </div>
               <span className="text-xs font-semibold uppercase tracking-widest text-accent">

@@ -44,8 +44,8 @@ export default function AboutFounders() {
             className="grid grid-cols-2 gap-4"
           >
             {[
-              { name: "Ömer Sager", role: "Founder" },
-              { name: "Yiğit Ünal", role: "Co-founder" },
+              { name: "Omer Sager", role: "Founder" },
+              { name: "Yigit Unal", role: "Co-founder" },
             ].map((founder) => (
               <div key={founder.name} className="overflow-hidden rounded-2xl border border-white/10 bg-white/[0.03] p-6">
                 <h3 className="font-display text-lg font-bold text-white">{founder.name}</h3>
