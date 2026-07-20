@@ -86,8 +86,14 @@ export default function PlayersClipping() {
 
               {/* Timeline + clip selector */}
               <div className="border-t border-white/8 p-3">
-                <div className="mb-2 flex items-center justify-between text-[10px]">
-                  <span className="text-white/40">Timeline</span>
+                <div className="mb-2 flex items-center justify-between gap-2 text-[10px]">
+                  <div className="flex items-center gap-2">
+                    <span className="text-white/40">Timeline</span>
+                    <span className="flex items-center gap-1 rounded-full border border-accent/30 bg-accent/15 px-2 py-0.5">
+                      <span className="h-1.5 w-1.5 rounded-full bg-accent" />
+                      <span className="text-[9px] font-semibold uppercase tracking-wider text-accent">AI Highlights</span>
+                    </span>
+                  </div>
                   <span className="font-mono text-accent">Selected: 00:17:08 → 00:17:23</span>
                 </div>
                 <div className="relative h-8 rounded-md bg-white/[0.03] overflow-hidden">
@@ -101,6 +107,17 @@ export default function PlayersClipping() {
                       />
                     ))}
                   </div>
+                  {/* AI highlight ticks */}
+                  {["32%", "58%", "81%"].map((left, i) => (
+                    <div
+                      key={left}
+                      aria-hidden
+                      className={`absolute inset-y-0 w-0.5 rounded-full ${
+                        i === 0 ? "bg-accent shadow-[0_0_6px_rgba(253,230,138,0.8)]" : "bg-accent/50"
+                      }`}
+                      style={{ left }}
+                    />
+                  ))}
                   {/* Selection overlay */}
                   <div
                     className="absolute inset-y-0 border-x-2 border-accent bg-accent/20"
@@ -108,6 +125,24 @@ export default function PlayersClipping() {
                   >
                     <div className="absolute -top-1 left-1/2 h-3 w-3 -translate-x-1/2 rounded-full bg-accent shadow-glow-sm" />
                   </div>
+                </div>
+                {/* Highlight minute labels */}
+                <div className="relative mt-1 h-3" aria-hidden>
+                  {[
+                    { left: "32%", label: "17'" },
+                    { left: "58%", label: "49'" },
+                    { left: "81%", label: "68'" },
+                  ].map((m, i) => (
+                    <span
+                      key={m.label}
+                      className={`absolute -translate-x-1/2 font-mono text-[9px] ${
+                        i === 0 ? "font-semibold text-accent" : "text-white/35"
+                      }`}
+                      style={{ left: m.left }}
+                    >
+                      {m.label}
+                    </span>
+                  ))}
                 </div>
 
                 <div className="mt-3 flex items-center justify-between gap-2">
