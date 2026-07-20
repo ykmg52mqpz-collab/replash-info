@@ -59,7 +59,7 @@ export default function ProblemSolution() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-60px" }}
               transition={{ duration: 0.55, delay: i * 0.1, ease: "easeOut" }}
-              className="group relative overflow-hidden rounded-2xl border border-white/10 bg-white/[0.025] p-6 transition-all duration-300 hover:border-accent/35 hover:bg-white/[0.045]"
+              className="group relative overflow-hidden rounded-2xl border border-white/10 bg-white/[0.025] p-6 transition-colors duration-300 hover:border-accent/35 hover:bg-white/[0.045]"
             >
               {/* Gradient glow on hover */}
               <div className="pointer-events-none absolute -inset-px rounded-2xl opacity-0 transition-opacity duration-500 group-hover:opacity-100"
@@ -69,12 +69,12 @@ export default function ProblemSolution() {
               />
 
               {/* Icon */}
-              <div className="relative flex h-13 w-13 items-center justify-center rounded-xl bg-accent/10 text-accent ring-1 ring-accent/20 transition-all duration-300 group-hover:bg-accent/15 group-hover:ring-accent/35 group-hover:shadow-[0_0_24px_rgba(253,230,138,0.2)]">
+              <div className="relative flex h-13 w-13 items-center justify-center rounded-xl bg-accent/10 text-accent ring-1 ring-accent/20 transition-[background-color,box-shadow] duration-300 group-hover:bg-accent/15 group-hover:ring-accent/35 group-hover:shadow-[0_0_24px_rgba(253,230,138,0.2)]">
                 <span className="block h-6 w-6">{icons[key]}</span>
               </div>
 
               {/* Number */}
-              <div className="absolute right-5 top-5 font-display text-4xl font-bold text-white/[0.04] select-none transition-all duration-300 group-hover:text-white/[0.07]">
+              <div className="absolute right-5 top-5 font-display text-4xl font-bold text-white/[0.04] select-none transition-colors duration-300 group-hover:text-white/[0.07]">
                 0{i + 1}
               </div>
 

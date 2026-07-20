@@ -36,7 +36,7 @@ export default function FacilitiesMarketing() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-40px" }}
               transition={{ duration: 0.5, delay: i * 0.1 }}
-              className="rounded-2xl border border-white/8 bg-white/[0.025] p-6 transition-all duration-300 hover:border-accent/30"
+              className="rounded-2xl border border-white/8 bg-white/[0.025] p-6 transition-colors duration-300 hover:border-accent/30"
             >
               <div className="mb-4 inline-flex h-10 w-10 items-center justify-center rounded-xl border border-accent/25 bg-accent/10 text-accent">
                 {icons[i]}

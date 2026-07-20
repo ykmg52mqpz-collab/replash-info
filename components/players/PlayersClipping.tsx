@@ -97,7 +97,7 @@ export default function PlayersClipping() {
                       <div
                         key={i}
                         className="flex-1 bg-white/15"
-                        style={{ height: `${30 + Math.sin(i * 0.4) * 30 + Math.random() * 20}%` }}
+                        style={{ height: `${(30 + Math.sin(i * 0.4) * 30 + ((i * 7919) % 20)).toFixed(2)}%` }}
                       />
                     ))}
                   </div>

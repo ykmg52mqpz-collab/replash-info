@@ -19,6 +19,19 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Keyboard focus — visible ring on every interactive element,
+   invisible for mouse/touch (:focus-visible only). */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid rgba(253, 230, 138, 0.7);
+  outline-offset: 2px;
+  border-radius: inherit;
+}
+
 /* Display font (Bebas Neue) — vintage sport letterforms.
    Slight letter-spacing + line-height tightening for editorial poster feel. */
 .font-display {
@@ -49,5 +62,13 @@ h3.font-display {
       linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
       linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
     background-size: 48px 48px;
+  }
+  /* Depth system — elevated surface: inset top highlight + deep drop + faint accent glow.
+     Base cards keep border-only; floating elements (header, phone mockups) keep their heavier shadows. */
+  .card-elevated {
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.04),
+      0 24px 60px -24px rgba(0, 0, 0, 0.7),
+      0 0 32px rgba(253, 230, 138, 0.05);
   }
 }

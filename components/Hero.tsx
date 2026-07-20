@@ -93,7 +93,7 @@ export default function Hero() {
           >
             <a
               href="#contact"
-              className="group inline-flex items-center justify-center rounded-full bg-accent px-8 py-3.5 text-base font-semibold text-ink-900 shadow-glow transition-all duration-300 hover:bg-accent-neon hover:shadow-[0_0_60px_rgba(254,243,199,0.5)]"
+              className="group inline-flex items-center justify-center rounded-full bg-accent px-8 py-3.5 text-base font-semibold text-ink-900 shadow-glow transition-[background-color,box-shadow,transform] active:scale-[0.98] duration-300 hover:bg-accent-neon hover:shadow-[0_0_60px_rgba(254,243,199,0.5)]"
             >
               {t("cta")}
               <svg
@@ -107,7 +107,7 @@ export default function Hero() {
             </a>
             <a
               href="#how"
-              className="inline-flex items-center justify-center rounded-full border border-white/10 bg-white/[0.04] px-8 py-3.5 text-base font-medium text-white/70 backdrop-blur transition-all duration-200 hover:border-white/20 hover:bg-white/[0.08] hover:text-white"
+              className="inline-flex items-center justify-center rounded-full border border-white/10 bg-white/[0.04] px-8 py-3.5 text-base font-medium text-white/70 backdrop-blur transition-colors active:scale-[0.98] duration-200 hover:border-white/20 hover:bg-white/[0.08] hover:text-white"
             >
               {t("howItWorks")}
             </a>
@@ -214,7 +214,7 @@ export default function Hero() {
                           {bar.val}
                         </span>
                         <div
-                          className="w-full rounded-t-sm transition-all"
+                          className="w-full rounded-t-sm transition-[height]"
                           style={{
                             height: `${bar.h * 0.55}%`,
                             background: bar.highlight

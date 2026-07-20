@@ -61,7 +61,7 @@ export default function FacilitiesROI() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-60px" }}
           transition={{ duration: 0.6 }}
-          className="mx-auto mt-12 max-w-3xl rounded-3xl border border-white/10 bg-ink-900/70 p-6 backdrop-blur md:p-10"
+          className="card-elevated mx-auto mt-12 max-w-3xl rounded-3xl border border-white/10 bg-ink-900/70 p-6 backdrop-blur md:p-10"
         >
           {/* Sport toggle */}
           <div className="mb-8 flex justify-center">
@@ -156,7 +156,7 @@ export default function FacilitiesROI() {
           <div className="mt-7 flex justify-center">
             <Link
               href="/contact"
-              className="inline-flex items-center justify-center rounded-full bg-accent px-7 py-3 text-sm font-semibold text-ink-900 shadow-glow transition-all hover:bg-accent-neon hover:shadow-[0_0_50px_rgba(254,243,199,0.5)]"
+              className="inline-flex items-center justify-center rounded-full bg-accent px-7 py-3 text-sm font-semibold text-ink-900 shadow-glow transition-[background-color,box-shadow,transform] active:scale-[0.98] hover:bg-accent-neon hover:shadow-[0_0_50px_rgba(254,243,199,0.5)]"
             >
               {tCta("button")}
             </Link>

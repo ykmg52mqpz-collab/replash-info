@@ -35,7 +35,7 @@ export default function HomeCTA() {
           <div className="mt-8">
             <Link
               href="/for-facilities"
-              className="inline-flex items-center justify-center rounded-full bg-accent px-8 py-4 text-base font-semibold text-ink-900 shadow-glow transition-all hover:bg-accent-neon hover:shadow-[0_0_60px_rgba(254,243,199,0.5)]"
+              className="inline-flex items-center justify-center rounded-full bg-accent px-8 py-4 text-base font-semibold text-ink-900 shadow-glow transition-[background-color,box-shadow,transform] active:scale-[0.98] hover:bg-accent-neon hover:shadow-[0_0_60px_rgba(254,243,199,0.5)]"
             >
               {t("button")}
             </Link>

@@ -47,7 +47,7 @@ export default function FindForm() {
 
           <form
             onSubmit={onSubmit}
-            className="rounded-3xl border border-white/10 bg-white/[0.03] p-6 backdrop-blur md:p-8"
+            className="card-elevated rounded-3xl border border-white/10 bg-white/[0.03] p-6 backdrop-blur md:p-8"
           >
             <div className="flex flex-col gap-5">
               {/* Facility */}
@@ -106,7 +106,7 @@ export default function FindForm() {
               <button
                 type="submit"
                 disabled={status === "searching"}
-                className="mt-2 inline-flex items-center justify-center gap-2 rounded-full bg-accent px-6 py-3.5 text-base font-semibold text-ink-900 shadow-glow transition-all hover:bg-accent-neon hover:shadow-[0_0_50px_rgba(254,243,199,0.5)] disabled:cursor-not-allowed disabled:opacity-60"
+                className="mt-2 inline-flex items-center justify-center gap-2 rounded-full bg-accent px-6 py-3.5 text-base font-semibold text-ink-900 shadow-glow transition-[background-color,box-shadow,transform] active:scale-[0.98] hover:bg-accent-neon hover:shadow-[0_0_50px_rgba(254,243,199,0.5)] disabled:cursor-not-allowed disabled:opacity-60"
               >
                 {status === "searching" ? (
                   <>

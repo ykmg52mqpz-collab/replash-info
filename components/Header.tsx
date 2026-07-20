@@ -32,7 +32,7 @@ export default function Header() {
   return (
     <>
       <header
-        className={`fixed inset-x-0 top-0 z-50 transition-all duration-500 ${
+        className={`fixed inset-x-0 top-0 z-50 transition-[background-color,border-color,box-shadow,backdrop-filter] duration-500 ${
           scrolled
             ? "border-b border-white/[0.06] bg-ink-900/80 shadow-[0_1px_0_rgba(255,255,255,0.04)] backdrop-blur-2xl"
             : "border-b border-transparent bg-transparent"
@@ -83,7 +83,7 @@ export default function Header() {
             <LanguageToggle />
             <Link
               href="/contact"
-              className="hidden rounded-full bg-accent px-5 py-2 text-sm font-semibold text-ink-900 shadow-glow transition-all duration-200 hover:bg-accent-neon hover:shadow-[0_0_30px_rgba(253,230,138,0.4)] md:inline-flex"
+              className="hidden rounded-full bg-accent px-5 py-2 text-sm font-semibold text-ink-900 shadow-glow transition-[background-color,box-shadow,transform] active:scale-[0.98] duration-200 hover:bg-accent-neon hover:shadow-[0_0_30px_rgba(253,230,138,0.4)] md:inline-flex"
             >
               {t("bookDemo")}
             </Link>
@@ -109,7 +109,7 @@ export default function Header() {
 
         {/* Mobile menu */}
         <div
-          className={`overflow-hidden border-t border-white/[0.06] bg-ink-900/95 backdrop-blur-2xl transition-all duration-300 md:hidden ${
+          className={`overflow-hidden border-t border-white/[0.06] bg-ink-900/95 backdrop-blur-2xl transition-[max-height,opacity] duration-300 md:hidden ${
             mobileOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
           }`}
         >

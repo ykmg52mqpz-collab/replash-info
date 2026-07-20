@@ -56,7 +56,7 @@ export default function ContactSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-60px" }}
           transition={{ duration: 0.6 }}
-          className="mx-auto mt-12 max-w-2xl rounded-2xl border border-white/10 bg-white/[0.03] p-6 md:p-8"
+          className="card-elevated mx-auto mt-12 max-w-2xl rounded-2xl border border-white/10 bg-white/[0.03] p-6 md:p-8"
         >
           <div className="grid gap-5 sm:grid-cols-2">
             <Field name="name" label={t("fields.name")} required />

@@ -61,7 +61,7 @@ export default function HowItWorks() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-60px" }}
               transition={{ duration: 0.5, delay: i * 0.12, ease: "easeOut" }}
-              className="group relative flex flex-col overflow-hidden rounded-2xl border border-white/10 bg-white/[0.025] p-6 transition-all duration-300 hover:border-accent/25 hover:bg-white/[0.04]"
+              className="group relative flex flex-col overflow-hidden rounded-2xl border border-white/10 bg-white/[0.025] p-6 transition-colors duration-300 hover:border-accent/25 hover:bg-white/[0.04]"
             >
               {/* Connector line (hidden on last) */}
               {i < 3 && (
@@ -70,10 +70,10 @@ export default function HowItWorks() {
 
               {/* Top row: number + icon */}
               <div className="flex items-center justify-between">
-                <div className="flex h-11 w-11 items-center justify-center rounded-xl border border-accent/20 bg-accent/10 text-accent transition-all duration-300 group-hover:border-accent/40 group-hover:bg-accent/15 group-hover:shadow-[0_0_20px_rgba(253,230,138,0.15)]">
+                <div className="flex h-11 w-11 items-center justify-center rounded-xl border border-accent/20 bg-accent/10 text-accent transition-[border-color,background-color,box-shadow] duration-300 group-hover:border-accent/40 group-hover:bg-accent/15 group-hover:shadow-[0_0_20px_rgba(253,230,138,0.15)]">
                   <span className="block h-5 w-5">{icons[step]}</span>
                 </div>
-                <span className="font-display text-4xl font-bold text-white/[0.06] transition-all duration-300 group-hover:text-white/[0.1]">
+                <span className="font-display text-4xl font-bold text-white/[0.06] transition-colors duration-300 group-hover:text-white/[0.1]">
                   {String(i + 1).padStart(2, "0")}
                 </span>
               </div>

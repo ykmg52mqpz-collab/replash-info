@@ -33,7 +33,7 @@ export default function PlayersWhyVideo() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-40px" }}
               transition={{ duration: 0.5, delay: i * 0.1 }}
-              className="group relative overflow-hidden rounded-2xl border border-white/8 bg-white/[0.025] p-6 transition-all duration-300 hover:border-accent/30"
+              className="group relative overflow-hidden rounded-2xl border border-white/8 bg-white/[0.025] p-6 transition-colors duration-300 hover:border-accent/30"
             >
               {/* Watermark number */}
               <span className="absolute right-5 top-4 font-display text-6xl font-bold text-white/[0.04] select-none">

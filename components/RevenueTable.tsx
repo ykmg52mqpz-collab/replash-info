@@ -32,7 +32,7 @@ export default function RevenueTable() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-60px" }}
               transition={{ duration: 0.5, delay: i * 0.08, ease: "easeOut" }}
-              className={`group relative overflow-hidden rounded-2xl border p-6 transition-all duration-300 ${
+              className={`group relative overflow-hidden rounded-2xl border p-6 transition-colors duration-300 ${
                 row.featured
                   ? "border-accent/40 bg-accent/[0.06] shadow-[0_0_40px_rgba(253,230,138,0.08)]"
                   : "border-white/10 bg-white/[0.025] hover:border-white/20 hover:bg-white/[0.04]"

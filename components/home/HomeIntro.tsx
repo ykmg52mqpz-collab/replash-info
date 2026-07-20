@@ -74,7 +74,7 @@ export default function HomeIntro() {
           >
             <Link
               href="/contact"
-              className="group inline-flex items-center gap-2 rounded-full border border-accent/40 bg-accent/10 px-7 py-3 text-sm font-semibold tracking-wide text-accent transition-all hover:bg-accent hover:text-ink-900 hover:shadow-glow"
+              className="group inline-flex items-center gap-2 rounded-full border border-accent/40 bg-accent/10 px-7 py-3 text-sm font-semibold tracking-wide text-accent transition-colors active:scale-[0.98] hover:bg-accent hover:text-ink-900 hover:shadow-glow"
             >
               {t("cta")}
               <svg className="h-3.5 w-3.5 transition-transform group-hover:translate-x-1" viewBox="0 0 20 20" fill="currentColor" aria-hidden>

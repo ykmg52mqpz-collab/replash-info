@@ -41,7 +41,7 @@ export default function FAQ() {
                   <span className={`text-base font-semibold leading-snug transition-colors duration-200 ${isOpen ? "text-white" : "text-white/75"}`}>
                     {t(`items.${key}.q`)}
                   </span>
-                  <span className={`mt-0.5 flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full border transition-all duration-300 ${
+                  <span className={`mt-0.5 flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full border transition-colors duration-300 ${
                     isOpen
                       ? "border-accent/40 bg-accent/15 text-accent"
                       : "border-white/15 bg-white/5 text-white/40"
