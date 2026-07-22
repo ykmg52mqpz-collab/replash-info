@@ -62,8 +62,8 @@ export default function Footer() {
             >
               {tNav("bookDemo")}
             </Link>
-            <a href="mailto:replash.info@gmail.com" className="text-sm text-white/40 hover:text-white transition">
-              replash.info@gmail.com
+            <a href="mailto:omer.sager@replash.info" className="text-sm text-white/40 hover:text-white transition">
+              omer.sager@replash.info
             </a>
             <div className="flex flex-col gap-1.5">
               <a
