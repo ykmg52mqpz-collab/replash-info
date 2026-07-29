@@ -129,7 +129,7 @@ export default function Hero() {
               <span className="h-3 w-3 rounded-full bg-yellow-500/60" />
               <span className="h-3 w-3 rounded-full bg-green-500/60" />
               <div className="mx-4 flex-1 rounded-md border border-white/8 bg-white/[0.04] px-3 py-1 text-center text-xs text-white/25">
-                replash.io/dashboard
+                replash.eu/dashboard
               </div>
               <div className="h-4 w-4 rounded text-white/20">
                 <svg viewBox="0 0 16 16" fill="currentColor">

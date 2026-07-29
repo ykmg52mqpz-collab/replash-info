@@ -68,7 +68,7 @@ export default function HomeFindPreview() {
             <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-6 shadow-[0_30px_80px_-20px_rgba(0,0,0,0.6)] backdrop-blur md:p-8">
               <div className="mb-5 flex items-center gap-2 text-[10px] uppercase tracking-widest text-white/30">
                 <span className="h-1.5 w-1.5 rounded-full bg-accent" />
-                replash.io/find
+                replash.eu/find
               </div>
 
               <div className="flex flex-col gap-4">
@@ -78,7 +78,7 @@ export default function HomeFindPreview() {
                     {t("fields.facility")}
                   </label>
                   <div className="flex items-center justify-between rounded-xl border border-white/10 bg-white/[0.04] px-3.5 py-3 text-sm">
-                    <span className="text-white">Milano Padel Club</span>
+                    <span className="text-white">Example Padel Club</span>
                     <svg className="h-4 w-4 text-white/30" viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" /></svg>
                   </div>
                 </div>

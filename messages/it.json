@@ -209,7 +209,7 @@
     },
     "marcoIntro": {
       "name": "Marco",
-      "context": "Gioca una partita di padel a 4 al Milano Padel Club, martedì 19:00–20:00"
+      "context": "Gioca una partita di padel a 4 al Example Padel Club, martedì 19:00–20:00"
     },
     "steps": {
       "1": {
@@ -236,7 +236,7 @@
         "desc": "Ogni registrazione viene automaticamente taggata per sede, data e slot orario — rendendola ricercabile tramite il flusso Trova la Partita.",
         "marco": {
           "time": "20:00",
-          "example": "Il sistema registra la partita di Marco come: Milano Padel Club · Martedì 14 Maggio 2026 · 19:00–20:00. Questo tag preciso è l'unico modo per trovare la partita più tardi."
+          "example": "Il sistema registra la partita di Marco come: Example Padel Club · Martedì 14 Maggio 2026 · 19:00–20:00. Questo tag preciso è l'unico modo per trovare la partita più tardi."
         }
       },
       "4": {
@@ -251,10 +251,10 @@
       "5": {
         "label": "Passo 5",
         "title": "Il Giocatore Trova la Partita",
-        "desc": "I giocatori visitano replash.com, inseriscono i tre campi (centro, data, slot orario) e guardano in meno di 30 secondi.",
+        "desc": "I giocatori visitano replash.eu, inseriscono i tre campi (centro, data, slot orario) e guardano in meno di 30 secondi.",
         "marco": {
           "time": "20:08",
-          "example": "Marco visita replash.com dal telefono. Sceglie Milano Padel Club, la data di oggi e 19:00–20:00. Il sistema controlla che tutte e 4 le condizioni corrispondano — e la sua partita parte sul telefono all'istante."
+          "example": "Marco visita replash.eu dal telefono. Sceglie Example Padel Club, la data di oggi e 19:00–20:00. Il sistema controlla che tutte e 4 le condizioni corrispondano — e la sua partita parte sul telefono all'istante."
         }
       },
       "6": {

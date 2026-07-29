@@ -7,11 +7,9 @@ import { useTranslations } from "next-intl";
 type Status = "idle" | "searching" | "notFound";
 
 const demoFacilities = [
-  "Milano Padel Club",
-  "Centro Sportivo Lambrate",
-  "Padel Center Navigli",
-  "Futsal Arena Bicocca",
-  "Sporting Milano 7",
+  "Example Padel Club",
+  "Example Sports Center",
+  "Example Football Arena",
 ];
 
 export default function FindForm() {

@@ -209,7 +209,7 @@
     },
     "marcoIntro": {
       "name": "Marco",
-      "context": "Milano Padel Club'da Salı 19:00–20:00 arası 4 oyunculu padel maçı oynuyor"
+      "context": "Example Padel Club'da Salı 19:00–20:00 arası 4 oyunculu padel maçı oynuyor"
     },
     "steps": {
       "1": {
@@ -236,7 +236,7 @@
         "desc": "Her kayıt otomatik olarak saha, tarih ve saat slotuna göre etiketlenir — Maçını Bul akışı üzerinden keşfedilebilir hale gelir.",
         "marco": {
           "time": "20:00",
-          "example": "Sistem Marco'nun maçını şu şekilde kaydeder: Milano Padel Club · Salı 14 Mayıs 2026 · 19:00–20:00. Bu kesin etiket, maçın daha sonra bulunmasının tek yoludur."
+          "example": "Sistem Marco'nun maçını şu şekilde kaydeder: Example Padel Club · Salı 14 Mayıs 2026 · 19:00–20:00. Bu kesin etiket, maçın daha sonra bulunmasının tek yoludur."
         }
       },
       "4": {
@@ -251,10 +251,10 @@
       "5": {
         "label": "Adım 5",
         "title": "Oyuncu Maçı Bulur",
-        "desc": "Oyuncular replash.com'u ziyaret eder, üç alanı (saha, tarih, slot) doldurur ve 30 saniyenin altında izler.",
+        "desc": "Oyuncular replash.eu'u ziyaret eder, üç alanı (saha, tarih, slot) doldurur ve 30 saniyenin altında izler.",
         "marco": {
           "time": "20:08",
-          "example": "Marco telefonundan replash.com'u ziyaret eder. Milano Padel Club, bugünün tarihi ve 19:00–20:00'yi seçer. Sistem 4 koşulun da eşleştiğini kontrol eder — ve maç anında telefonunda oynamaya başlar."
+          "example": "Marco telefonundan replash.eu'u ziyaret eder. Example Padel Club, bugünün tarihi ve 19:00–20:00'yi seçer. Sistem 4 koşulun da eşleştiğini kontrol eder — ve maç anında telefonunda oynamaya başlar."
         }
       },
       "6": {

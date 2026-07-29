@@ -209,7 +209,7 @@
     },
     "marcoIntro": {
       "name": "Marco",
-      "context": "Plays a 4-player padel match at Milano Padel Club, Tuesday 19:00–20:00"
+      "context": "Plays a 4-player padel match at Example Padel Club, Tuesday 19:00–20:00"
     },
     "steps": {
       "1": {
@@ -236,7 +236,7 @@
         "desc": "Each recording is automatically tagged by venue, date, and time slot — making it discoverable through the Find Your Match flow.",
         "marco": {
           "time": "20:00",
-          "example": "The system records Marco's match as: Milano Padel Club · Tuesday 14 May 2026 · 19:00–20:00. This precise tag is the only way the match can be found later."
+          "example": "The system records Marco's match as: Example Padel Club · Tuesday 14 May 2026 · 19:00–20:00. This precise tag is the only way the match can be found later."
         }
       },
       "4": {
@@ -251,10 +251,10 @@
       "5": {
         "label": "Step 5",
         "title": "Player Finds the Match",
-        "desc": "Players visit replash.com, enter the three fields (facility, date, time slot), and watch in under 30 seconds.",
+        "desc": "Players visit replash.eu, enter the three fields (facility, date, time slot), and watch in under 30 seconds.",
         "marco": {
           "time": "20:08",
-          "example": "Marco visits replash.com on his phone. He picks Milano Padel Club, today's date, and 19:00–20:00. The system checks all 4 conditions match — and his match plays on his phone instantly."
+          "example": "Marco visits replash.eu on his phone. He picks Example Padel Club, today's date, and 19:00–20:00. The system checks all 4 conditions match — and his match plays on his phone instantly."
         }
       },
       "6": {

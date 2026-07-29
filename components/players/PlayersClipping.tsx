@@ -57,7 +57,7 @@ export default function PlayersClipping() {
                 <span className="h-2 w-2 rounded-full bg-red-500/60" />
                 <span className="h-2 w-2 rounded-full bg-yellow-500/60" />
                 <span className="h-2 w-2 rounded-full bg-green-500/60" />
-                <span className="ml-3 text-[10px] text-white/30">replash.io/match/M-1234</span>
+                <span className="ml-3 text-[10px] text-white/30">replash.eu/match/M-1234</span>
               </div>
 
               {/* Video player area */}
