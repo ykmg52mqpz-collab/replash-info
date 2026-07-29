@@ -32,19 +32,21 @@ textarea:focus-visible,
   border-radius: inherit;
 }
 
-/* Display font (Bebas Neue) — vintage sport letterforms.
-   Slight letter-spacing + line-height tightening for editorial poster feel. */
+/* Display font (Space Grotesk) — geometric grotesk, modern editorial.
+   Tight tracking on large headings per type-craft; normal line-height. */
 .font-display {
-  letter-spacing: 0.01em;
-  line-height: 0.95;
-  font-feature-settings: "ss01";
+  letter-spacing: -0.02em;
+  line-height: 1.05;
 }
 
-/* Apply natural condensed proportions to display headings */
+/* Large headings get tighter tracking (frontend-design: -0.03em on big type) */
 h1.font-display,
-h2.font-display,
+h2.font-display {
+  letter-spacing: -0.03em;
+  line-height: 1.02;
+}
 h3.font-display {
-  letter-spacing: 0.015em;
+  letter-spacing: -0.015em;
 }
 
 @layer utilities {
