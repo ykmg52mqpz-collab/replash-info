@@ -14,7 +14,7 @@ export default function HomeHero() {
       {/* Background image — friends watching match highlights after the game */}
       <div className="absolute inset-0" aria-hidden>
         <img
-          src="/images/gen_hero_rio.jpg"
+          src="/images/gen_hero_friends.jpg"
           alt=""
           className="h-full w-full object-cover"
           style={{ opacity: 0.75, objectPosition: "center 35%" }}
