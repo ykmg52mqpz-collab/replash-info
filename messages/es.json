@@ -13,7 +13,7 @@
     "hero": {
       "badge": "Para Centros Deportivos Amateur",
       "title": "Juega. Graba. Revive.",
-      "subtitle": "REPLASH convierte los partidos amateur de fútbol y pádel en momentos digitales compartibles — grabados automáticamente, accesibles al instante y pensados para los centros deportivos modernos.",
+      "subtitle": "REPLASH convierte los partidos amateur de fútbol y pádel en momentos digitales compartibles. Grabados automáticamente, accesibles al instante y pensados para los centros deportivos modernos.",
       "cta": "Conviértete en Sede Piloto",
       "ctaSecondary": "Cómo Funciona"
     },
@@ -26,22 +26,22 @@
     "twoLayer": {
       "eyebrow": "La Oportunidad en Dos Capas",
       "title": "Un problema invisible. Un nuevo hábito.",
-      "subtitle": "REPLASH cierra un vacío que todos en el deporte amateur sienten — y al mismo tiempo construye un comportamiento que encaja con la era de las redes sociales.",
+      "subtitle": "REPLASH cierra un vacío que todos en el deporte amateur sienten. Y al mismo tiempo construye un comportamiento que encaja con la era de las redes sociales.",
       "layer1": {
-        "label": "Capa 1 — El Vacío",
+        "label": "Capa 1. El Vacío",
         "title": "El 95% de los partidos amateur no se graban.",
         "desc": "Mientras el fútbol profesional captura un solo gol desde cien ángulos, en el campo amateur el mejor momento desaparece en el segundo en que ocurre. Los jugadores se van con un recuerdo y nada que mostrar."
       },
       "layer2": {
-        "label": "Capa 2 — El Hábito",
+        "label": "Capa 2. El Hábito",
         "title": "La gente no solo juega. Comparte.",
-        "desc": "Las redes sociales ya no son el fondo de la vida — son el primer plano. Después de una comida, después de un entrenamiento, después de un paseo. ¿Después de un partido? Casi nada. REPLASH cierra ese vacío."
+        "desc": "Las redes sociales ya no son el fondo de la vida. Son el primer plano. Después de una comida, después de un entrenamiento, después de un paseo. ¿Después de un partido? Casi nada. REPLASH cierra ese vacío."
       }
     },
     "whatIs": {
       "eyebrow": "¿Qué es REPLASH?",
       "title": "Grabación automática de partidos para centros deportivos cotidianos.",
-      "description": "REPLASH es una plataforma de grabación y acceso automático de partidos para centros deportivos amateur. Graba los partidos, los organiza por centro, fecha y hora, y permite a los jugadores encontrar su partido fácilmente mediante un código QR o un enlace web — sin ningún trabajo manual de tu personal.",
+      "description": "REPLASH es una plataforma de grabación y acceso automático de partidos para centros deportivos amateur. Graba los partidos, los organiza por centro, fecha y hora, y permite a los jugadores encontrar su partido fácilmente mediante un código QR o un enlace web. Sin ningún trabajo manual de tu personal.",
       "items": {
         "1": {
           "title": "Grabación Automática",
@@ -49,7 +49,7 @@
         },
         "2": {
           "title": "Organizado por Franja Horaria",
-          "desc": "Cada grabación se etiqueta por centro, fecha y franja horaria — al instante buscable a través de la página 'Encuentra Tu Partido'."
+          "desc": "Cada grabación se etiqueta por centro, fecha y franja horaria. Al instante buscable a través de la página 'Encuentra Tu Partido'."
         },
         "3": {
           "title": "Mira, Recorta, Comparte",
@@ -78,7 +78,7 @@
       "items": {
         "1": {
           "title": "Nuevo Servicio Digital",
-          "desc": "Ofrece algo que tus competidores no — una experiencia de video profesional a un precio amateur."
+          "desc": "Ofrece algo que tus competidores no. Una experiencia de video profesional a un precio amateur."
         },
         "2": {
           "title": "Destaca",
@@ -108,19 +108,19 @@
       "items": {
         "1": {
           "title": "Mira Su Partido",
-          "desc": "Accede a la grabación completa de su partido — goles, paradas, peloteos y todo lo demás."
+          "desc": "Accede a la grabación completa de su partido. Goles, paradas, peloteos y todo lo demás."
         },
         "2": {
           "title": "Recorta los Mejores Momentos",
-          "desc": "Corta highlights de 10–45 segundos dentro de REPLASH — un gol, un peloteo, una celebración. Descarga al móvil al instante."
+          "desc": "Corta highlights de 10–45 segundos dentro de REPLASH. Un gol, un peloteo, una celebración. Descarga al móvil al instante."
         },
         "3": {
           "title": "Comparte en Redes",
-          "desc": "Comparte el clip directamente en plataformas de redes sociales. No se necesita perfil REPLASH — el jugador posee cada share."
+          "desc": "Comparte el clip directamente en plataformas de redes sociales. No se necesita perfil REPLASH. El jugador posee cada share."
         },
         "4": {
           "title": "Highlights de IA (Próximamente)",
-          "desc": "Detección de highlights con IA — auto-recorte de los momentos más emocionantes del partido."
+          "desc": "Detección de highlights con IA. Auto-recorte de los momentos más emocionantes del partido."
         }
       }
     },
@@ -139,21 +139,21 @@
         },
         "3": {
           "title": "El Personal Activa en la Venta",
-          "desc": "Cuando un jugador compra acceso al video, tu equipo toca 'Video Vendido' en el panel — un clic, estado: UNLOCKABLE."
+          "desc": "Cuando un jugador compra acceso al video, tu equipo toca 'Video Vendido' en el panel. Un clic, estado: UNLOCKABLE."
         },
         "4": {
           "title": "Los Jugadores Ven y Disfrutan",
-          "desc": "El jugador accede a su partido al instante a través de la página Encuentra Tu Partido — sin fricción."
+          "desc": "El jugador accede a su partido al instante a través de la página Encuentra Tu Partido. Sin fricción."
         }
       }
     },
     "privacy": {
       "eyebrow": "Privacidad Primero",
-      "title": "Construido para proteger a tus jugadores — y tu centro.",
+      "title": "Construido para proteger a tus jugadores. Y tu centro.",
       "items": {
-        "1": "Las cámaras graban solo el área de juego — sin vestuarios, sin entradas",
+        "1": "Las cámaras graban solo el área de juego. Sin vestuarios, sin entradas",
         "2": "Sin grabación de audio. Sin reconocimiento facial. Nunca.",
-        "3": "Los videos son privados — accesibles solo con la combinación correcta de centro + fecha + hora + estado UNLOCKABLE",
+        "3": "Los videos son privados. Accesibles solo con la combinación correcta de centro + fecha + hora + estado UNLOCKABLE",
         "4": "Todas las grabaciones se eliminan automáticamente después de 30 días",
         "5": "Totalmente conforme con el RGPD, CEDH Art. 8 y normativa del Garante italiano",
         "6": "Señalización clara y acuerdos de tratamiento de datos antes de la instalación"
@@ -205,7 +205,7 @@
     "hero": {
       "eyebrow": "Cómo Funciona",
       "title": "Seis pasos simples. Cero complejidad para tu equipo.",
-      "subtitle": "Del saque inicial al replay — REPLASH gestiona todo lo del medio. Abajo: cada paso explicado, con el partido real de pádel de Marco un martes por la noche como ejemplo concreto."
+      "subtitle": "Del saque inicial al replay. REPLASH gestiona todo lo del medio. Abajo: cada paso explicado, con el partido real de pádel de Marco un martes por la noche como ejemplo concreto."
     },
     "marcoIntro": {
       "name": "Marco",
@@ -215,25 +215,25 @@
       "1": {
         "label": "Paso 1",
         "title": "El Partido se Reserva y Juega",
-        "desc": "Los jugadores reservan una pista normalmente y juegan. Nada cambia en la experiencia del jugador en pista. REPLASH funciona silenciosamente en segundo plano — y la mayoría de los equipos se acercan a la recepción del centro y piden añadir el video del partido antes de que comience.",
+        "desc": "Los jugadores reservan una pista normalmente y juegan. Nada cambia en la experiencia del jugador en pista. REPLASH funciona silenciosamente en segundo plano. Y la mayoría de los equipos se acercan a la recepción del centro y piden añadir el video del partido antes de que comience.",
         "marco": {
           "time": "",
-          "example": "Marco reserva su franja. Cuando llega al centro, se acerca a la recepción y dice 'quiero añadir el video del partido' — el recepcionista añade el +Video del Partido a la reserva. Marco ve la señalización REPLASH en la entrada (RGPD-conforme) y juega sabiendo que el video ya está en camino."
+          "example": "Marco reserva su franja. Cuando llega al centro, se acerca a la recepción y dice 'quiero añadir el video del partido'. El recepcionista añade el +Video del Partido a la reserva. Marco ve la señalización REPLASH en la entrada (RGPD-conforme) y juega sabiendo que el video ya está en camino."
         }
       },
       "2": {
         "label": "Paso 2",
         "title": "REPLASH Graba Automáticamente",
-        "desc": "Cámaras PoE fijas instaladas en el centro capturan todo el partido de principio a fin — sin botones, sin control manual, sin intervención del personal.",
+        "desc": "Cámaras PoE fijas instaladas en el centro capturan todo el partido de principio a fin. Sin botones, sin control manual, sin intervención del personal.",
         "marco": {
           "time": "19:00 → 20:00",
-          "example": "Mientras Marco y sus amigos juegan, las cámaras PoE graban silenciosamente el partido. El encargado de pista no hace nada — sin configuración, sin iniciar/parar. La grabación se mantiene en un búfer temporal hasta que se confirme la venta."
+          "example": "Mientras Marco y sus amigos juegan, las cámaras PoE graban silenciosamente el partido. El encargado de pista no hace nada. Sin configuración, sin iniciar/parar. La grabación se mantiene en un búfer temporal hasta que se confirme la venta."
         }
       },
       "3": {
         "label": "Paso 3",
         "title": "Organizado por Franja Horaria",
-        "desc": "Cada grabación se etiqueta automáticamente por centro, fecha y franja horaria — haciéndola descubrible a través del flujo Encuentra Tu Partido.",
+        "desc": "Cada grabación se etiqueta automáticamente por centro, fecha y franja horaria. Haciéndola descubrible a través del flujo Encuentra Tu Partido.",
         "marco": {
           "time": "20:00",
           "example": "El sistema registra el partido de Marco como: Example Padel Club · Martes 14 Mayo 2026 · 19:00–20:00. Esta etiqueta precisa es la única forma en que el partido se puede encontrar después."
@@ -242,7 +242,7 @@
       "4": {
         "label": "Paso 4",
         "title": "El Personal Activa en la Venta",
-        "desc": "Cuando un jugador ha comprado el acceso al video, el personal del centro abre el panel de administración REPLASH, encuentra el partido correcto en la lista del día y lo desbloquea. El estado pasa de LOCKED a UNLOCKABLE — esa es la única acción recurrente requerida.",
+        "desc": "Cuando un jugador ha comprado el acceso al video, el personal del centro abre el panel de administración REPLASH, encuentra el partido correcto en la lista del día y lo desbloquea. El estado pasa de LOCKED a UNLOCKABLE. Esa es la única acción recurrente requerida.",
         "marco": {
           "time": "20:05",
           "example": "En recepción el personal abre el panel REPLASH, encuentra la franja 19:00–20:00 de hoy en la lista de partidos, comprueba hora, número de jugadores e importe, y lo desbloquea. El estado del partido pasa a UNLOCKABLE y el acceso está listo de inmediato para el equipo de Marco."
@@ -254,13 +254,13 @@
         "desc": "Los jugadores visitan replash.eu, introducen los tres campos (centro, fecha, franja horaria) y miran en menos de 30 segundos.",
         "marco": {
           "time": "20:08",
-          "example": "Marco visita replash.eu desde su móvil. Elige Example Padel Club, la fecha de hoy y 19:00–20:00. El sistema verifica que las 4 condiciones coincidan — y su partido se reproduce en su móvil al instante."
+          "example": "Marco visita replash.eu desde su móvil. Elige Example Padel Club, la fecha de hoy y 19:00–20:00. El sistema verifica que las 4 condiciones coincidan. Y su partido se reproduce en su móvil al instante."
         }
       },
       "6": {
         "label": "Paso 6",
         "title": "Mira, Recorta, Comparte",
-        "desc": "Los jugadores miran el partido completo, cortan highlights de 10–45 segundos con el clip cutter integrado, los descargan y los comparten en redes sociales — bajo su propia identidad.",
+        "desc": "Los jugadores miran el partido completo, cortan highlights de 10–45 segundos con el clip cutter integrado, los descargan y los comparten en redes sociales. Bajo su propia identidad.",
         "marco": {
           "time": "20:15",
           "example": "Marco ve el gol del minuto 17, recorta un highlight de 20 segundos, lo descarga y lo comparte en sus redes sociales. Sus amigos lo ven. El ciclo vuelve a empezar."
@@ -277,7 +277,7 @@
         },
         "2": {
           "title": "Almacenamiento Cloud UE",
-          "desc": "Grabaciones procesadas y almacenadas de forma segura en centros de datos de la UE — RGPD por diseño, accesibles desde cualquier lugar."
+          "desc": "Grabaciones procesadas y almacenadas de forma segura en centros de datos de la UE. RGPD por diseño, accesibles desde cualquier lugar."
         },
         "3": {
           "title": "Segmentación por Franja",
@@ -314,12 +314,12 @@
         "3": {
           "name": "Web",
           "function": "Encuentra Tu Partido + clip cutter + paneles",
-          "detail": "Flujo del jugador, panel admin del centro, panel admin REPLASH — todo bajo un mismo techo."
+          "detail": "Flujo del jugador, panel admin del centro, panel admin REPLASH. Todo bajo un mismo techo."
         },
         "4": {
           "name": "Billing",
           "function": "Motor de conciliación basado en estado",
-          "detail": "División de ingresos automática — a prueba de manipulación, totalmente auditada, liquidación mensual."
+          "detail": "División de ingresos automática. A prueba de manipulación, totalmente auditada, liquidación mensual."
         }
       }
     },
@@ -331,8 +331,8 @@
   "forFacilities": {
     "hero": {
       "eyebrow": "Para Centros",
-      "title": "Convierte tu centro en una experiencia deportiva moderna — ganando más ingresos cada mes.",
-      "subtitle": "REPLASH da a tu centro un nuevo producto digital — sin añadir ninguna carga operativa a tu equipo."
+      "title": "Convierte tu centro en una experiencia deportiva moderna. Ganando más ingresos cada mes.",
+      "subtitle": "REPLASH da a tu centro un nuevo producto digital. Sin añadir ninguna carga operativa a tu equipo."
     },
     "value": {
       "eyebrow": "Valor Añadido Sin Carga Operativa",
@@ -340,10 +340,10 @@
       "desc": "REPLASH da a los centros un servicio de video completo sin requerir que gestionen cámaras, editen videos o lidien con tecnología complicada. Todo, desde la instalación hasta la entrega, lo gestiona REPLASH. Tu equipo simplemente ofrece la experiencia."
     },
     "turkey": {
-      "eyebrow": "Ya Probado — Solo No Aquí Todavía",
+      "eyebrow": "Ya Probado. Solo No Aquí Todavía",
       "title": "El comportamiento ya es real. En Turquía.",
-      "desc": "En toda Turquía, la cultura del fútbol en césped artificial (5 y 7 jugadores) está tan asentada que ofrecer un video del partido en el momento de la reserva es ahora estándar en casi todos los centros — el sistema 'social astroturf' existe en prácticamente todos los centros. Las cámaras graban, los jugadores ven y descargan, y el servicio es parte del flujo de reserva.",
-      "lesson": "La versión turca es básica y se limita al fútbol. REPLASH trae el mismo comportamiento probado al pádel y al fútbol en toda Europa — con un producto premium, postura RGPD completa, recorte listo para redes sociales y un modelo transparente de reparto de ingresos.",
+      "desc": "En toda Turquía, la cultura del fútbol en césped artificial (5 y 7 jugadores) está tan asentada que ofrecer un video del partido en el momento de la reserva es ahora estándar en casi todos los centros. El sistema 'social astroturf' existe en prácticamente todos los centros. Las cámaras graban, los jugadores ven y descargan, y el servicio es parte del flujo de reserva.",
+      "lesson": "La versión turca es básica y se limita al fútbol. REPLASH trae el mismo comportamiento probado al pádel y al fútbol en toda Europa. Con un producto premium, postura RGPD completa, recorte listo para redes sociales y un modelo transparente de reparto de ingresos.",
       "stats": {
         "1": {
           "value": "10.000+",
@@ -355,20 +355,20 @@
         },
         "3": {
           "value": "Estándar",
-          "label": "Ahora el predeterminado — no una característica"
+          "label": "Ahora el predeterminado. No una característica"
         }
       }
     },
     "differentiate": {
       "eyebrow": "Destaca de los Competidores",
       "title": "La mayoría de los centros ofrecen una pista. REPLASH te ayuda a ofrecer un recuerdo.",
-      "desc": "En un mercado competitivo, el precio por sí solo no basta para crear fidelidad. Una experiencia de video profesional — disponible automáticamente después de cada partido — da a los jugadores una razón para elegir tu centro, volver más a menudo y recomendarlo a otros.",
+      "desc": "En un mercado competitivo, el precio por sí solo no basta para crear fidelidad. Una experiencia de video profesional. Disponible automáticamente después de cada partido. Da a los jugadores una razón para elegir tu centro, volver más a menudo y recomendarlo a otros.",
       "quote": "Los centros ya no venden solo tiempo de pista. Venden la experiencia alrededor del partido."
     },
     "competitors": {
       "eyebrow": "Dónde Encaja REPLASH",
       "title": "Las empresas de video deportivo existentes sirven al mercado equivocado.",
-      "desc": "Las plataformas profesionales de videoanálisis existentes se centran en clubes profesionales y academias — cámaras caras, herramientas de análisis táctico, mercado estrecho. Ignoraron el deporte amateur, que es la verdadera masa del mercado. REPLASH fue construido exactamente para ese vacío.",
+      "desc": "Las plataformas profesionales de videoanálisis existentes se centran en clubes profesionales y academias. Cámaras caras, herramientas de análisis táctico, mercado estrecho. Ignoraron el deporte amateur, que es la verdadera masa del mercado. REPLASH fue construido exactamente para ese vacío.",
       "comparison": {
         "header": {
           "feature": "Característica",
@@ -412,12 +412,12 @@
     "engagement": {
       "eyebrow": "Mayor Compromiso del Jugador",
       "title": "Los jugadores recuerdan los centros donde ocurrieron sus mejores momentos.",
-      "desc": "Cuando un jugador puede ver y compartir su partido, asocia esos recuerdos con tu centro. Esa conexión emocional convierte reservas únicas en clientes habituales — y los habituales en defensores que recomiendan tu centro a amigos.",
+      "desc": "Cuando un jugador puede ver y compartir su partido, asocia esos recuerdos con tu centro. Esa conexión emocional convierte reservas únicas en clientes habituales. Y los habituales en defensores que recomiendan tu centro a amigos.",
       "items": {
         "1": "Mayores tasas de reserva repetida",
         "2": "Boca a boca orgánico a través del compartir videos",
         "3": "Relaciones más fuertes jugador-centro",
-        "4": "Contenido de redes sociales creado naturalmente por los jugadores — tu centro etiquetado en el fondo"
+        "4": "Contenido de redes sociales creado naturalmente por los jugadores. Tu centro etiquetado en el fondo"
       }
     },
     "revenue": {
@@ -428,7 +428,7 @@
     },
     "revenueScenarios": {
       "eyebrow": "Ejemplos de Ganancias",
-      "title": "Ingresos pasivos — por un solo clic por venta.",
+      "title": "Ingresos pasivos. Por un solo clic por venta.",
       "subtitle": "A continuación, ejemplos ilustrativos de ganancias mensuales basados en dinámicas reales por partido en Milán. Tu participación escala linealmente con el número de pistas.",
       "disclaimer": "Solo ejemplos. Términos finales acordados durante el onboarding.",
       "headers": {
@@ -466,12 +466,12 @@
       "footer": "Ingresos puramente pasivos. Sin coste. Una sola acción por venta: toca 'Video Vendido'."
     },
     "objections": {
-      "eyebrow": "Preocupaciones Comunes — Resueltas",
+      "eyebrow": "Preocupaciones Comunes. Resueltas",
       "title": "Dos preguntas que todo centro hace. Dos respuestas claras.",
       "items": {
         "gdpr": {
           "question": "¿Y el RGPD?",
-          "answer": "La arquitectura de privacidad de REPLASH cumple con RGPD, CEDH Artículo 8 y directrices del Garante italiano. Las cámaras graban solo el área de juego — sin audio, sin reconocimiento facial. Los videos no son adivinables, están vinculados a la franja horaria y se eliminan automáticamente después de 30 días. Base legal: interés legítimo (Art. 6/1-f) y necesidad contractual (Art. 6/1-b). Modelo de notificación de tres niveles (señalización + QR + notificación de reserva) listo antes de la instalación.",
+          "answer": "La arquitectura de privacidad de REPLASH cumple con RGPD, CEDH Artículo 8 y directrices del Garante italiano. Las cámaras graban solo el área de juego. Sin audio, sin reconocimiento facial. Los videos no son adivinables, están vinculados a la franja horaria y se eliminan automáticamente después de 30 días. Base legal: interés legítimo (Art. 6/1-f) y necesidad contractual (Art. 6/1-b). Modelo de notificación de tres niveles (señalización + QR + notificación de reserva) listo antes de la instalación.",
           "items": {
             "1": "Sin audio. Sin reconocimiento facial.",
             "2": "Auto-eliminación después de 30 días.",
@@ -481,7 +481,7 @@
         },
         "tech": {
           "question": "¿Y si no tenemos WiFi?",
-          "answer": "Las cámaras PoE funcionan con un búfer local — las caídas cortas de conexión no causan pérdida de datos. Para centros outdoor sin WiFi, la conectividad LTE/SIM autónoma está totalmente soportada. La instalación, cableado y montaje de cámaras los gestiona enteramente REPLASH — tu personal técnico no está involucrado.",
+          "answer": "Las cámaras PoE funcionan con un búfer local. Las caídas cortas de conexión no causan pérdida de datos. Para centros outdoor sin WiFi, la conectividad LTE/SIM autónoma está totalmente soportada. La instalación, cableado y montaje de cámaras los gestiona enteramente REPLASH. Tu personal técnico no está involucrado.",
           "items": {
             "1": "Búfer local PoE gestiona las caídas.",
             "2": "Respaldo LTE/SIM para centros sin WiFi.",
@@ -493,8 +493,8 @@
     },
     "marketing": {
       "eyebrow": "Capa de Marketing Incluida",
-      "title": "Llevamos tu centro a audiencias — no solo a clientes.",
-      "desc": "REPLASH no es solo un proveedor de infraestructura — es una capa de marketing que hace visibles a sus centros asociados. En nuestra web destacamos tu logo y ubicación. Mientras los jugadores comparten sus highlights en redes sociales, tu centro llega a las comunidades circundantes de forma orgánica. El marketing ocurre a través del comportamiento del usuario.",
+      "title": "Llevamos tu centro a audiencias. No solo a clientes.",
+      "desc": "REPLASH no es solo un proveedor de infraestructura. Es una capa de marketing que hace visibles a sus centros asociados. En nuestra web destacamos tu logo y ubicación. Mientras los jugadores comparten sus highlights en redes sociales, tu centro llega a las comunidades circundantes de forma orgánica. El marketing ocurre a través del comportamiento del usuario.",
       "items": {
         "1": {
           "title": "Destacado en REPLASH",
@@ -506,7 +506,7 @@
         },
         "3": {
           "title": "Torneos Piloto",
-          "desc": "En el lanzamiento, organizamos torneos temáticos en centros asociados — nuevos clientes y visibilidad añadida, por cuenta nuestra."
+          "desc": "En el lanzamiento, organizamos torneos temáticos en centros asociados. Nuevos clientes y visibilidad añadida, por cuenta nuestra."
         }
       }
     },
@@ -516,7 +516,7 @@
       "items": {
         "1": {
           "title": "Proporcionar Acceso para la Instalación",
-          "desc": "Permite al equipo de REPLASH instalar cámaras en cada pista — un proceso único que toma medio día."
+          "desc": "Permite al equipo de REPLASH instalar cámaras en cada pista. Un proceso único que toma medio día."
         },
         "2": {
           "title": "Apoyar la Conexión a Internet",
@@ -563,7 +563,7 @@
         "yearlySuffix": "al año",
         "yearlyNote": "Sin trabajo extra para tu personal."
       },
-      "disclaimer": "* Estimación basada en el precio medio de venta del video por deporte. El cálculo es puramente ilustrativo — ingresa tus propios números para ver tu potencial."
+      "disclaimer": "* Estimación basada en el precio medio de venta del video por deporte. El cálculo es puramente ilustrativo. Ingresa tus propios números para ver tu potencial."
     }
   },
   "forPlayers": {
@@ -603,7 +603,7 @@
     "relive": {
       "eyebrow": "Revive los Mejores Momentos",
       "title": "Goles. Paradas. Peloteos. Momentos graciosos. Todos vale la pena verlos dos veces.",
-      "desc": "Recorre el partido y vuelve a ver los momentos que hicieron el partido. Ya sea un gol en el último minuto, una parada difícil, un peloteo que quieres estudiar o una jugada hilarante que hizo reír a todos — la grabación completa está ahí.",
+      "desc": "Recorre el partido y vuelve a ver los momentos que hicieron el partido. Ya sea un gol en el último minuto, una parada difícil, un peloteo que quieres estudiar o una jugada hilarante que hizo reír a todos. La grabación completa está ahí.",
       "items": {
         "1": "Revisa tu propia técnica y posicionamiento",
         "2": "Celebra goles y grandes jugadas",
@@ -622,7 +622,7 @@
         },
         "2": {
           "title": "El Momento, Capturado",
-          "desc": "La mirada después del primer gol. El golpe final de un set ganador. Estos desaparecen en el segundo en que ocurren — a menos que algo esté mirando. REPLASH construye una capa de memoria sobre el campo."
+          "desc": "La mirada después del primer gol. El golpe final de un set ganador. Estos desaparecen en el segundo en que ocurren. A menos que algo esté mirando. REPLASH construye una capa de memoria sobre el campo."
         },
         "3": {
           "title": "Recortar y Compartir, Sin Fricción",
@@ -637,12 +637,12 @@
     "share": {
       "eyebrow": "Comparte con Amigos",
       "title": "La experiencia no termina con el pitido final.",
-      "desc": "Envía tu clip — o el enlace del partido completo — a compañeros, amigos y familia. Súbelo a tu story. Etiqueta el centro. Los mejores momentos son mejores cuando se comparten, y tu partido se convierte en algo que la gente puede ver de verdad, no solo escuchar."
+      "desc": "Envía tu clip. O el enlace del partido completo. A compañeros, amigos y familia. Súbelo a tu story. Etiqueta el centro. Los mejores momentos son mejores cuando se comparten, y tu partido se convierte en algo que la gente puede ver de verdad, no solo escuchar."
     },
     "ai": {
-      "eyebrow": "Highlights de IA — Próximamente",
+      "eyebrow": "Highlights de IA. Próximamente",
       "title": "Auto-recorte de los mejores momentos.",
-      "desc": "REPLASH está diseñado para soportar futuros highlights con IA — auto-recortando goles, paradas y las jugadas más emocionantes de tu partido en un breve reel. Formatos cuadrados y verticales con subtítulos, listos para compartir en redes sociales. Encontrarás tus mejores momentos sin ver toda la grabación.",
+      "desc": "REPLASH está diseñado para soportar futuros highlights con IA. Auto-recortando goles, paradas y las jugadas más emocionantes de tu partido en un breve reel. Formatos cuadrados y verticales con subtítulos, listos para compartir en redes sociales. Encontrarás tus mejores momentos sin ver toda la grabación.",
       "badge": "Próximamente"
     },
     "simple": {
@@ -678,7 +678,7 @@
     "unimi": {
       "eyebrow": "Università degli Studi di Milano",
       "title": "Nuestra universidad está detrás de nosotros.",
-      "desc": "REPLASH nació dentro del programa Economics, Behaviour Data and Policy en la Università degli Studi di Milano. La base del proyecto es académica: economía conductual, formación de hábitos y cómo los mercados responden a nuevos patrones de consumo. El apoyo de la universidad nos da la base institucional para construir de forma responsable — desde la postura RGPD hasta la ética de datos.",
+      "desc": "REPLASH nació dentro del programa Economics, Behaviour Data and Policy en la Università degli Studi di Milano. La base del proyecto es académica: economía conductual, formación de hábitos y cómo los mercados responden a nuevos patrones de consumo. El apoyo de la universidad nos da la base institucional para construir de forma responsable. Desde la postura RGPD hasta la ética de datos.",
       "badge": "Università degli Studi di Milano",
       "items": {
         "1": {
@@ -687,18 +687,18 @@
         },
         "2": {
           "title": "Respaldo Institucional",
-          "desc": "Desarrollado con guía académica de UniMi — marco IP, postura RGPD y prácticas éticas de datos formadas dentro de un entorno de nivel universitario."
+          "desc": "Desarrollado con guía académica de UniMi. Marco IP, postura RGPD y prácticas éticas de datos formadas dentro de un entorno de nivel universitario."
         },
         "3": {
           "title": "Laboratorio del Mundo Real",
-          "desc": "REPLASH crea un entorno con clientes reales y datos reales — conectado con UniMi para investigación, prácticas y aprendizaje aplicado dentro de un entorno de producción conforme al RGPD."
+          "desc": "REPLASH crea un entorno con clientes reales y datos reales. Conectado con UniMi para investigación, prácticas y aprendizaje aplicado dentro de un entorno de producción conforme al RGPD."
         }
       }
     },
     "founders": {
       "eyebrow": "Equipo Fundador",
       "title": "Una observación. Un producto.",
-      "desc": "REPLASH fue iniciado por Omer y Yigit. Su formación está en leer datos conductuales, entender cómo se forman los hábitos y estudiar cómo responden los mercados. La superposición entre su campo y lo que hace la empresa no es coincidencia — es la piedra angular del proyecto.",
+      "desc": "REPLASH fue iniciado por fundadores con formación en economía del comportamiento: leer cómo se forman los hábitos y cómo responde el mercado. La superposición entre ese campo y lo que hace la empresa es la piedra angular del proyecto.",
       "values": {
         "1": "Perspectiva de economía conductual",
         "2": "Construido a partir de patrón observado, no especulación",
@@ -716,7 +716,7 @@
     "story": {
       "eyebrow": "La Idea",
       "title": "El deporte amateur merece algo mejor que ser olvidado.",
-      "desc": "Cada fin de semana, miles de partidos se juegan y se olvidan. Los jugadores lo dan todo en el campo — y se van solo con un recuerdo. REPLASH fue creado para cambiar eso. Creemos que cada partido tiene una historia que vale la pena contar, y cada jugador merece verla de nuevo — y compartirla."
+      "desc": "Cada fin de semana, miles de partidos se juegan y se olvidan. Los jugadores lo dan todo en el campo. Y se van solo con un recuerdo. REPLASH fue creado para cambiar eso. Creemos que cada partido tiene una historia que vale la pena contar, y cada jugador merece verla de nuevo. Y compartirla."
     },
     "whoWeServe": {
       "eyebrow": "A Quién Servimos",
@@ -736,7 +736,7 @@
         },
         "4": {
           "title": "Jugadores",
-          "desc": "Jugadores amateur que quieren ver, recortar y compartir su partido — bajo su propia identidad."
+          "desc": "Jugadores amateur que quieren ver, recortar y compartir su partido. Bajo su propia identidad."
         }
       }
     },
@@ -749,7 +749,7 @@
         },
         "2": {
           "title": "Privacidad",
-          "desc": "Los jugadores nos confían sus datos. Nos lo tomamos en serio — sin reconocimiento facial, sin vigilancia, postura RGPD completa."
+          "desc": "Los jugadores nos confían sus datos. Nos lo tomamos en serio. Sin reconocimiento facial, sin vigilancia, postura RGPD completa."
         },
         "3": {
           "title": "Fiabilidad",
@@ -782,23 +782,23 @@
     "items": {
       "1": {
         "q": "¿Qué se instala exactamente en mi centro?",
-        "a": "Cámaras fijas PoE de gran angular en cada pista — generalmente montadas en el techo o pared alta. La instalación toma medio día y no interrumpe las operaciones. Todo el cableado se oculta. El equipo de REPLASH gestiona todo, desde el montaje hasta la configuración de red."
+        "a": "Cámaras fijas PoE de gran angular en cada pista. Generalmente montadas en el techo o pared alta. La instalación toma medio día y no interrumpe las operaciones. Todo el cableado se oculta. El equipo de REPLASH gestiona todo, desde el montaje hasta la configuración de red."
       },
       "2": {
         "q": "¿Hay costes iniciales o compromisos contractuales?",
-        "a": "No. REPLASH cubre el 100% del coste — cámaras, instalación, mantenimiento, actualizaciones de software. Sin cuotas mensuales, sin compromiso mínimo, sin bloqueo contractual. Puedes terminar la asociación en cualquier momento."
+        "a": "No. REPLASH cubre el 100% del coste. Cámaras, instalación, mantenimiento, actualizaciones de software. Sin cuotas mensuales, sin compromiso mínimo, sin bloqueo contractual. Puedes terminar la asociación en cualquier momento."
       },
       "3": {
         "q": "¿Cómo comparte REPLASH los ingresos con el centro?",
-        "a": "Al final de cada mes, todos los videos desbloqueados se registran a través del panel de administración. El centro acordado se queda con el 15% de los ingresos totales generados por esos videos, y el importe restante se reclama a la cuenta de REPLASH. Todo se concilia automáticamente desde el panel — con cero coste operativo por tu parte."
+        "a": "Al final de cada mes, todos los videos desbloqueados se registran a través del panel de administración. El centro acordado se queda con el 15% de los ingresos totales generados por esos videos, y el importe restante se reclama a la cuenta de REPLASH. Todo se concilia automáticamente desde el panel. Con cero coste operativo por tu parte."
       },
       "4": {
         "q": "¿Mi personal tiene que hacer algo por cada partido?",
-        "a": "Solo un clic. Cuando un jugador paga por el acceso al video, tu recepcionista marca el partido como 'Video Vendido' en el panel del centro — la grabación pasa de LOCKED a UNLOCKABLE. Todo lo demás (grabación, almacenamiento, entrega, clip cutter) está totalmente automatizado."
+        "a": "Solo un clic. Cuando un jugador paga por el acceso al video, tu recepcionista marca el partido como 'Video Vendido' en el panel del centro. La grabación pasa de LOCKED a UNLOCKABLE. Todo lo demás (grabación, almacenamiento, entrega, clip cutter) está totalmente automatizado."
       },
       "5": {
         "q": "¿Qué pasa si una cámara falla o hay un problema técnico?",
-        "a": "REPLASH monitoriza todas las cámaras 24/7. En raros casos de fallo, nuestro equipo de soporte es notificado automáticamente y lo resuelve remotamente — generalmente en horas. Si se pierde una grabación, esa venta no aparece en tu informe y no se te cobra."
+        "a": "REPLASH monitoriza todas las cámaras 24/7. En raros casos de fallo, nuestro equipo de soporte es notificado automáticamente y lo resuelve remotamente. Generalmente en horas. Si se pierde una grabación, esa venta no aparece en tu informe y no se te cobra."
       },
       "6": {
         "q": "¿Qué tan rápido podemos empezar?",
@@ -810,7 +810,7 @@
       },
       "8": {
         "q": "¿Pueden los jugadores compartir clips en redes sociales?",
-        "a": "Sí — esa es la experiencia central. REPLASH tiene un clip cutter integrado dentro de la plataforma. Los jugadores eligen un momento de 10–45 segundos del partido, descargan el clip a su móvil y lo comparten en plataformas de redes sociales bajo su propia cuenta. REPLASH es el lugar donde se hace el clip — el compartir ocurre en los canales propios del jugador."
+        "a": "Sí. Esa es la experiencia central. REPLASH tiene un clip cutter integrado dentro de la plataforma. Los jugadores eligen un momento de 10–45 segundos del partido, descargan el clip a su móvil y lo comparten en plataformas de redes sociales bajo su propia cuenta. REPLASH es el lugar donde se hace el clip. El compartir ocurre en los canales propios del jugador."
       },
       "9": {
         "q": "¿Son públicos los videos? ¿Podría alguien encontrarlos online?",
@@ -818,22 +818,22 @@
       },
       "10": {
         "q": "¿Y el RGPD?",
-        "a": "REPLASH cumple totalmente con RGPD, CEDH Artículo 8 y directrices del Garante italiano. Las cámaras graban solo el área de juego — sin audio, sin reconocimiento facial. Base legal: interés legítimo (Art. 6/1-f) y necesidad contractual (Art. 6/1-b). Hay un modelo de notificación de tres niveles (señalización de entrada + QR + notificación de reserva). Se proporciona un archivo de Justificación de Privacidad y Legal antes de la instalación."
+        "a": "REPLASH cumple totalmente con RGPD, CEDH Artículo 8 y directrices del Garante italiano. Las cámaras graban solo el área de juego. Sin audio, sin reconocimiento facial. Base legal: interés legítimo (Art. 6/1-f) y necesidad contractual (Art. 6/1-b). Hay un modelo de notificación de tres niveles (señalización de entrada + QR + notificación de reserva). Se proporciona un archivo de Justificación de Privacidad y Legal antes de la instalación."
       },
       "11": {
         "q": "¿Cuánto tiempo se guardan las grabaciones?",
-        "a": "30 días. Después, todas las grabaciones se eliminan automáticamente. Los partidos no comprados se eliminan poco después de que termine la franja horaria — solo los partidos marcados UNLOCKABLE se mantienen en almacenamiento."
+        "a": "30 días. Después, todas las grabaciones se eliminan automáticamente. Los partidos no comprados se eliminan poco después de que termine la franja horaria. Solo los partidos marcados UNLOCKABLE se mantienen en almacenamiento."
       },
       "12": {
         "q": "¿Qué pasa si no tenemos una conexión WiFi fuerte?",
-        "a": "Las cámaras PoE funcionan con un búfer local — las caídas cortas de conexión no causan pérdida de datos. Para centros outdoor sin WiFi, la conectividad LTE/SIM autónoma está totalmente soportada. El equipo de REPLASH gestiona toda la configuración."
+        "a": "Las cámaras PoE funcionan con un búfer local. Las caídas cortas de conexión no causan pérdida de datos. Para centros outdoor sin WiFi, la conectividad LTE/SIM autónoma está totalmente soportada. El equipo de REPLASH gestiona toda la configuración."
       }
     }
   },
   "contact": {
     "eyebrow": "Ponte en Contacto",
     "title": "Hablemos de tu centro.",
-    "subtitle": "Tanto si quieres una demo, tienes preguntas o estás listo para empezar — estamos aquí.",
+    "subtitle": "Tanto si quieres una demo, tienes preguntas o estás listo para empezar. Estamos aquí.",
     "fields": {
       "name": "Tu Nombre",
       "facilityName": "Nombre del Centro",
@@ -869,28 +869,28 @@
   },
   "meta": {
     "home": {
-      "title": "REPLASH — Play. Record. Relive.",
+      "title": "REPLASH. Play. Record. Relive.",
       "description": "Grabación automática de partidos para centros deportivos amateur. Mira, recorta y comparte los mejores momentos de tu partido."
     },
     "find": {
-      "title": "Encuentra Tu Partido — REPLASH",
-      "description": "Tres campos, treinta segundos, tu partido. Mira tu partido amateur de fútbol o pádel — sin app, sin cuenta."
+      "title": "Encuentra Tu Partido. REPLASH",
+      "description": "Tres campos, treinta segundos, tu partido. Mira tu partido amateur de fútbol o pádel. Sin app, sin cuenta."
     },
     "howItWorks": {
-      "title": "Cómo Funciona — REPLASH",
+      "title": "Cómo Funciona. REPLASH",
       "description": "Mira cómo REPLASH graba, organiza y entrega automáticamente videos de partidos a los jugadores en tu centro."
     },
     "forFacilities": {
-      "title": "Para Centros — REPLASH",
+      "title": "Para Centros. REPLASH",
       "description": "Convierte tu centro deportivo en una experiencia moderna de partido. Cero complejidad operativa, nuevo servicio digital, modelo probado."
     },
     "forPlayers": {
-      "title": "Para Jugadores — REPLASH",
+      "title": "Para Jugadores. REPLASH",
       "description": "Mira tu partido, recorta los mejores momentos y compártelos en redes sociales. Tu partido, listo para revivir."
     },
     "about": {
-      "title": "Nosotros — REPLASH",
-      "description": "REPLASH está construyendo la capa de replay para el deporte amateur, respaldado por la Università degli Studi di Milano — llevando video de estilo profesional a los partidos cotidianos."
+      "title": "Nosotros. REPLASH",
+      "description": "REPLASH está construyendo la capa de replay para el deporte amateur, respaldado por la Università degli Studi di Milano. Llevando video de estilo profesional a los partidos cotidianos."
     }
   }
 }

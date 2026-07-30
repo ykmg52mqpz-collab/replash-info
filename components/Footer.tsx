@@ -13,7 +13,6 @@ export default function Footer() {
     { href: "/how-it-works" as const, label: t("links.howItWorks") },
     { href: "/for-facilities" as const, label: t("links.forFacilities") },
     { href: "/for-players" as const, label: t("links.forPlayers") },
-    { href: "/find" as const, label: t("links.find") },
     { href: "/about" as const, label: t("links.about") },
     { href: "/contact" as const, label: t("links.contact") },
   ];

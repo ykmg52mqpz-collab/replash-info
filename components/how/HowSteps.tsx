@@ -93,36 +93,17 @@ export default function HowSteps() {
                       {t(`steps.${key}.desc`)}
                     </p>
 
-                    {/* Marco's concrete example */}
-                    <div className="mt-4 overflow-hidden rounded-xl border border-white/8 bg-white/[0.025]">
-                      <div className="flex gap-3 p-4">
-                        <div className="flex flex-shrink-0 flex-col items-center gap-1">
-                          <div className="flex h-7 w-7 items-center justify-center rounded-full border border-accent/30 bg-accent/15">
-                            <span className="text-[10px] font-bold text-accent">M</span>
-                          </div>
-                          {t(`steps.${key}.marco.time`) && (
-                            <span className="font-mono text-[9px] font-semibold text-accent/70">
-                              {t(`steps.${key}.marco.time`)}
-                            </span>
-                          )}
-                        </div>
-                        <p className="text-xs leading-relaxed text-white/55 md:text-sm">
-                          {t(`steps.${key}.marco.example`)}
-                        </p>
+                    {/* Optional visual — the concrete text lives in the step description above */}
+                    {stepImages[key] && (
+                      <div className="mt-4 overflow-hidden rounded-xl border border-white/8 bg-black/20">
+                        <img
+                          src={stepImages[key]!.src}
+                          alt={stepImages[key]!.alt}
+                          className="h-40 w-full object-cover sm:h-48"
+                          style={{ opacity: 0.85 }}
+                        />
                       </div>
-
-                      {/* Optional visual */}
-                      {stepImages[key] && (
-                        <div className="border-t border-white/5 bg-black/20">
-                          <img
-                            src={stepImages[key]!.src}
-                            alt={stepImages[key]!.alt}
-                            className="h-40 w-full object-cover sm:h-48"
-                            style={{ opacity: 0.85 }}
-                          />
-                        </div>
-                      )}
-                    </div>
+                    )}
                   </div>
                 </motion.div>
               ))}

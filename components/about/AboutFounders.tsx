@@ -12,49 +12,27 @@ export default function AboutFounders() {
   return (
     <section className="section-y border-t border-white/5 bg-section-gradient">
       <div className="container-x">
-        <div className="grid gap-12 lg:grid-cols-[1fr_1.2fr] lg:items-center">
-          {/* Left: Heading + desc */}
-          <motion.div
-            initial={{ opacity: 0, x: -20 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true, margin: "-60px" }}
-            transition={{ duration: 0.6 }}
-          >
-            <SectionHeading eyebrow={t("eyebrow")} title={t("title")} align="left" />
-            <p className="mt-5 text-base leading-relaxed text-white/60">{t("desc")}</p>
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-60px" }}
+          transition={{ duration: 0.6 }}
+          className="mx-auto max-w-2xl"
+        >
+          <SectionHeading eyebrow={t("eyebrow")} title={t("title")} align="left" />
+          <p className="mt-5 text-base leading-relaxed text-white/60">{t("desc")}</p>
 
-            <div className="mt-7 flex flex-col gap-3">
-              {valueKeys.map((key) => (
-                <div key={key} className="flex items-center gap-2.5">
-                  <span className="flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full border border-accent/30 bg-accent/10">
-                    <span className="h-1.5 w-1.5 rounded-full bg-accent" />
-                  </span>
-                  <span className="text-sm text-white/65">{t(`values.${key}`)}</span>
-                </div>
-              ))}
-            </div>
-          </motion.div>
-
-          {/* Right: Founder cards */}
-          <motion.div
-            initial={{ opacity: 0, x: 20 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true, margin: "-60px" }}
-            transition={{ duration: 0.6 }}
-            className="grid grid-cols-2 gap-4"
-          >
-            {[
-              { name: "Omer Sager", role: "Founder" },
-              { name: "Yigit Unal", role: "Co-founder" },
-            ].map((founder) => (
-              <div key={founder.name} className="overflow-hidden rounded-2xl border border-white/10 bg-white/[0.03] p-6">
-                <h3 className="font-display text-lg font-bold text-white">{founder.name}</h3>
-                <p className="mt-1 text-xs text-accent">{founder.role}</p>
-                <p className="mt-3 text-[10px] uppercase tracking-widest text-white/35">UniMi</p>
+          <div className="mt-7 flex flex-col gap-3">
+            {valueKeys.map((key) => (
+              <div key={key} className="flex items-center gap-2.5">
+                <span className="flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full border border-accent/30 bg-accent/10">
+                  <span className="h-1.5 w-1.5 rounded-full bg-accent" />
+                </span>
+                <span className="text-sm text-white/65">{t(`values.${key}`)}</span>
               </div>
             ))}
-          </motion.div>
-        </div>
+          </div>
+        </motion.div>
       </div>
     </section>
   );
