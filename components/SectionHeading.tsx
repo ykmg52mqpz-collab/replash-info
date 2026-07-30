@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 import { ReactNode } from "react";
 
 export default function SectionHeading({
-  eyebrow,
   title,
   subtitle,
   align = "left",
@@ -22,12 +21,7 @@ export default function SectionHeading({
       transition={{ duration: 0.6, ease: "easeOut" }}
       className={`max-w-3xl ${align === "center" ? "mx-auto text-center" : ""}`}
     >
-      {eyebrow && (
-        <span className="inline-flex items-center gap-2 rounded-full border border-accent/30 bg-accent/10 px-3 py-1 text-xs font-medium uppercase tracking-wider text-accent">
-          {eyebrow}
-        </span>
-      )}
-      <h2 className="mt-4 font-display text-3xl font-bold leading-tight tracking-tight text-balance md:text-4xl lg:text-5xl">
+      <h2 className="font-display text-3xl font-bold leading-tight tracking-tight text-balance md:text-4xl lg:text-5xl">
         {title}
       </h2>
       {subtitle && (

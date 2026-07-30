@@ -27,22 +27,13 @@ export default function HomeIntro() {
           transition={{ duration: 0.7, ease: "easeOut" }}
           className="mx-auto max-w-4xl text-center"
         >
-          {/* Eyebrow */}
-          <div className="inline-flex items-center gap-2 rounded-full border border-accent/30 bg-accent/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-widest text-accent">
-            <span className="relative flex h-1.5 w-1.5">
-              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-accent opacity-60" />
-              <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-accent" />
-            </span>
-            {t("eyebrow")}
-          </div>
-
           {/* Slogan — main marketing line */}
           <motion.h2
             initial={{ opacity: 0, y: 16 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7, delay: 0.1 }}
-            className="mt-7 font-display text-4xl font-bold leading-[1.05] tracking-tight text-balance md:text-5xl lg:text-6xl"
+            className="font-display text-4xl font-bold leading-[1.05] tracking-tight text-balance md:text-5xl lg:text-6xl"
             style={{
               background: "linear-gradient(to bottom, #ffffff 30%, rgba(255,255,255,0.55))",
               WebkitBackgroundClip: "text",

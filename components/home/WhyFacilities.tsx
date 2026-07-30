@@ -26,11 +26,8 @@ export default function WhyFacilities() {
             viewport={{ once: true, margin: "-60px" }}
             transition={{ duration: 0.6 }}
           >
-            <div className="inline-flex items-center rounded-full border border-accent/30 bg-accent/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-widest text-accent">
-              {t("eyebrow")}
-            </div>
             <h2
-              className="mt-5 font-display text-3xl font-bold leading-[1.15] tracking-tight md:text-4xl"
+              className="font-display text-3xl font-bold leading-[1.15] tracking-tight md:text-4xl"
               style={{
                 background: "linear-gradient(to bottom, #ffffff 40%, rgba(255,255,255,0.5))",
                 WebkitBackgroundClip: "text",

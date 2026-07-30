@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 
 interface PageHeroProps {
-  eyebrow: string;
+  eyebrow?: string;
   title: string;
   subtitle?: string;
   image?: string;
@@ -11,7 +11,6 @@ interface PageHeroProps {
 }
 
 export default function PageHero({
-  eyebrow,
   title,
   subtitle,
   image,
@@ -42,21 +41,11 @@ export default function PageHero({
       <div className="absolute inset-0 grid-noise opacity-10" aria-hidden />
 
       <div className="container-x relative text-center">
-        <motion.div
-          initial={{ opacity: 0, y: 24 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, ease: "easeOut" }}
-        >
-          <span className="inline-flex items-center rounded-full border border-accent/30 bg-accent/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-widest text-accent">
-            {eyebrow}
-          </span>
-        </motion.div>
-
         <motion.h1
           initial={{ opacity: 0, y: 28 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.1, ease: "easeOut" }}
-          className="mx-auto mt-6 max-w-3xl font-display text-4xl font-bold leading-[1.1] tracking-tight text-balance md:text-5xl lg:text-6xl"
+          className="mx-auto max-w-3xl font-display text-4xl font-bold leading-[1.1] tracking-tight text-balance md:text-5xl lg:text-6xl"
           style={{
             background: "linear-gradient(to bottom, #ffffff 40%, rgba(255,255,255,0.5))",
             WebkitBackgroundClip: "text",

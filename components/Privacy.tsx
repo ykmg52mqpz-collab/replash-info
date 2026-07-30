@@ -13,19 +13,7 @@ export default function Privacy() {
     <section className="section-y border-t border-white/5 bg-section-gradient">
       <div className="container-x grid gap-12 lg:grid-cols-[1.1fr_1fr] lg:items-start">
         <div>
-          <SectionHeading eyebrow={t("eyebrow")} title={t("title")} />
-          <motion.div
-            initial={{ opacity: 0, y: 16 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.1 }}
-            className="mt-6 inline-flex items-center gap-2 rounded-full border border-accent/30 bg-accent/10 px-3 py-1.5 text-xs font-semibold uppercase tracking-wider text-accent"
-          >
-            <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-            </svg>
-            {t("badge")}
-          </motion.div>
+          <SectionHeading title={t("title")} />
         </div>
 
         <ul className="grid gap-3">

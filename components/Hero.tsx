@@ -43,26 +43,12 @@ export default function Hero() {
           transition={{ duration: 0.7, ease: "easeOut" }}
           className="mx-auto max-w-4xl text-center"
         >
-          {/* Badge */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.5, ease: "easeOut" }}
-            className="inline-flex items-center gap-2 rounded-full border border-accent/30 bg-accent/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-widest text-accent"
-          >
-            <span className="relative flex h-2 w-2">
-              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-accent opacity-60" />
-              <span className="relative inline-flex h-2 w-2 rounded-full bg-accent" />
-            </span>
-            {t("badge")}
-          </motion.div>
-
           {/* Title */}
           <motion.h1
             initial={{ opacity: 0, y: 32 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.1, ease: "easeOut" }}
-            className="mt-6 font-display text-5xl font-bold leading-[1.1] tracking-tight text-balance md:text-6xl lg:text-7xl"
+            className="font-display text-5xl font-bold leading-[1.1] tracking-tight text-balance md:text-6xl lg:text-7xl"
             style={{
               background:
                 "linear-gradient(to bottom, #ffffff 40%, rgba(255,255,255,0.5))",

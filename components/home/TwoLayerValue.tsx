@@ -41,10 +41,7 @@ export default function TwoLayerValue() {
           transition={{ duration: 0.6, ease: "easeOut" }}
           className="lg:sticky lg:top-28 lg:self-start"
         >
-          <span className="inline-flex items-center gap-2 rounded-full border border-accent/30 bg-accent/10 px-3 py-1 text-xs font-medium uppercase tracking-wider text-accent">
-            {t("eyebrow")}
-          </span>
-          <h2 className="mt-5 font-display text-3xl font-bold leading-[1.1] tracking-tight text-balance md:text-4xl lg:text-5xl">
+          <h2 className="font-display text-3xl font-bold leading-[1.1] tracking-tight text-balance md:text-4xl lg:text-5xl">
             {t("title")}
           </h2>
           <p className="mt-5 max-w-md text-lg leading-relaxed text-white/60">{t("subtitle")}</p>

@@ -23,15 +23,8 @@ export default function HomeFindPreview() {
             viewport={{ once: true, margin: "-60px" }}
             transition={{ duration: 0.6 }}
           >
-            <div className="inline-flex items-center gap-2 rounded-full border border-accent/30 bg-accent/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-widest text-accent">
-              <svg className="h-3 w-3" viewBox="0 0 20 20" fill="currentColor">
-                <path fillRule="evenodd" d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7 7 0 012 9z" clipRule="evenodd" />
-              </svg>
-              {t("eyebrow")}
-            </div>
-
             <h2
-              className="mt-5 font-display text-4xl font-bold leading-[1.1] tracking-tight md:text-5xl"
+              className="font-display text-4xl font-bold leading-[1.1] tracking-tight md:text-5xl"
               style={{
                 background: "linear-gradient(to bottom, #ffffff 40%, rgba(255,255,255,0.5))",
                 WebkitBackgroundClip: "text",
