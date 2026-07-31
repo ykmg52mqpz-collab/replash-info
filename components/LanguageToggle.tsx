@@ -39,13 +39,13 @@ export default function LanguageToggle() {
           onClick={() => switchTo(code)}
           disabled={isPending}
           aria-pressed={locale === code}
-          className={`rounded-full px-2.5 py-1.5 uppercase tracking-wide transition ${
+          className={`rounded-full px-2.5 py-1.5 tracking-wide transition ${
             locale === code
               ? "bg-white text-ink-900"
               : "text-white/70 hover:text-white"
           }`}
         >
-          {code}
+          {code.toUpperCase()}
         </button>
       ))}
     </div>
