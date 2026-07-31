@@ -3,33 +3,53 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
-// Choreographed player paths (viewBox: 1200x800, hero image bird-ish frame)
-// Two teams of 4 outfield + a couple positional anchors. Slow, ambient loops.
-const teamA = [
-  { keyframes: [{ cx: 340, cy: 260 }, { cx: 420, cy: 220 }, { cx: 380, cy: 340 }, { cx: 340, cy: 260 }] },
-  { keyframes: [{ cx: 500, cy: 380 }, { cx: 560, cy: 340 }, { cx: 540, cy: 460 }, { cx: 500, cy: 380 }] },
-  { keyframes: [{ cx: 420, cy: 500 }, { cx: 480, cy: 540 }, { cx: 380, cy: 560 }, { cx: 420, cy: 500 }] },
-  { keyframes: [{ cx: 260, cy: 420 }, { cx: 300, cy: 480 }, { cx: 240, cy: 500 }, { cx: 260, cy: 420 }] },
+// Pitch geometry inside a 1600x900 viewBox.
+// Pitch centered horizontally, framed with generous padding for HUD.
+const PITCH = {
+  x: 220,
+  y: 140,
+  w: 1160,
+  h: 620,
+  cx: 800, // center X
+  cy: 450, // center Y
+};
+
+type Player = {
+  num: number;
+  team: "A" | "B";
+  path: { cx: number; cy: number }[];
+  delay?: number;
+};
+
+// 5v5 choreographed match — smooth ease-in-out loops, ~16s cycle.
+const players: Player[] = [
+  // Team A (white) — attacking left→right
+  { num: 1, team: "A", path: [{ cx: 320, cy: 450 }, { cx: 340, cy: 420 }, { cx: 320, cy: 480 }, { cx: 320, cy: 450 }] }, // GK
+  { num: 4, team: "A", path: [{ cx: 500, cy: 320 }, { cx: 580, cy: 300 }, { cx: 540, cy: 380 }, { cx: 500, cy: 320 }], delay: 0.5 },
+  { num: 6, team: "A", path: [{ cx: 500, cy: 580 }, { cx: 560, cy: 620 }, { cx: 480, cy: 620 }, { cx: 500, cy: 580 }], delay: 1 },
+  { num: 8, team: "A", path: [{ cx: 700, cy: 400 }, { cx: 780, cy: 380 }, { cx: 740, cy: 480 }, { cx: 700, cy: 400 }], delay: 0.3 },
+  { num: 10, team: "A", path: [{ cx: 860, cy: 520 }, { cx: 940, cy: 500 }, { cx: 900, cy: 580 }, { cx: 860, cy: 520 }], delay: 0.8 },
+
+  // Team B (dark) — defending right, holding line
+  { num: 1, team: "B", path: [{ cx: 1280, cy: 450 }, { cx: 1260, cy: 420 }, { cx: 1280, cy: 480 }, { cx: 1280, cy: 450 }] }, // GK
+  { num: 4, team: "B", path: [{ cx: 1100, cy: 320 }, { cx: 1040, cy: 300 }, { cx: 1080, cy: 380 }, { cx: 1100, cy: 320 }], delay: 0.6 },
+  { num: 6, team: "B", path: [{ cx: 1100, cy: 580 }, { cx: 1040, cy: 620 }, { cx: 1120, cy: 620 }, { cx: 1100, cy: 580 }], delay: 1.2 },
+  { num: 8, team: "B", path: [{ cx: 940, cy: 380 }, { cx: 900, cy: 420 }, { cx: 960, cy: 460 }, { cx: 940, cy: 380 }], delay: 0.4 },
+  { num: 10, team: "B", path: [{ cx: 780, cy: 500 }, { cx: 720, cy: 540 }, { cx: 800, cy: 560 }, { cx: 780, cy: 500 }], delay: 0.9 },
 ];
 
-const teamB = [
-  { keyframes: [{ cx: 780, cy: 300 }, { cx: 720, cy: 340 }, { cx: 800, cy: 400 }, { cx: 780, cy: 300 }] },
-  { keyframes: [{ cx: 640, cy: 420 }, { cx: 600, cy: 380 }, { cx: 680, cy: 460 }, { cx: 640, cy: 420 }] },
-  { keyframes: [{ cx: 860, cy: 500 }, { cx: 820, cy: 560 }, { cx: 900, cy: 540 }, { cx: 860, cy: 500 }] },
-  { keyframes: [{ cx: 940, cy: 380 }, { cx: 980, cy: 440 }, { cx: 920, cy: 480 }, { cx: 940, cy: 380 }] },
-];
-
-// Ball traces a slow figure-8 around the midfield
+// Ball weaves through midfield, occasionally touches the attacking third.
 const ballPath = [
-  { cx: 600, cy: 400 },
-  { cx: 500, cy: 340 },
-  { cx: 400, cy: 420 },
-  { cx: 500, cy: 500 },
-  { cx: 600, cy: 400 },
-  { cx: 700, cy: 340 },
-  { cx: 800, cy: 420 },
-  { cx: 700, cy: 500 },
-  { cx: 600, cy: 400 },
+  { cx: 800, cy: 450 },
+  { cx: 700, cy: 380 },
+  { cx: 620, cy: 500 },
+  { cx: 740, cy: 560 },
+  { cx: 860, cy: 500 },
+  { cx: 960, cy: 400 },
+  { cx: 1080, cy: 460 },
+  { cx: 980, cy: 540 },
+  { cx: 820, cy: 500 },
+  { cx: 800, cy: 450 },
 ];
 
 function pad(n: number) {
@@ -38,116 +58,237 @@ function pad(n: number) {
 
 export default function HeroSceneOverlay() {
   // Live-ticking REC counter (visual only)
-  const [seconds, setSeconds] = useState(754); // starts around 12:34 for realism
+  const [seconds, setSeconds] = useState(2847); // ~47:27 — mid second half
   useEffect(() => {
     const id = setInterval(() => setSeconds((s) => s + 1), 1000);
     return () => clearInterval(id);
   }, []);
   const mm = pad(Math.floor(seconds / 60));
   const ss = pad(seconds % 60);
+  const matchMin = Math.floor(seconds / 60);
 
   return (
-    <div className="pointer-events-none absolute inset-0 z-[1]">
-      {/* SVG tactical scene — sits on top of the photo, semi-transparent */}
+    <div className="absolute inset-0 z-[1] overflow-hidden">
       <svg
-        viewBox="0 0 1200 800"
+        viewBox="0 0 1600 900"
         preserveAspectRatio="xMidYMid slice"
-        className="absolute inset-0 h-full w-full opacity-70"
+        className="absolute inset-0 h-full w-full"
         aria-hidden
       >
-        {/* Corner brackets (camera framing) */}
-        <g stroke="rgb(253 230 138 / 0.45)" strokeWidth="1.5" fill="none" strokeLinecap="round">
-          <path d="M40 40 L40 80 M40 40 L80 40" />
-          <path d="M1160 40 L1160 80 M1160 40 L1120 40" />
-          <path d="M40 760 L40 720 M40 760 L80 760" />
-          <path d="M1160 760 L1160 720 M1160 760 L1120 760" />
+        <defs>
+          {/* Pitch turf gradient — dark cinematic green */}
+          <radialGradient id="turf" cx="50%" cy="45%" r="70%">
+            <stop offset="0%" stopColor="#1a3a26" />
+            <stop offset="60%" stopColor="#0f2419" />
+            <stop offset="100%" stopColor="#061510" />
+          </radialGradient>
+
+          {/* Warm stadium light pools (top-left + top-right tungsten) */}
+          <radialGradient id="lightL" cx="15%" cy="0%" r="45%">
+            <stop offset="0%" stopColor="rgba(253,230,138,0.22)" />
+            <stop offset="100%" stopColor="rgba(253,230,138,0)" />
+          </radialGradient>
+          <radialGradient id="lightR" cx="85%" cy="0%" r="45%">
+            <stop offset="0%" stopColor="rgba(253,230,138,0.18)" />
+            <stop offset="100%" stopColor="rgba(253,230,138,0)" />
+          </radialGradient>
+
+          {/* Vignette darkening edges */}
+          <radialGradient id="vignette" cx="50%" cy="50%" r="75%">
+            <stop offset="60%" stopColor="rgba(10,10,10,0)" />
+            <stop offset="100%" stopColor="rgba(10,10,10,0.85)" />
+          </radialGradient>
+
+          {/* Ball halo glow */}
+          <radialGradient id="ballGlow" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stopColor="rgba(253,230,138,0.7)" />
+            <stop offset="100%" stopColor="rgba(253,230,138,0)" />
+          </radialGradient>
+
+          {/* Camera FOV cone gradient */}
+          <linearGradient id="fov" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stopColor="rgba(253,230,138,0.18)" />
+            <stop offset="100%" stopColor="rgba(253,230,138,0)" />
+          </linearGradient>
+        </defs>
+
+        {/* Base ink */}
+        <rect x="0" y="0" width="1600" height="900" fill="#0a0a0a" />
+
+        {/* Pitch */}
+        <rect x={PITCH.x} y={PITCH.y} width={PITCH.w} height={PITCH.h} rx="8" fill="url(#turf)" />
+
+        {/* Turf stripes (very subtle) */}
+        <g opacity="0.06">
+          {Array.from({ length: 10 }).map((_, i) => (
+            <rect
+              key={i}
+              x={PITCH.x + (PITCH.w / 10) * i}
+              y={PITCH.y}
+              width={PITCH.w / 10}
+              height={PITCH.h}
+              fill={i % 2 === 0 ? "#ffffff" : "transparent"}
+            />
+          ))}
         </g>
 
-        {/* Subtle scan grid */}
-        <g stroke="rgba(255,255,255,0.04)" strokeWidth="1">
-          {Array.from({ length: 11 }).map((_, i) => (
-            <line key={`v${i}`} x1={100 + i * 100} y1="120" x2={100 + i * 100} y2="680" />
-          ))}
-          {Array.from({ length: 6 }).map((_, i) => (
-            <line key={`h${i}`} x1="80" y1={140 + i * 100} x2="1120" y2={140 + i * 100} />
+        {/* Field lines */}
+        <g stroke="rgba(255,255,255,0.22)" strokeWidth="2" fill="none">
+          {/* Outer boundary */}
+          <rect x={PITCH.x} y={PITCH.y} width={PITCH.w} height={PITCH.h} rx="4" />
+          {/* Center line */}
+          <line x1={PITCH.cx} y1={PITCH.y} x2={PITCH.cx} y2={PITCH.y + PITCH.h} />
+          {/* Center circle + spot */}
+          <circle cx={PITCH.cx} cy={PITCH.cy} r="70" />
+          <circle cx={PITCH.cx} cy={PITCH.cy} r="3" fill="rgba(255,255,255,0.3)" stroke="none" />
+          {/* Left penalty area */}
+          <rect x={PITCH.x} y={PITCH.cy - 130} width="160" height="260" />
+          <rect x={PITCH.x} y={PITCH.cy - 60} width="60" height="120" />
+          <circle cx={PITCH.x + 110} cy={PITCH.cy} r="3" fill="rgba(255,255,255,0.3)" stroke="none" />
+          {/* Right penalty area */}
+          <rect x={PITCH.x + PITCH.w - 160} y={PITCH.cy - 130} width="160" height="260" />
+          <rect x={PITCH.x + PITCH.w - 60} y={PITCH.cy - 60} width="60" height="120" />
+          <circle cx={PITCH.x + PITCH.w - 110} cy={PITCH.cy} r="3" fill="rgba(255,255,255,0.3)" stroke="none" />
+          {/* Goals (small posts) */}
+          <line x1={PITCH.x - 12} y1={PITCH.cy - 40} x2={PITCH.x} y2={PITCH.cy - 40} />
+          <line x1={PITCH.x - 12} y1={PITCH.cy + 40} x2={PITCH.x} y2={PITCH.cy + 40} />
+          <line x1={PITCH.x + PITCH.w} y1={PITCH.cy - 40} x2={PITCH.x + PITCH.w + 12} y2={PITCH.cy - 40} />
+          <line x1={PITCH.x + PITCH.w} y1={PITCH.cy + 40} x2={PITCH.x + PITCH.w + 12} y2={PITCH.cy + 40} />
+        </g>
+
+        {/* Camera FOV cone — REPLASH camera position marker */}
+        <g transform={`translate(${PITCH.cx}, ${PITCH.y - 90})`}>
+          <polygon
+            points={`0,0 ${-PITCH.w / 2 + 40},${PITCH.h + 90} ${PITCH.w / 2 - 40},${PITCH.h + 90}`}
+            fill="url(#fov)"
+            opacity="0.6"
+          />
+          {/* Camera body */}
+          <g transform="translate(-16, -14)">
+            <rect width="32" height="24" rx="4" fill="#1a1a1a" stroke="rgba(253,230,138,0.55)" strokeWidth="1.2" />
+            <circle cx="16" cy="12" r="6" fill="#0a0a0a" stroke="rgba(253,230,138,0.7)" strokeWidth="1.2" />
+            <circle cx="16" cy="12" r="2.5" fill="rgba(253,230,138,0.85)" />
+            <motion.circle
+              cx="26" cy="5" r="2"
+              fill="#ef4444"
+              animate={{ opacity: [1, 0.2, 1] }}
+              transition={{ duration: 1.4, repeat: Infinity, ease: "easeInOut" }}
+            />
+          </g>
+        </g>
+
+        {/* Player trails (soft glow under each player) */}
+        <g style={{ mixBlendMode: "screen" }}>
+          {players.map((p, i) => (
+            <motion.circle
+              key={`trail-${i}`}
+              r="16"
+              fill={p.team === "A" ? "rgba(253,230,138,0.14)" : "rgba(253,230,138,0.09)"}
+              initial={p.path[0]}
+              animate={{
+                cx: p.path.map((k) => k.cx),
+                cy: p.path.map((k) => k.cy),
+              }}
+              transition={{
+                duration: 16,
+                repeat: Infinity,
+                ease: "easeInOut",
+                delay: p.delay ?? 0,
+              }}
+            />
           ))}
         </g>
 
-        {/* Player trails (very subtle glow disks under each player) */}
-        {[...teamA, ...teamB].map((p, i) => (
-          <motion.circle
-            key={`trail-${i}`}
-            r="14"
-            fill="rgba(253,230,138,0.08)"
-            initial={p.keyframes[0]}
+        {/* Players */}
+        {players.map((p) => (
+          <motion.g
+            key={`p-${p.team}-${p.num}`}
+            initial={{ x: p.path[0].cx, y: p.path[0].cy }}
             animate={{
-              cx: p.keyframes.map((k) => k.cx),
-              cy: p.keyframes.map((k) => k.cy),
+              x: p.path.map((k) => k.cx),
+              y: p.path.map((k) => k.cy),
             }}
-            transition={{ duration: 14, repeat: Infinity, ease: "easeInOut" }}
-          />
+            transition={{
+              duration: 16,
+              repeat: Infinity,
+              ease: "easeInOut",
+              delay: p.delay ?? 0,
+            }}
+          >
+            <circle
+              r="9"
+              fill={p.team === "A" ? "#ffffff" : "#111214"}
+              stroke={p.team === "A" ? "rgba(253,230,138,0.55)" : "rgba(255,255,255,0.35)"}
+              strokeWidth="1.2"
+            />
+            <text
+              x="0"
+              y="0"
+              textAnchor="middle"
+              dominantBaseline="central"
+              fontFamily="ui-monospace, SFMono-Regular, Menlo, monospace"
+              fontSize="9"
+              fontWeight="700"
+              fill={p.team === "A" ? "#0a0a0a" : "#ffffff"}
+            >
+              {p.num}
+            </text>
+          </motion.g>
         ))}
 
-        {/* Team A players (white) */}
-        {teamA.map((p, i) => (
-          <motion.circle
-            key={`a-${i}`}
-            r="5"
-            fill="rgba(255,255,255,0.95)"
-            stroke="rgba(255,255,255,0.6)"
-            strokeWidth="1"
-            initial={p.keyframes[0]}
-            animate={{
-              cx: p.keyframes.map((k) => k.cx),
-              cy: p.keyframes.map((k) => k.cy),
-            }}
-            transition={{ duration: 14, repeat: Infinity, ease: "easeInOut" }}
-          />
-        ))}
-
-        {/* Team B players (dark) */}
-        {teamB.map((p, i) => (
-          <motion.circle
-            key={`b-${i}`}
-            r="5"
-            fill="rgba(10,10,10,0.95)"
-            stroke="rgba(255,255,255,0.6)"
-            strokeWidth="1"
-            initial={p.keyframes[0]}
-            animate={{
-              cx: p.keyframes.map((k) => k.cx),
-              cy: p.keyframes.map((k) => k.cy),
-            }}
-            transition={{ duration: 14, repeat: Infinity, ease: "easeInOut" }}
-          />
-        ))}
-
-        {/* Ball — yellow accent, traces a figure-8 */}
+        {/* Ball with halo */}
         <motion.circle
-          r="4"
+          r="22"
+          fill="url(#ballGlow)"
+          initial={ballPath[0]}
+          animate={{ cx: ballPath.map((p) => p.cx), cy: ballPath.map((p) => p.cy) }}
+          transition={{ duration: 12, repeat: Infinity, ease: "easeInOut" }}
+        />
+        <motion.circle
+          r="5"
           fill="rgb(253 230 138)"
+          stroke="rgba(0,0,0,0.4)"
+          strokeWidth="0.8"
           initial={ballPath[0]}
-          animate={{
-            cx: ballPath.map((p) => p.cx),
-            cy: ballPath.map((p) => p.cy),
-          }}
-          transition={{ duration: 10, repeat: Infinity, ease: "linear" }}
+          animate={{ cx: ballPath.map((p) => p.cx), cy: ballPath.map((p) => p.cy) }}
+          transition={{ duration: 12, repeat: Infinity, ease: "easeInOut" }}
         />
-        {/* Ball halo */}
-        <motion.circle
-          r="10"
-          fill="rgba(253,230,138,0.2)"
-          initial={ballPath[0]}
-          animate={{
-            cx: ballPath.map((p) => p.cx),
-            cy: ballPath.map((p) => p.cy),
-          }}
-          transition={{ duration: 10, repeat: Infinity, ease: "linear" }}
+
+        {/* Slow horizontal scan sweep — subtle broadcast/monitor feel */}
+        <motion.rect
+          x="0"
+          y="0"
+          width="140"
+          height="900"
+          fill="url(#lightL)"
+          opacity="0.35"
+          animate={{ x: [-140, 1600] }}
+          transition={{ duration: 9, repeat: Infinity, ease: "linear", delay: 2 }}
         />
+
+        {/* Stadium light pools + vignette (topmost visual layer) */}
+        <rect x="0" y="0" width="1600" height="900" fill="url(#lightL)" opacity="0.9" />
+        <rect x="0" y="0" width="1600" height="900" fill="url(#lightR)" opacity="0.9" />
+        <rect x="0" y="0" width="1600" height="900" fill="url(#vignette)" />
+
+        {/* Corner brackets — pulled well inside, larger, tick marks */}
+        <g stroke="rgba(253,230,138,0.55)" strokeWidth="1.6" fill="none" strokeLinecap="round">
+          <path d="M60 60 L60 100 M60 60 L100 60" />
+          <path d="M1540 60 L1540 100 M1540 60 L1500 60" />
+          <path d="M60 840 L60 800 M60 840 L100 840" />
+          <path d="M1540 840 L1540 800 M1540 840 L1500 840" />
+          {/* Center reticle marks (edges of frame) */}
+          <line x1="798" y1="30" x2="802" y2="30" strokeWidth="2" />
+          <line x1="798" y1="870" x2="802" y2="870" strokeWidth="2" />
+          <line x1="30" y1="448" x2="30" y2="452" strokeWidth="2" />
+          <line x1="1570" y1="448" x2="1570" y2="452" strokeWidth="2" />
+        </g>
       </svg>
 
-      {/* HUD: camera label + REC counter (top corners) */}
-      <div className="absolute left-6 top-6 flex items-center gap-2 rounded-md border border-white/10 bg-black/40 px-3 py-1.5 font-mono text-[10px] uppercase tracking-widest text-white/70 backdrop-blur-sm md:left-10 md:top-10">
+      {/* HUD chips — safely inset, high-contrast, monospace */}
+
+      {/* Top-left: camera label */}
+      <div className="pointer-events-none absolute left-6 top-24 flex items-center gap-2 rounded-md border border-white/10 bg-black/50 px-3 py-1.5 font-mono text-[10px] uppercase tracking-widest text-white/75 backdrop-blur-sm md:left-14 md:top-28">
         <svg className="h-3 w-3 text-accent" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round">
           <path d="M23 7l-7 5 7 5V7z" />
           <rect x="1" y="5" width="15" height="14" rx="2" />
@@ -155,21 +296,39 @@ export default function HeroSceneOverlay() {
         Replash Cam 01 · Pitch View
       </div>
 
-      <div className="absolute right-6 top-6 flex items-center gap-2 rounded-md border border-white/10 bg-black/40 px-3 py-1.5 font-mono text-[10px] uppercase tracking-widest text-white/85 backdrop-blur-sm md:right-10 md:top-10">
-        <motion.span
-          className="inline-block h-1.5 w-1.5 rounded-full bg-red-500"
-          animate={{ opacity: [1, 0.2, 1] }}
-          transition={{ duration: 1.4, repeat: Infinity, ease: "easeInOut" }}
-        />
-        REC 00:{mm}:{ss}
+      {/* Top-right: LIVE + REC counter */}
+      <div className="pointer-events-none absolute right-6 top-24 flex items-center gap-3 md:right-14 md:top-28">
+        <div className="flex items-center gap-1.5 rounded-md border border-red-500/40 bg-red-500/15 px-2.5 py-1 font-mono text-[10px] uppercase tracking-widest text-red-300 backdrop-blur-sm">
+          <motion.span
+            className="inline-block h-1.5 w-1.5 rounded-full bg-red-500"
+            animate={{ opacity: [1, 0.2, 1] }}
+            transition={{ duration: 1.4, repeat: Infinity, ease: "easeInOut" }}
+          />
+          Live
+        </div>
+        <div className="rounded-md border border-white/10 bg-black/50 px-3 py-1.5 font-mono text-[10px] uppercase tracking-widest text-white/85 backdrop-blur-sm">
+          Rec 00:{mm}:{ss}
+        </div>
       </div>
 
-      {/* Bottom coord/status line — very small, adds broadcast feel */}
-      <div className="absolute bottom-6 left-6 hidden font-mono text-[10px] uppercase tracking-widest text-white/45 md:bottom-8 md:left-10 md:block">
-        Auto-record · PoE · 1080p50 · Buffered
+      {/* Bottom-left: scoreboard (match minute + fake score) */}
+      <div className="pointer-events-none absolute bottom-24 left-6 hidden items-stretch gap-0 rounded-md border border-white/10 bg-black/55 font-mono text-white/85 backdrop-blur-sm md:bottom-24 md:left-14 md:flex">
+        <div className="flex items-center gap-2 border-r border-white/10 px-3 py-2 text-[10px] uppercase tracking-widest text-white/60">
+          <span className="inline-block h-1.5 w-1.5 rounded-full bg-accent" />
+          Min {matchMin}&apos;
+        </div>
+        <div className="flex items-center gap-2 px-3 py-2 text-xs font-bold">
+          <span className="text-white">A</span>
+          <span className="text-accent">2</span>
+          <span className="text-white/40">–</span>
+          <span className="text-accent">1</span>
+          <span className="text-white">B</span>
+        </div>
       </div>
-      <div className="absolute bottom-6 right-6 hidden font-mono text-[10px] uppercase tracking-widest text-white/45 md:bottom-8 md:right-10 md:block">
-        LAT 45.4642° · LON 9.1900°
+
+      {/* Bottom-right: stream tech line */}
+      <div className="pointer-events-none absolute bottom-24 right-6 hidden font-mono text-[10px] uppercase tracking-widest text-white/50 md:bottom-24 md:right-14 md:block">
+        Auto-record · PoE · 1080p50 · Buffered
       </div>
     </div>
   );

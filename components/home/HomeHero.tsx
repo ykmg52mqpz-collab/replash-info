@@ -35,20 +35,12 @@ export default function HomeHero() {
       ref={sectionRef}
       className="relative overflow-hidden bg-ink-900 pt-[26rem] pb-24 md:pt-[34rem] md:pb-36"
     >
-      {/* Background image — friends watching match highlights after the game */}
+      {/* Tactical scene — REPLASH camera view of a live match (replaces the photo) */}
       <motion.div className="absolute inset-0 will-change-transform" style={parallaxBg} aria-hidden>
-        <img
-          src="/images/gen_hero_friends.jpg"
-          alt=""
-          className="h-full w-full object-cover"
-          style={{ opacity: 0.75, objectPosition: "center 35%" }}
-        />
-        <div className="absolute inset-0 bg-gradient-to-b from-ink-900/55 via-ink-900/55 to-ink-900/95" />
-        <div className="absolute inset-0 bg-gradient-to-r from-ink-900/40 via-transparent to-ink-900/40" />
+        <HeroSceneOverlay />
+        {/* Soft bottom fade to blend into the page */}
+        <div className="absolute inset-x-0 bottom-0 h-64 bg-gradient-to-b from-transparent to-ink-900" />
       </motion.div>
-
-      {/* Tactical HUD overlay — REPLASH camera view of the pitch */}
-      <HeroSceneOverlay />
 
       {/* Glow orb */}
       <div
