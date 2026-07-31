@@ -59,8 +59,8 @@
     },
     "findPreview": {
       "eyebrow": "Find Your Match",
-      "title": "Three fields. Thirty seconds. Your game.",
-      "desc": "No app download needed. No account needed. No password needed. Players walk off the pitch, scan a QR or visit the site, and watch their match in under 30 seconds.",
+      "title": "Three fields. Your match.",
+      "desc": "No app download needed. No account needed. No password needed. Players walk off the pitch, scan a QR or visit the site, and watch their match.",
       "fields": {
         "facility": "Facility",
         "date": "Date",
@@ -167,7 +167,7 @@
   "find": {
     "hero": {
       "eyebrow": "Find Your Match",
-      "title": "Watch your match in under 30 seconds.",
+      "title": "Watch your match.",
       "subtitle": "Just three fields — facility, date, time slot — and you're watching the game."
     },
     "form": {
@@ -251,7 +251,7 @@
       "5": {
         "label": "Step 5",
         "title": "Player Finds the Match",
-        "desc": "Players visit replash.eu, enter the three fields (facility, date, time slot), and watch in under 30 seconds.",
+        "desc": "Players visit replash.eu, enter the three fields (facility, date, time slot), and watch.",
         "marco": {
           "time": "20:08",
           "example": "Marco visits replash.eu on his phone. He picks Example Padel Club, today's date, and 19:00–20:00. The system checks all 4 conditions match. And his match plays on his phone instantly."
@@ -575,7 +575,7 @@
     "watch": {
       "eyebrow": "Watch Your Game",
       "title": "Your full match, available after the final whistle.",
-      "desc": "After your match is complete and access is activated, you can watch the entire recording through a simple web link or QR code. No app download needed. No account needed. Just your game, ready to watch in under 30 seconds."
+      "desc": "After your match is complete and access is activated, you can watch the entire recording through a simple web link or QR code. No app download needed. No account needed. Just your game, ready to watch."
     },
     "clipping": {
       "eyebrow": "Clip the Best Moments",

@@ -59,8 +59,8 @@
     },
     "findPreview": {
       "eyebrow": "Encuentra Tu Partido",
-      "title": "Tres campos. Treinta segundos. Tu partido.",
-      "desc": "No hace falta descargar app. No hace falta cuenta. No hace falta contraseña. Los jugadores salen del campo, escanean un QR o visitan el sitio y ven su partido en menos de 30 segundos.",
+      "title": "Tres campos. Tu partido.",
+      "desc": "No hace falta descargar app. No hace falta cuenta. No hace falta contraseña. Los jugadores salen del campo, escanean un QR o visitan el sitio y ven su partido.",
       "fields": {
         "facility": "Centro",
         "date": "Fecha",
@@ -167,7 +167,7 @@
   "find": {
     "hero": {
       "eyebrow": "Encuentra Tu Partido",
-      "title": "Mira tu partido en menos de 30 segundos.",
+      "title": "Mira tu partido.",
       "subtitle": "Solo tres campos — centro, fecha, franja horaria — y estás viendo el partido."
     },
     "form": {
@@ -251,7 +251,7 @@
       "5": {
         "label": "Paso 5",
         "title": "El Jugador Encuentra el Partido",
-        "desc": "Los jugadores visitan replash.eu, introducen los tres campos (centro, fecha, franja horaria) y miran en menos de 30 segundos.",
+        "desc": "Los jugadores visitan replash.eu, introducen los tres campos (centro, fecha, franja horaria) y miran.",
         "marco": {
           "time": "20:08",
           "example": "Marco visita replash.eu desde su móvil. Elige Example Padel Club, la fecha de hoy y 19:00–20:00. El sistema verifica que las 4 condiciones coincidan. Y su partido se reproduce en su móvil al instante."
@@ -575,7 +575,7 @@
     "watch": {
       "eyebrow": "Mira Tu Partido",
       "title": "Tu partido completo, disponible después del pitido final.",
-      "desc": "Después de que tu partido termine y se active el acceso, puedes ver toda la grabación a través de un simple enlace web o código QR. No hace falta descargar app. No hace falta cuenta. Solo tu partido, listo para verlo en menos de 30 segundos."
+      "desc": "Después de que tu partido termine y se active el acceso, puedes ver toda la grabación a través de un simple enlace web o código QR. No hace falta descargar app. No hace falta cuenta. Solo tu partido, listo para verlo."
     },
     "clipping": {
       "eyebrow": "Recorta los Mejores Momentos",

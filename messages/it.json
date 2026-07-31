@@ -59,8 +59,8 @@
     },
     "findPreview": {
       "eyebrow": "Trova la Tua Partita",
-      "title": "Tre campi. Trenta secondi. La tua partita.",
-      "desc": "Nessuna app da scaricare richiesta. Nessun account richiesto. Nessuna password richiesta. I giocatori escono dal campo, scansionano un QR o visitano il sito, e guardano la partita in meno di 30 secondi.",
+      "title": "Tre campi. La tua partita.",
+      "desc": "Nessuna app da scaricare richiesta. Nessun account richiesto. Nessuna password richiesta. I giocatori escono dal campo, scansionano un QR o visitano il sito, e guardano la partita.",
       "fields": {
         "facility": "Centro",
         "date": "Data",
@@ -167,7 +167,7 @@
   "find": {
     "hero": {
       "eyebrow": "Trova la Tua Partita",
-      "title": "Guarda la tua partita in meno di 30 secondi.",
+      "title": "Guarda la tua partita.",
       "subtitle": "Solo tre campi — centro, data, slot orario — e stai già guardando la partita."
     },
     "form": {
@@ -251,7 +251,7 @@
       "5": {
         "label": "Passo 5",
         "title": "Il Giocatore Trova la Partita",
-        "desc": "I giocatori visitano replash.eu, inseriscono i tre campi (centro, data, slot orario) e guardano in meno di 30 secondi.",
+        "desc": "I giocatori visitano replash.eu, inseriscono i tre campi (centro, data, slot orario) e guardano.",
         "marco": {
           "time": "20:08",
           "example": "Marco visita replash.eu dal telefono. Sceglie Example Padel Club, la data di oggi e 19:00–20:00. Il sistema controlla che tutte e 4 le condizioni corrispondano. E la sua partita parte sul telefono all'istante."
@@ -575,7 +575,7 @@
     "watch": {
       "eyebrow": "Guarda la Tua Partita",
       "title": "La tua partita completa, disponibile dopo il fischio finale.",
-      "desc": "Dopo che la partita è terminata e l'accesso è attivato, puoi guardare l'intera registrazione tramite un semplice link web o QR code. Nessuna app da scaricare richiesta. Nessun account da creare richiesto. Solo la tua partita, pronta da guardare in meno di 30 secondi."
+      "desc": "Dopo che la partita è terminata e l'accesso è attivato, puoi guardare l'intera registrazione tramite un semplice link web o QR code. Nessuna app da scaricare richiesta. Nessun account da creare richiesto. Solo la tua partita, pronta da guardare."
     },
     "clipping": {
       "eyebrow": "Ritaglia i Momenti Migliori",

@@ -59,8 +59,8 @@
     },
     "findPreview": {
       "eyebrow": "Maçını Bul",
-      "title": "Üç alan. Otuz saniye. Maçınız.",
-      "desc": "Uygulama indirilmesi gerekmez. Hesap gerekmez. Şifre gerekmez. Oyuncular sahadan ayrılır, QR'ı okutur veya siteyi ziyaret eder ve maçlarını 30 saniyenin altında izler.",
+      "title": "Üç alan. Maçınız.",
+      "desc": "Uygulama indirilmesi gerekmez. Hesap gerekmez. Şifre gerekmez. Oyuncular sahadan ayrılır, QR'ı okutur veya siteyi ziyaret eder ve maçlarını izler.",
       "fields": {
         "facility": "Saha",
         "date": "Tarih",
@@ -167,7 +167,7 @@
   "find": {
     "hero": {
       "eyebrow": "Maçını Bul",
-      "title": "Maçınızı 30 saniyenin altında izleyin.",
+      "title": "Maçınızı izleyin.",
       "subtitle": "Sadece üç alan — saha, tarih, saat slotu — ve maçı izliyorsunuz."
     },
     "form": {
@@ -251,7 +251,7 @@
       "5": {
         "label": "Adım 5",
         "title": "Oyuncu Maçı Bulur",
-        "desc": "Oyuncular replash.eu'u ziyaret eder, üç alanı (saha, tarih, slot) doldurur ve 30 saniyenin altında izler.",
+        "desc": "Oyuncular replash.eu'u ziyaret eder, üç alanı (saha, tarih, slot) doldurur ve izler.",
         "marco": {
           "time": "20:08",
           "example": "Marco telefonundan replash.eu'u ziyaret eder. Example Padel Club, bugünün tarihi ve 19:00–20:00'yi seçer. Sistem 4 koşulun da eşleştiğini kontrol eder. Ve maç anında telefonunda oynamaya başlar."
@@ -575,7 +575,7 @@
     "watch": {
       "eyebrow": "Maçınızı İzleyin",
       "title": "Maçınızın tamamı, son düdükten sonra hazır.",
-      "desc": "Maçınız bittikten ve erişim aktive edildikten sonra, kayıtın tamamını basit bir web bağlantısı veya QR kod üzerinden izleyebilirsiniz. Uygulama indirilmesi gerekmez. Hesap gerekmez. Sadece maçınız, 30 saniyenin altında izlemeye hazır."
+      "desc": "Maçınız bittikten ve erişim aktive edildikten sonra, kayıtın tamamını basit bir web bağlantısı veya QR kod üzerinden izleyebilirsiniz. Uygulama indirilmesi gerekmez. Hesap gerekmez. Sadece maçınız, izlemeye hazır."
     },
     "clipping": {
       "eyebrow": "En İyi Anları Kesin",
