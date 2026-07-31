@@ -42,6 +42,17 @@ export default function HomeHero() {
         <div className="absolute inset-x-0 bottom-0 h-64 bg-gradient-to-b from-transparent to-ink-900" />
       </motion.div>
 
+      {/* Readability layer — darkens the scene enough for the title/CTAs to POP.
+          Strongest in the vertical band where the text sits, fading toward the edges. */}
+      <div
+        className="pointer-events-none absolute inset-0"
+        aria-hidden
+        style={{
+          background:
+            "radial-gradient(ellipse 70% 55% at 50% 62%, rgba(10,10,10,0.85) 0%, rgba(10,10,10,0.55) 45%, rgba(10,10,10,0.15) 80%, rgba(10,10,10,0) 100%)",
+        }}
+      />
+
       {/* Glow orb */}
       <div
         className="pointer-events-none absolute -top-60 left-1/2 h-[600px] w-[600px] -translate-x-1/2 rounded-full"
