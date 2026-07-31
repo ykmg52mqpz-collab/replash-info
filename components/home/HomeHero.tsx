@@ -4,6 +4,7 @@ import { useRef } from "react";
 import { motion, useScroll, useTransform, useReducedMotion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
+import HeroSceneOverlay from "./HeroSceneOverlay";
 
 export default function HomeHero() {
   const t = useTranslations("home.hero");
@@ -46,6 +47,9 @@ export default function HomeHero() {
         <div className="absolute inset-0 bg-gradient-to-r from-ink-900/40 via-transparent to-ink-900/40" />
       </motion.div>
 
+      {/* Tactical HUD overlay — REPLASH camera view of the pitch */}
+      <HeroSceneOverlay />
+
       {/* Glow orb */}
       <div
         className="pointer-events-none absolute -top-60 left-1/2 h-[600px] w-[600px] -translate-x-1/2 rounded-full"
@@ -54,7 +58,7 @@ export default function HomeHero() {
       />
       <div className="absolute inset-0 grid-noise opacity-10" aria-hidden />
 
-      <div className="container-x relative">
+      <div className="container-x relative z-10">
         <motion.div
           style={parallaxText}
           className="mx-auto max-w-4xl text-center will-change-transform"
