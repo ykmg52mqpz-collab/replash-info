@@ -154,7 +154,7 @@
         "1": "Le telecamere riprendono solo l'area di gioco. Mai spogliatoi o ingressi",
         "2": "Nessuna registrazione audio. Nessun riconoscimento facciale. Mai.",
         "3": "I video sono privati. Accessibili solo con la giusta combinazione di centro + data + orario + stato UNLOCKABLE",
-        "4": "Tutte le riprese vengono eliminate automaticamente dopo 30 giorni",
+        "4": "Tutte le riprese vengono eliminate automaticamente dopo 7 giorni",
         "5": "Pienamente conforme al GDPR, CEDU Art. 8 e regolamenti del Garante italiano",
         "6": "Segnaletica chiara e accordi sul trattamento dei dati forniti prima dell'installazione"
       }
@@ -284,8 +284,8 @@
           "desc": "Ogni registrazione automaticamente ritagliata e taggata per slot di prenotazione per un accesso preciso."
         },
         "4": {
-          "title": "Conservazione 30 Giorni",
-          "desc": "Tutte le riprese eliminate automaticamente dopo 30 giorni. Archiviazione pulita, privacy intatta."
+          "title": "Conservazione 7 Giorni",
+          "desc": "Tutte le riprese eliminate automaticamente dopo 7 giorni. Archiviazione pulita, privacy intatta."
         },
         "5": {
           "title": "Connettività Resiliente",
@@ -471,10 +471,10 @@
       "items": {
         "gdpr": {
           "question": "E il GDPR?",
-          "answer": "L'architettura privacy di REPLASH è conforme a GDPR, CEDU Art. 8 e linee guida del Garante italiano. Le telecamere riprendono solo l'area di gioco. Nessun audio, nessun riconoscimento facciale. I video sono inaccessibili pubblicamente, legati allo slot orario e auto-eliminati dopo 30 giorni. Base legale: legittimo interesse (Art. 6/1-f) e necessità contrattuale (Art. 6/1-b). Modello di notifica a tre livelli (segnaletica + QR + notifica prenotazione) pronto prima dell'installazione.",
+          "answer": "L'architettura privacy di REPLASH è conforme a GDPR, CEDU Art. 8 e linee guida del Garante italiano. Le telecamere riprendono solo l'area di gioco. Nessun audio, nessun riconoscimento facciale. I video sono inaccessibili pubblicamente, legati allo slot orario e auto-eliminati dopo 7 giorni. Base legale: legittimo interesse (Art. 6/1-f) e necessità contrattuale (Art. 6/1-b). Modello di notifica a tre livelli (segnaletica + QR + notifica prenotazione) pronto prima dell'installazione.",
           "items": {
             "1": "Niente audio. Niente riconoscimento facciale.",
-            "2": "Auto-eliminazione dopo 30 giorni.",
+            "2": "Auto-eliminazione dopo 7 giorni.",
             "3": "Conforme a GDPR / CEDU Art. 8 / Garante.",
             "4": "File Privacy & Legal Justification consegnato in anticipo."
           }
@@ -516,7 +516,7 @@
       "items": {
         "1": {
           "title": "Fornire Accesso per l'Installazione",
-          "desc": "Permettere al team REPLASH di installare le telecamere su ogni campo. Un processo unico che richiede mezza giornata."
+          "desc": "Permettere al team REPLASH di installare le telecamere su ogni campo o pista. Un processo unico che richiede un giorno."
         },
         "2": {
           "title": "Supportare la Connessione Internet",
@@ -782,15 +782,15 @@
     "items": {
       "1": {
         "q": "Cosa viene installato esattamente nel mio centro?",
-        "a": "Telecamere PoE fisse grandangolari su ogni campo. Di solito montate sul soffitto o su una parete alta. L'installazione richiede mezza giornata e non interrompe le operazioni. Tutti i cavi vengono nascosti. Il team REPLASH gestisce tutto, dal montaggio alla rete."
+        "a": "Telecamere PoE fisse grandangolari. Nei campi da padel, montate sul soffitto o su una parete alta; nei campi da calcio, montate sui pali agli angoli attorno al campo. L'installazione richiede un giorno e non interrompe le operazioni. Tutti i cavi vengono nascosti. Il team REPLASH gestisce tutto, dal montaggio alla rete."
       },
       "2": {
         "q": "Ci sono costi anticipati o vincoli contrattuali?",
-        "a": "No. REPLASH copre il 100% del costo. Telecamere, installazione, manutenzione, aggiornamenti software. Nessun canone mensile, nessun impegno minimo, nessun vincolo. Puoi interrompere la collaborazione in qualsiasi momento."
+        "a": "No. REPLASH copre il 100% del costo. Telecamere, installazione, manutenzione, aggiornamenti software. Nessun canone mensile, nessun impegno minimo. Per tutta la durata del contratto, il tuo centro riceve la stessa quota di ricavi concordata ogni mese."
       },
       "3": {
         "q": "Come funziona la divisione dei ricavi con il centro?",
-        "a": "Alla fine di ogni mese, tutti i video sbloccati vengono tracciati dal pannello di amministrazione. Il centro concordato trattiene il 15% dei ricavi totali generati da quei video, e l'importo rimanente viene richiesto sul conto di REPLASH. Tutto viene riconciliato automaticamente dal pannello. Con zero costi operativi da parte tua."
+        "a": "Alla fine di ogni mese, tutti i video sbloccati vengono tracciati dal pannello di amministrazione. La quota definita nel tuo contratto viene liquidata automaticamente al tuo centro, e l'importo rimanente va sul conto di REPLASH. Più i tuoi campi sono attivi, più il tuo centro guadagna — ogni nuova partita è un ricavo aggiuntivo. Tutto viene riconciliato automaticamente dal pannello. Con zero costi operativi da parte tua."
       },
       "4": {
         "q": "Il mio staff deve fare qualcosa per ogni partita?",
@@ -802,7 +802,7 @@
       },
       "6": {
         "q": "Quanto velocemente possiamo iniziare?",
-        "a": "Dopo l'approvazione della candidatura (di solito entro 48 ore), pianifichiamo l'installazione in un momento che ti fa comodo. La maggior parte dei centri è operativa entro 3 settimane dal primo contatto."
+        "a": "Dopo l'approvazione della candidatura (di solito entro 3 giorni), pianifichiamo l'installazione in un momento che ti fa comodo. La maggior parte dei centri è operativa entro 3 settimane dal primo contatto."
       },
       "7": {
         "q": "I giocatori devono creare un account per guardare la partita?",
@@ -822,7 +822,7 @@
       },
       "11": {
         "q": "Per quanto tempo vengono conservate le registrazioni?",
-        "a": "30 giorni. Dopo, tutte le riprese vengono eliminate automaticamente. Le partite non acquistate vengono eliminate poco dopo la fine dello slot orario. Solo le partite marcate UNLOCKABLE vengono conservate."
+        "a": "7 giorni. Dopo, tutte le riprese vengono eliminate automaticamente. Le partite non acquistate vengono eliminate poco dopo la fine dello slot orario. Solo le partite marcate UNLOCKABLE vengono conservate."
       },
       "12": {
         "q": "E se non abbiamo una connessione WiFi forte?",

@@ -29,30 +29,10 @@ const stepIcons = [
 
 export default function HowSteps() {
   const t = useTranslations("howItWorks");
-  const tIntro = useTranslations("howItWorks.marcoIntro");
 
   return (
     <section className="section-y border-t border-white/5 bg-section-gradient">
       <div className="container-x">
-        {/* Marco intro chip */}
-        <motion.div
-          initial={{ opacity: 0, y: 12 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5 }}
-          className="mx-auto mb-12 flex max-w-xl items-center gap-3 rounded-2xl border border-accent/15 bg-accent/[0.04] px-5 py-3"
-        >
-          <div className="flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-full border border-accent/30 bg-gradient-to-br from-accent/30 to-accent/10">
-            <span className="text-sm font-bold text-accent">M</span>
-          </div>
-          <div className="flex-1">
-            <div className="text-xs font-semibold text-white">
-              Following <span className="text-accent">{tIntro("name")}</span>&apos;s match
-            </div>
-            <div className="text-[11px] text-white/45">{tIntro("context")}</div>
-          </div>
-        </motion.div>
-
         {/* Steps */}
         <div className="mx-auto max-w-4xl">
           <div className="relative">

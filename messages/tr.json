@@ -154,7 +154,7 @@
         "1": "Kameralar sadece oyun alanını kaydeder. Soyunma odası, giriş yok",
         "2": "Ses kaydı yok. Yüz tanıma yok. Asla.",
         "3": "Videolar özel. Sadece doğru saha + tarih + saat + UNLOCKABLE durumu ile erişilebilir",
-        "4": "Tüm kayıtlar 30 gün sonra otomatik silinir",
+        "4": "Tüm kayıtlar 7 gün sonra otomatik silinir",
         "5": "GDPR, AİHS Madde 8 ve İtalyan Garante düzenlemelerine tamamen uyumlu",
         "6": "Kurulumdan önce açık tabela ve veri işleme anlaşmaları sağlanır"
       }
@@ -284,8 +284,8 @@
           "desc": "Her kayıt rezervasyon slotuna göre otomatik olarak kırpılır ve etiketlenir."
         },
         "4": {
-          "title": "30 Gün Saklama",
-          "desc": "Tüm kayıtlar 30 gün sonra otomatik silinir. Depolama temiz, gizlilik korunmuş."
+          "title": "7 Gün Saklama",
+          "desc": "Tüm kayıtlar 7 gün sonra otomatik silinir. Depolama temiz, gizlilik korunmuş."
         },
         "5": {
           "title": "Esnek Bağlantı",
@@ -471,10 +471,10 @@
       "items": {
         "gdpr": {
           "question": "Ya GDPR?",
-          "answer": "REPLASH'in gizlilik mimarisi GDPR, AİHS Madde 8 ve İtalyan Garante yönergelerine uygundur. Kameralar sadece oyun alanını kaydeder. Ses yok, yüz tanıma yok. Videolar tahmin edilemez, saat slotuna bağlı ve 30 gün sonra otomatik silinir. Yasal temel: meşru menfaat (Madde 6/1-f) ve sözleşmesel gereklilik (Madde 6/1-b). Üç katmanlı bildirim modeli (tabela + QR + rezervasyon bildirimi) kurulumdan önce hazır.",
+          "answer": "REPLASH'in gizlilik mimarisi GDPR, AİHS Madde 8 ve İtalyan Garante yönergelerine uygundur. Kameralar sadece oyun alanını kaydeder. Ses yok, yüz tanıma yok. Videolar tahmin edilemez, saat slotuna bağlı ve 7 gün sonra otomatik silinir. Yasal temel: meşru menfaat (Madde 6/1-f) ve sözleşmesel gereklilik (Madde 6/1-b). Üç katmanlı bildirim modeli (tabela + QR + rezervasyon bildirimi) kurulumdan önce hazır.",
           "items": {
             "1": "Ses yok. Yüz tanıma yok.",
-            "2": "30 gün sonra otomatik silme.",
+            "2": "7 gün sonra otomatik silme.",
             "3": "GDPR / AİHS Madde 8 / Garante uyumlu.",
             "4": "Gizlilik & Yasal Gerekçe dosyası önceden teslim edilir."
           }
@@ -516,7 +516,7 @@
       "items": {
         "1": {
           "title": "Kurulum İçin Erişim Sağlayın",
-          "desc": "REPLASH ekibinin her korta kamera kurmasına izin verin. Yarım gün süren tek seferlik bir süreç."
+          "desc": "REPLASH ekibinin her sahaya/korta kamera kurmasına izin verin. 1 gün süren tek seferlik bir süreç."
         },
         "2": {
           "title": "İnternet Bağlantısını Destekleyin",
@@ -782,15 +782,15 @@
     "items": {
       "1": {
         "q": "Sahama tam olarak ne kurulur?",
-        "a": "Her korta sabit PoE geniş açılı kameralar. Genellikle tavana veya yüksek bir duvara monte edilir. Kurulum yarım gün sürer ve operasyonları kesintiye uğratmaz. Tüm kablolama gizlenir. REPLASH ekibi montajdan ağ kurulumuna kadar her şeyi yönetir."
+        "a": "Sabit PoE geniş açılı kameralar. Padel kortlarında tavana veya yüksek duvara, futbol sahalarında ise sahanın etrafındaki köşe direklerine monte edilir. Kurulum 1 gün sürer ve operasyonları kesintiye uğratmaz. Tüm kablolama gizlenir. REPLASH ekibi montajdan ağ kurulumuna kadar her şeyi yönetir."
       },
       "2": {
         "q": "Başlangıç maliyeti veya sözleşme yükümlülüğü var mı?",
-        "a": "Hayır. REPLASH maliyetin %100'ünü karşılar. Kameralar, kurulum, bakım, yazılım güncellemeleri. Aylık ücret yok, minimum taahhüt yok, sözleşme kilidi yok. Ortaklığı istediğiniz zaman sonlandırabilirsiniz."
+        "a": "Hayır. REPLASH maliyetin %100'ünü karşılar. Kameralar, kurulum, bakım, yazılım güncellemeleri. Aylık ücret yok, minimum taahhüt yok. Sözleşme süresince tesis, anlaşılan yüzde payını her ay almaya devam eder."
       },
       "3": {
         "q": "REPLASH sahayla geliri nasıl paylaşır?",
-        "a": "Her ay sonunda, unlocked edilmiş tüm videolar admin panelinden takip edilir. Anlaşılan saha bu videolardan çıkan toplam ücretin %15'ini tutar, kalan ücret REPLASH hesabına talep edilir. Her şey panel üzerinden otomatik mutabakata bağlanır. Sizin tarafınızda sıfır operasyonel maliyetle."
+        "a": "Her ay sonunda, unlocked edilmiş tüm videolar admin panelinden takip edilir. Sözleşmede belirlenen pay tesise otomatik olarak ödenir, kalan ücret REPLASH hesabına aktarılır. Saha ne kadar aktif olursa, tesisin kazancı da o kadar büyür — her yeni maç ek gelir demek. Her şey panel üzerinden otomatik mutabakata bağlanır. Sizin tarafınızda sıfır operasyonel maliyetle."
       },
       "4": {
         "q": "Personelimin her maç için bir şey yapması gerekiyor mu?",
@@ -802,7 +802,7 @@
       },
       "6": {
         "q": "Ne kadar hızlı başlayabiliriz?",
-        "a": "Başvurunuz onaylandıktan sonra (genellikle 48 saat içinde), size uygun bir zamanda kurulum planlarız. Çoğu saha ilk temastan sonra 3 hafta içinde çalışmaya başlar."
+        "a": "Başvurunuz onaylandıktan sonra (genellikle 3 gün içinde), size uygun bir zamanda kurulum planlarız. Çoğu saha ilk temastan sonra 3 hafta içinde çalışmaya başlar."
       },
       "7": {
         "q": "Oyuncuların maçlarını izlemek için hesap oluşturması gerekiyor mu?",
@@ -822,7 +822,7 @@
       },
       "11": {
         "q": "Kayıtlar ne kadar saklanır?",
-        "a": "30 gün. Sonra tüm kayıtlar otomatik silinir. Satın alınmayan maçlar saat slotu bittikten kısa süre sonra silinir. Sadece UNLOCKABLE işaretli maçlar depolamada tutulur."
+        "a": "7 gün. Sonra tüm kayıtlar otomatik silinir. Satın alınmayan maçlar saat slotu bittikten kısa süre sonra silinir. Sadece UNLOCKABLE işaretli maçlar depolamada tutulur."
       },
       "12": {
         "q": "Güçlü WiFi bağlantımız yoksa?",
