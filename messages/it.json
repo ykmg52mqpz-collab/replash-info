@@ -13,20 +13,20 @@
     "hero": {
       "badge": "Per Centri Sportivi Amatoriali",
       "title": "Gioca. Registra. Rivivilo.",
-      "subtitle": "REPLASH trasforma le partite di calcio e padel amatoriale in momenti digitali condivisibili. Registrati in automatico, accessibili all'istante, pensati per i centri sportivi moderni.",
+      "subtitle": "Replash trasforma le partite di calcio e padel amatoriale in momenti digitali condivisibili. Registrati in automatico, accessibili all'istante, pensati per i centri sportivi moderni.",
       "cta": "Diventa Centro Pilota",
       "ctaSecondary": "Scopri Come Funziona"
     },
     "intro": {
       "eyebrow": "Per i Gestori di Centri Sportivi",
       "slogan": "Un nuovo flusso di ricavi ogni mese. Senza alcun costo iniziale.",
-      "tagline": "Scegli REPLASH per il tuo centro.",
+      "tagline": "Scegli Replash per il tuo centro.",
       "cta": "Parla con noi"
     },
     "twoLayer": {
       "eyebrow": "L'Opportunità a Due Livelli",
       "title": "Un problema invisibile. Una nuova abitudine.",
-      "subtitle": "REPLASH chiude un vuoto che tutti nello sport amatoriale sentono. E al tempo stesso costruisce un comportamento che si sposa con l'era dei social media.",
+      "subtitle": "Replash chiude un vuoto che tutti nello sport amatoriale sentono. E al tempo stesso costruisce un comportamento che si sposa con l'era dei social media.",
       "layer1": {
         "label": "Livello 1. Il Vuoto",
         "title": "Il 95% delle partite amatoriali non viene registrato.",
@@ -35,13 +35,13 @@
       "layer2": {
         "label": "Livello 2. L'Abitudine",
         "title": "Le persone non giocano e basta. Condividono.",
-        "desc": "I social media non sono più lo sfondo della vita. Sono in primo piano. Dopo un pasto, dopo un allenamento, dopo un'escursione. Dopo una partita? Quasi nulla. REPLASH chiude quel vuoto."
+        "desc": "I social media non sono più lo sfondo della vita. Sono in primo piano. Dopo un pasto, dopo un allenamento, dopo un'escursione. Dopo una partita? Quasi nulla. Replash chiude quel vuoto."
       }
     },
     "whatIs": {
-      "eyebrow": "Cos'è REPLASH?",
+      "eyebrow": "Cos'è Replash?",
       "title": "Registrazione automatica delle partite per i centri sportivi.",
-      "description": "REPLASH è una piattaforma di registrazione e accesso automatico alle partite per i centri sportivi amatoriali. Registra le partite, le organizza per sede, data e orario, e permette ai giocatori di trovare la propria partita facilmente tramite un QR code o link web. Senza alcun intervento manuale del tuo staff.",
+      "description": "Replash è una piattaforma di registrazione e accesso automatico alle partite per i centri sportivi amatoriali. Registra le partite, le organizza per sede, data e orario, e permette ai giocatori di trovare la propria partita facilmente tramite un QR code o link web. Senza alcun intervento manuale del tuo staff.",
       "items": {
         "1": {
           "title": "Registrazione Automatica",
@@ -73,7 +73,7 @@
       "tryIt": "Prova la demo"
     },
     "whyFacilities": {
-      "eyebrow": "Perché i Centri Scelgono REPLASH",
+      "eyebrow": "Perché i Centri Scelgono Replash",
       "title": "I centri non vendono solo tempo sul campo. Vendono l'esperienza intorno alla partita.",
       "items": {
         "1": {
@@ -94,7 +94,7 @@
         },
         "5": {
           "title": "Zero Complessità",
-          "desc": "REPLASH gestisce telecamere, archiviazione e consegna. Il tuo team compie una sola azione semplice per ogni vendita."
+          "desc": "Replash gestisce telecamere, archiviazione e consegna. Il tuo team compie una sola azione semplice per ogni vendita."
         },
         "6": {
           "title": "Brand Moderno",
@@ -112,11 +112,11 @@
         },
         "2": {
           "title": "Ritagliano i Momenti Migliori",
-          "desc": "Tagliano highlights di 10–45 secondi direttamente in REPLASH. Un gol, uno scambio, un'esultanza. Download immediato sul telefono."
+          "desc": "Tagliano highlights di 10–45 secondi direttamente in Replash. Un gol, uno scambio, un'esultanza. Download immediato sul telefono."
         },
         "3": {
           "title": "Condividono sui Social",
-          "desc": "Condividono la clip direttamente sulle piattaforme social media. Nessun profilo REPLASH. Il giocatore possiede ogni condivisione."
+          "desc": "Condividono la clip direttamente sulle piattaforme social media. Nessun profilo Replash. Il giocatore possiede ogni condivisione."
         },
         "4": {
           "title": "Highlights AI (Prossimamente)",
@@ -131,7 +131,7 @@
       "steps": {
         "1": {
           "title": "Telecamere Installate Una Volta",
-          "desc": "Telecamere PoE fisse montate nel centro dal team REPLASH. Nessuna configurazione ricorrente, nessuna manutenzione a carico tuo."
+          "desc": "Telecamere PoE fisse montate nel centro dal team Replash. Nessuna configurazione ricorrente, nessuna manutenzione a carico tuo."
         },
         "2": {
           "title": "Partite Registrate Automaticamente",
@@ -205,7 +205,7 @@
     "hero": {
       "eyebrow": "Come Funziona",
       "title": "Sei semplici passi. Zero complessità per il tuo team.",
-      "subtitle": "Dal calcio d'inizio al replay. REPLASH gestisce tutto nel mezzo. Sotto: ogni passo spiegato, con la vera partita di padel di Marco di martedì sera come esempio concreto."
+      "subtitle": "Dal calcio d'inizio al replay. Replash gestisce tutto nel mezzo. Sotto: ogni passo spiegato, con la vera partita di padel di Marco di martedì sera come esempio concreto."
     },
     "marcoIntro": {
       "name": "Marco",
@@ -215,15 +215,15 @@
       "1": {
         "label": "Passo 1",
         "title": "La Partita Viene Prenotata e Giocata",
-        "desc": "I giocatori prenotano un campo normalmente e giocano. Nulla cambia nell'esperienza sul campo. REPLASH funziona in silenzio in background. E la maggior parte delle squadre si avvicina alla reception del centro e chiede di aggiungere il video della partita prima ancora che la partita inizi.",
+        "desc": "I giocatori prenotano un campo normalmente e giocano. Nulla cambia nell'esperienza sul campo. Replash funziona in silenzio in background. E la maggior parte delle squadre si avvicina alla reception del centro e chiede di aggiungere il video della partita prima ancora che la partita inizi.",
         "marco": {
           "time": "",
-          "example": "Marco prenota il suo slot. Quando arriva al centro, si avvicina alla reception e dice 'vorrei aggiungere il video della partita'. Il receptionist aggiunge il +Video Partita alla prenotazione. Marco vede la segnaletica REPLASH all'ingresso (GDPR-conforme) e gioca sapendo che il video è già in arrivo."
+          "example": "Marco prenota il suo slot. Quando arriva al centro, si avvicina alla reception e dice 'vorrei aggiungere il video della partita'. Il receptionist aggiunge il +Video Partita alla prenotazione. Marco vede la segnaletica Replash all'ingresso (GDPR-conforme) e gioca sapendo che il video è già in arrivo."
         }
       },
       "2": {
         "label": "Passo 2",
-        "title": "REPLASH Registra Automaticamente",
+        "title": "Replash Registra Automaticamente",
         "desc": "Le telecamere PoE fisse installate nel centro catturano l'intera partita dall'inizio alla fine. Nessun pulsante, nessun controllo manuale, nessun intervento dello staff.",
         "marco": {
           "time": "19:00 → 20:00",
@@ -242,10 +242,10 @@
       "4": {
         "label": "Passo 4",
         "title": "Lo Staff Attiva alla Vendita",
-        "desc": "Quando un giocatore ha acquistato l'accesso al video, lo staff del centro apre il pannello admin REPLASH, trova la partita giusta nell'elenco del giorno e la sblocca. Lo stato passa da LOCKED a UNLOCKABLE. Questa è l'unica azione ricorrente richiesta.",
+        "desc": "Quando un giocatore ha acquistato l'accesso al video, lo staff del centro apre il pannello admin Replash, trova la partita giusta nell'elenco del giorno e la sblocca. Lo stato passa da LOCKED a UNLOCKABLE. Questa è l'unica azione ricorrente richiesta.",
         "marco": {
           "time": "20:05",
-          "example": "Alla reception il personale apre il pannello REPLASH, trova lo slot 19:00–20:00 di oggi nell'elenco partite, verifica orario, numero giocatori e importo, e lo sblocca. Lo stato della partita passa a UNLOCKABLE e l'accesso è subito pronto per la squadra di Marco."
+          "example": "Alla reception il personale apre il pannello Replash, trova lo slot 19:00–20:00 di oggi nell'elenco partite, verifica orario, numero giocatori e importo, e lo sblocca. Lo stato della partita passa a UNLOCKABLE e l'accesso è subito pronto per la squadra di Marco."
         }
       },
       "5": {
@@ -314,7 +314,7 @@
         "3": {
           "name": "Web",
           "function": "Trova la Partita + clip cutter + pannelli",
-          "detail": "Flusso giocatore, pannello admin centro, pannello admin REPLASH. Tutto sotto un solo tetto."
+          "detail": "Flusso giocatore, pannello admin centro, pannello admin Replash. Tutto sotto un solo tetto."
         },
         "4": {
           "name": "Billing",
@@ -332,18 +332,18 @@
     "hero": {
       "eyebrow": "Per i Centri",
       "title": "Trasforma il tuo centro in un'esperienza sportiva moderna. Guadagnando di più ogni mese.",
-      "subtitle": "REPLASH dà al tuo centro un nuovo prodotto digitale. Senza aggiungere alcun onere operativo al tuo team."
+      "subtitle": "Replash dà al tuo centro un nuovo prodotto digitale. Senza aggiungere alcun onere operativo al tuo team."
     },
     "value": {
       "eyebrow": "Valore Aggiunto Senza Oneri Operativi",
       "title": "Un nuovo servizio. Zero nuovo carico di lavoro.",
-      "desc": "REPLASH offre ai centri un servizio video completo senza richiedere loro di gestire telecamere, montare video o gestire tecnologie complesse. Dall'installazione alla consegna, tutto è gestito da REPLASH. Il tuo team si limita a offrire l'esperienza."
+      "desc": "Replash offre ai centri un servizio video completo senza richiedere loro di gestire telecamere, montare video o gestire tecnologie complesse. Dall'installazione alla consegna, tutto è gestito da Replash. Il tuo team si limita a offrire l'esperienza."
     },
     "turkey": {
       "eyebrow": "Già Provato. Solo Non Ancora Qui",
       "title": "Il comportamento è già reale. In Turchia.",
       "desc": "In tutta la Turchia, la cultura del campo in erba sintetica (calcio a 5 e a 7) è così consolidata che offrire un video della partita al momento della prenotazione è ormai standard in quasi ogni centro. Il sistema 'social astroturf' esiste praticamente in ogni struttura. Le telecamere registrano, i giocatori guardano e scaricano, e il servizio è parte del flusso di prenotazione.",
-      "lesson": "La versione turca è basica e limitata al calcio. REPLASH porta lo stesso comportamento provato al padel e al calcio in tutta Europa. Con un prodotto premium, piena conformità GDPR, ritaglio clip pronto per i social e un modello di revenue-share trasparente.",
+      "lesson": "La versione turca è basica e limitata al calcio. Replash porta lo stesso comportamento provato al padel e al calcio in tutta Europa. Con un prodotto premium, piena conformità GDPR, ritaglio clip pronto per i social e un modello di revenue-share trasparente.",
       "stats": {
         "1": {
           "value": "10.000+",
@@ -361,19 +361,19 @@
     },
     "differentiate": {
       "eyebrow": "Differenziati dai Concorrenti",
-      "title": "La maggior parte dei centri offre un campo. REPLASH ti aiuta a offrire un ricordo.",
+      "title": "La maggior parte dei centri offre un campo. Replash ti aiuta a offrire un ricordo.",
       "desc": "In un mercato competitivo, il prezzo da solo non basta a creare fidelizzazione. Un'esperienza video professionale. Disponibile automaticamente dopo ogni partita. Dà ai giocatori un motivo per scegliere il tuo centro, tornare più spesso e consigliarlo ad altri.",
       "quote": "I centri non vendono solo tempo sul campo. Vendono l'esperienza intorno alla partita."
     },
     "competitors": {
-      "eyebrow": "Dove si Colloca REPLASH",
+      "eyebrow": "Dove si Colloca Replash",
       "title": "Le aziende sports-video esistenti servono il mercato sbagliato.",
-      "desc": "Le soluzioni di videoanalisi professionali esistenti si concentrano su club professionistici e academy. Telecamere costose, strumenti di analisi tattica, mercato ristretto. Hanno ignorato lo sport amatoriale, che è la vera massa del mercato. REPLASH è stato costruito esattamente per quel vuoto.",
+      "desc": "Le soluzioni di videoanalisi professionali esistenti si concentrano su club professionistici e academy. Telecamere costose, strumenti di analisi tattica, mercato ristretto. Hanno ignorato lo sport amatoriale, che è la vera massa del mercato. Replash è stato costruito esattamente per quel vuoto.",
       "comparison": {
         "header": {
           "feature": "Caratteristica",
           "pro": "Soluzioni professionali",
-          "replash": "REPLASH"
+          "replash": "Replash"
         },
         "rows": {
           "target": {
@@ -423,7 +423,7 @@
     "revenue": {
       "eyebrow": "Allineamento dei Ricavi",
       "title": "Un modello costruito attorno al successo condiviso.",
-      "desc": "REPLASH è progettato attorno a un modello basato sulle performance. Quando il servizio video crea valore per i giocatori, sia il centro che REPLASH ne beneficiano. Nessun costo iniziale, nessun abbonamento, nessun rischio per il centro.",
+      "desc": "Replash è progettato attorno a un modello basato sulle performance. Quando il servizio video crea valore per i giocatori, sia il centro che Replash ne beneficiano. Nessun costo iniziale, nessun abbonamento, nessun rischio per il centro.",
       "quote": "Quando i giocatori lo amano, tutti vincono."
     },
     "revenueScenarios": {
@@ -471,7 +471,7 @@
       "items": {
         "gdpr": {
           "question": "E il GDPR?",
-          "answer": "L'architettura privacy di REPLASH è conforme a GDPR, CEDU Art. 8 e linee guida del Garante italiano. Le telecamere riprendono solo l'area di gioco. Nessun audio, nessun riconoscimento facciale. I video sono inaccessibili pubblicamente, legati allo slot orario e auto-eliminati dopo 7 giorni. Base legale: legittimo interesse (Art. 6/1-f) e necessità contrattuale (Art. 6/1-b). Modello di notifica a tre livelli (segnaletica + QR + notifica prenotazione) pronto prima dell'installazione.",
+          "answer": "L'architettura privacy di Replash è conforme a GDPR, CEDU Art. 8 e linee guida del Garante italiano. Le telecamere riprendono solo l'area di gioco. Nessun audio, nessun riconoscimento facciale. I video sono inaccessibili pubblicamente, legati allo slot orario e auto-eliminati dopo 7 giorni. Base legale: legittimo interesse (Art. 6/1-f) e necessità contrattuale (Art. 6/1-b). Modello di notifica a tre livelli (segnaletica + QR + notifica prenotazione) pronto prima dell'installazione.",
           "items": {
             "1": "Niente audio. Niente riconoscimento facciale.",
             "2": "Auto-eliminazione dopo 7 giorni.",
@@ -481,11 +481,11 @@
         },
         "tech": {
           "question": "E se non abbiamo WiFi?",
-          "answer": "Le telecamere PoE funzionano con un buffer locale. Brevi cali di connessione non causano perdita di dati. Per centri outdoor senza WiFi, è pienamente supportata la connettività standalone via LTE/SIM. Installazione, cablaggio e montaggio sono interamente gestiti da REPLASH. Il tuo staff tecnico non è coinvolto.",
+          "answer": "Le telecamere PoE funzionano con un buffer locale. Brevi cali di connessione non causano perdita di dati. Per centri outdoor senza WiFi, è pienamente supportata la connettività standalone via LTE/SIM. Installazione, cablaggio e montaggio sono interamente gestiti da Replash. Il tuo staff tecnico non è coinvolto.",
           "items": {
             "1": "Buffer locale PoE gestisce le interruzioni.",
             "2": "Fallback LTE/SIM per centri senza WiFi.",
-            "3": "Setup completo gestito da REPLASH.",
+            "3": "Setup completo gestito da Replash.",
             "4": "Zero interferenza con le operazioni del centro."
           }
         }
@@ -494,10 +494,10 @@
     "marketing": {
       "eyebrow": "Layer Marketing Incluso",
       "title": "Portiamo il tuo centro a pubblici, non solo a clienti.",
-      "desc": "REPLASH non è solo un fornitore di infrastruttura. È anche un layer di marketing che rende visibili i centri partner. Sul nostro sito mettiamo in evidenza il tuo logo e la posizione. Mentre i giocatori condividono gli highlights sui social media, il tuo centro raggiunge le comunità circostanti in modo organico. Il marketing avviene attraverso il comportamento degli utenti.",
+      "desc": "Replash non è solo un fornitore di infrastruttura. È anche un layer di marketing che rende visibili i centri partner. Sul nostro sito mettiamo in evidenza il tuo logo e la posizione. Mentre i giocatori condividono gli highlights sui social media, il tuo centro raggiunge le comunità circostanti in modo organico. Il marketing avviene attraverso il comportamento degli utenti.",
       "items": {
         "1": {
-          "title": "In Evidenza su REPLASH",
+          "title": "In Evidenza su Replash",
           "desc": "Logo e posizione del tuo centro evidenziati sul nostro sito e canali corporate."
         },
         "2": {
@@ -516,15 +516,15 @@
       "items": {
         "1": {
           "title": "Fornire Accesso per l'Installazione",
-          "desc": "Permettere al team REPLASH di installare le telecamere su ogni campo o pista. Un processo unico che richiede un giorno."
+          "desc": "Permettere al team Replash di installare le telecamere su ogni campo o pista. Un processo unico che richiede un giorno."
         },
         "2": {
           "title": "Supportare la Connessione Internet",
-          "desc": "Garantire una connessione internet stabile nel centro. REPLASH pensa al resto (LTE fallback disponibile)."
+          "desc": "Garantire una connessione internet stabile nel centro. Replash pensa al resto (LTE fallback disponibile)."
         },
         "3": {
           "title": "Esporre QR Code e Segnaletica",
-          "desc": "QR code stampati e segnaletica chiara sono forniti da REPLASH e posizionati su ogni campo."
+          "desc": "QR code stampati e segnaletica chiara sono forniti da Replash e posizionati su ogni campo."
         },
         "4": {
           "title": "Attivare le Partite Vendute",
@@ -533,7 +533,7 @@
       }
     },
     "cta": {
-      "title": "Porta REPLASH nel tuo centro.",
+      "title": "Porta Replash nel tuo centro.",
       "subtitle": "Parlaci di installazione, tempi e di come funziona per il tuo centro.",
       "button": "Diventa Centro Pilota"
     },
@@ -580,7 +580,7 @@
     "clipping": {
       "eyebrow": "Ritaglia i Momenti Migliori",
       "title": "Taglia un gol. Salva uno scambio. Pubblica in pochi secondi.",
-      "desc": "REPLASH ha un clip cutter integrato. Scorri la tua partita, scegli un momento di 10–45 secondi e scaricalo direttamente sul telefono. Un gol al minuto 17. Il colpo vincente dell'ultimo set. L'esultanza. Scegli i secondi che vuoi, tagliali, e sono nel tuo rullino.",
+      "desc": "Replash ha un clip cutter integrato. Scorri la tua partita, scegli un momento di 10–45 secondi e scaricalo direttamente sul telefono. Un gol al minuto 17. Il colpo vincente dell'ultimo set. L'esultanza. Scegli i secondi che vuoi, tagliali, e sono nel tuo rullino.",
       "features": {
         "1": {
           "label": "Apri la registrazione",
@@ -618,11 +618,11 @@
       "reasons": {
         "1": {
           "title": "Soddisfazione Psicologica",
-          "desc": "Dopo un pasto pubblichi una story. Dopo un allenamento, un mirror selfie. Dopo una partita? Quasi nulla. REPLASH chiude quel vuoto."
+          "desc": "Dopo un pasto pubblichi una story. Dopo un allenamento, un mirror selfie. Dopo una partita? Quasi nulla. Replash chiude quel vuoto."
         },
         "2": {
           "title": "Il Momento, Catturato",
-          "desc": "Lo sguardo dopo il primo gol. Il colpo finale di un set vinto. Questi momenti svaniscono nell'istante in cui accadono. A meno che qualcosa li stia guardando. REPLASH costruisce un layer di memoria sopra il campo."
+          "desc": "Lo sguardo dopo il primo gol. Il colpo finale di un set vinto. Questi momenti svaniscono nell'istante in cui accadono. A meno che qualcosa li stia guardando. Replash costruisce un layer di memoria sopra il campo."
         },
         "3": {
           "title": "Ritaglia & Condividi, Senza Attriti",
@@ -642,7 +642,7 @@
     "ai": {
       "eyebrow": "Highlights AI. Prossimamente",
       "title": "Taglia automaticamente i momenti migliori.",
-      "desc": "REPLASH è progettato per supportare i futuri highlights generati da AI. Auto-ritaglio di gol, parate e azioni più emozionanti della tua partita in una breve reel. Formati quadrati e verticali con sottotitoli, pronti da condividere sui social media. Troverai i tuoi momenti migliori senza guardare l'intera registrazione.",
+      "desc": "Replash è progettato per supportare i futuri highlights generati da AI. Auto-ritaglio di gol, parate e azioni più emozionanti della tua partita in una breve reel. Formati quadrati e verticali con sottotitoli, pronti da condividere sui social media. Troverai i tuoi momenti migliori senza guardare l'intera registrazione.",
       "badge": "Prossimamente"
     },
     "simple": {
@@ -651,7 +651,7 @@
       "steps": {
         "1": {
           "title": "Scansiona o Visita",
-          "desc": "Scansiona il QR code nel tuo campo, o visita il sito REPLASH."
+          "desc": "Scansiona il QR code nel tuo campo, o visita il sito Replash."
         },
         "2": {
           "title": "Trova la Tua Partita",
@@ -664,8 +664,8 @@
       }
     },
     "cta": {
-      "title": "Chiedi al tuo centro di REPLASH.",
-      "subtitle": "REPLASH è disponibile nei centri partner. Se il tuo centro non lo offre ancora, incoraggiali a contattarci.",
+      "title": "Chiedi al tuo centro di Replash.",
+      "subtitle": "Replash è disponibile nei centri partner. Se il tuo centro non lo offre ancora, incoraggiali a contattarci.",
       "button": "Scopri di più per i Centri"
     }
   },
@@ -673,12 +673,12 @@
     "hero": {
       "eyebrow": "Chi Siamo",
       "title": "Stiamo costruendo il replay layer per lo sport amatoriale.",
-      "subtitle": "REPLASH è una startup sports-tech creata per portare esperienze video di livello professionale alle partite amatoriali di tutti i giorni."
+      "subtitle": "Replash è una startup sports-tech creata per portare esperienze video di livello professionale alle partite amatoriali di tutti i giorni."
     },
     "unimi": {
       "eyebrow": "Università degli Studi di Milano",
       "title": "La nostra università è dietro di noi.",
-      "desc": "REPLASH è nato all'interno del programma Economics, Behaviour Data and Policy dell'Università degli Studi di Milano. Il fondamento del progetto è accademico: economia comportamentale, formazione delle abitudini e come i mercati rispondono a nuovi modelli di consumo. Il supporto dell'università ci dà la base istituzionale per costruire in modo responsabile. Dalla postura GDPR all'etica dei dati.",
+      "desc": "Replash è nato all'interno del programma Economics, Behaviour Data and Policy dell'Università degli Studi di Milano. Il fondamento del progetto è accademico: economia comportamentale, formazione delle abitudini e come i mercati rispondono a nuovi modelli di consumo. Il supporto dell'università ci dà la base istituzionale per costruire in modo responsabile. Dalla postura GDPR all'etica dei dati.",
       "badge": "Università degli Studi di Milano",
       "items": {
         "1": {
@@ -691,14 +691,14 @@
         },
         "3": {
           "title": "Laboratorio Reale",
-          "desc": "REPLASH crea un ambiente con clienti reali e dati reali. Collegato a UniMi per ricerca, stage e apprendimento applicato all'interno di un ambiente di produzione GDPR-compliant."
+          "desc": "Replash crea un ambiente con clienti reali e dati reali. Collegato a UniMi per ricerca, stage e apprendimento applicato all'interno di un ambiente di produzione GDPR-compliant."
         }
       }
     },
     "founders": {
       "eyebrow": "Il Team Fondatore",
       "title": "Un'osservazione. Un prodotto.",
-      "desc": "REPLASH è stata avviata da founder con background in economia comportamentale: leggere come si formano le abitudini e come rispondono i mercati. La sovrapposizione tra quel campo e ciò che fa l'azienda è la pietra angolare del progetto.",
+      "desc": "Replash è stata avviata da founder con background in economia comportamentale: leggere come si formano le abitudini e come rispondono i mercati. La sovrapposizione tra quel campo e ciò che fa l'azienda è la pietra angolare del progetto.",
       "values": {
         "1": "Prospettiva di economia comportamentale",
         "2": "Costruito su un pattern osservato, non speculato",
@@ -716,7 +716,7 @@
     "story": {
       "eyebrow": "L'Idea",
       "title": "Lo sport amatoriale merita di non essere dimenticato.",
-      "desc": "Ogni fine settimana, migliaia di partite vengono giocate e dimenticate. I giocatori danno tutto in campo. E se ne vanno con nient'altro che un ricordo. REPLASH è stato creato per cambiare questo. Crediamo che ogni partita abbia una storia che vale la pena raccontare, e ogni giocatore meriti di vederla di nuovo. E condividerla."
+      "desc": "Ogni fine settimana, migliaia di partite vengono giocate e dimenticate. I giocatori danno tutto in campo. E se ne vanno con nient'altro che un ricordo. Replash è stato creato per cambiare questo. Crediamo che ogni partita abbia una storia che vale la pena raccontare, e ogni giocatore meriti di vederla di nuovo. E condividerla."
     },
     "whoWeServe": {
       "eyebrow": "Chi Serviamo",
@@ -753,7 +753,7 @@
         },
         "3": {
           "title": "Affidabilità",
-          "desc": "Ogni partita registrata, ogni volta. I centri e i giocatori possono contare su REPLASH per funzionare."
+          "desc": "Ogni partita registrata, ogni volta. I centri e i giocatori possono contare su Replash per funzionare."
         },
         "4": {
           "title": "Esperienza del Giocatore",
@@ -761,12 +761,12 @@
         },
         "5": {
           "title": "Crescita del Centro",
-          "desc": "REPLASH ha successo solo quando i centri con cui lavoriamo hanno successo. È nel modello."
+          "desc": "Replash ha successo solo quando i centri con cui lavoriamo hanno successo. È nel modello."
         }
       }
     },
     "cta": {
-      "title": "Vuoi portare REPLASH nel tuo centro?",
+      "title": "Vuoi portare Replash nel tuo centro?",
       "button": "Contattaci"
     }
   },
@@ -782,15 +782,15 @@
     "items": {
       "1": {
         "q": "Cosa viene installato esattamente nel mio centro?",
-        "a": "Telecamere PoE fisse grandangolari. Nei campi da padel, montate sul soffitto o su una parete alta; nei campi da calcio, montate sui pali agli angoli attorno al campo. L'installazione richiede un giorno e non interrompe le operazioni. Tutti i cavi vengono nascosti. Il team REPLASH gestisce tutto, dal montaggio alla rete."
+        "a": "Telecamere PoE fisse grandangolari. Nei campi da padel, montate sul soffitto o su una parete alta; nei campi da calcio, montate sui pali agli angoli attorno al campo. L'installazione richiede un giorno e non interrompe le operazioni. Tutti i cavi vengono nascosti. Il team Replash gestisce tutto, dal montaggio alla rete."
       },
       "2": {
         "q": "Ci sono costi anticipati o vincoli contrattuali?",
-        "a": "No. REPLASH copre il 100% del costo. Telecamere, installazione, manutenzione, aggiornamenti software. Nessun canone mensile. L'impegno minimo è di 6 mesi. Per tutta la durata del contratto, il tuo centro riceve la stessa quota di ricavi concordata ogni mese."
+        "a": "No. Replash copre il 100% del costo. Telecamere, installazione, manutenzione, aggiornamenti software. Nessun canone mensile. L'impegno minimo è di 6 mesi. Per tutta la durata del contratto, il tuo centro riceve la stessa quota di ricavi concordata ogni mese."
       },
       "3": {
         "q": "Come funziona la divisione dei ricavi con il centro?",
-        "a": "Alla fine di ogni mese, tutti i video sbloccati vengono tracciati dal pannello di amministrazione. La quota definita nel tuo contratto resta al tuo centro; l'importo rimanente viene pagato a REPLASH a fine mese. Più i tuoi campi sono attivi, più il tuo centro guadagna — ogni nuova partita è un ricavo aggiuntivo. Tutto viene riconciliato automaticamente dal pannello. Con zero costi operativi da parte tua."
+        "a": "Alla fine di ogni mese, tutti i video sbloccati vengono tracciati dal pannello di amministrazione. La quota definita nel tuo contratto resta al tuo centro; l'importo rimanente viene pagato a Replash a fine mese. Più i tuoi campi sono attivi, più il tuo centro guadagna — ogni nuova partita è un ricavo aggiuntivo. Tutto viene riconciliato automaticamente dal pannello. Con zero costi operativi da parte tua."
       },
       "4": {
         "q": "Il mio staff deve fare qualcosa per ogni partita?",
@@ -798,7 +798,7 @@
       },
       "5": {
         "q": "Cosa succede se una telecamera si rompe o c'è un problema tecnico?",
-        "a": "REPLASH monitora tutte le telecamere 24/7. In rari casi di guasto, il nostro team di supporto viene notificato automaticamente e risolve il problema da remoto. Di solito in poche ore. Se una registrazione viene persa, quella vendita non appare nel tuo report e non viene addebitata."
+        "a": "Replash monitora tutte le telecamere 24/7. In rari casi di guasto, il nostro team di supporto viene notificato automaticamente e risolve il problema da remoto. Di solito in poche ore. Se una registrazione viene persa, quella vendita non appare nel tuo report e non viene addebitata."
       },
       "6": {
         "q": "Quanto velocemente possiamo iniziare?",
@@ -806,15 +806,15 @@
       },
       "8": {
         "q": "I giocatori possono davvero condividere clip sui social media?",
-        "a": "Sì. È l'esperienza centrale. REPLASH ha un clip cutter integrato nella piattaforma. I giocatori scelgono un momento di 10–45 secondi della partita, scaricano la clip sul telefono e la condividono sui social media sotto il proprio account. REPLASH è il luogo dove la clip viene fatta. La condivisione avviene sui canali del giocatore."
+        "a": "Sì. È l'esperienza centrale. Replash ha un clip cutter integrato nella piattaforma. I giocatori scelgono un momento di 10–45 secondi della partita, scaricano la clip sul telefono e la condividono sui social media sotto il proprio account. Replash è il luogo dove la clip viene fatta. La condivisione avviene sui canali del giocatore."
       },
       "10": {
         "q": "E il GDPR?",
-        "a": "REPLASH è pienamente conforme a GDPR, CEDU Articolo 8 e linee guida del Garante italiano. Le telecamere riprendono solo l'area di gioco. Nessun audio, nessun riconoscimento facciale. Base legale: legittimo interesse (Art. 6/1-f) e necessità contrattuale (Art. 6/1-b). È in atto un modello di notifica a tre livelli (segnaletica all'ingresso + QR + notifica prenotazione). Un file Privacy & Legal Justification viene fornito prima dell'installazione."
+        "a": "Replash è pienamente conforme a GDPR, CEDU Articolo 8 e linee guida del Garante italiano. Le telecamere riprendono solo l'area di gioco. Nessun audio, nessun riconoscimento facciale. Base legale: legittimo interesse (Art. 6/1-f) e necessità contrattuale (Art. 6/1-b). È in atto un modello di notifica a tre livelli (segnaletica all'ingresso + QR + notifica prenotazione). Un file Privacy & Legal Justification viene fornito prima dell'installazione."
       },
       "12": {
         "q": "E se non abbiamo una connessione WiFi forte?",
-        "a": "Le telecamere PoE funzionano con un buffer locale. Brevi cali di connessione non causano perdita di dati. Per centri outdoor senza WiFi, è pienamente supportata la connettività standalone via LTE/SIM. Il team REPLASH gestisce tutto il setup."
+        "a": "Le telecamere PoE funzionano con un buffer locale. Brevi cali di connessione non causano perdita di dati. Per centri outdoor senza WiFi, è pienamente supportata la connettività standalone via LTE/SIM. Il team Replash gestisce tutto il setup."
       }
     }
   },
@@ -857,28 +857,28 @@
   },
   "meta": {
     "home": {
-      "title": "REPLASH. Play. Record. Relive.",
+      "title": "Replash. Play. Record. Relive.",
       "description": "Registrazione automatica delle partite per centri sportivi amatoriali. Guarda, ritaglia e condividi i momenti migliori della tua partita."
     },
     "find": {
-      "title": "Trova la Tua Partita. REPLASH",
+      "title": "Trova la Tua Partita. Replash",
       "description": "Tre campi, trenta secondi, la tua partita. Guarda la tua partita di calcio o padel amatoriale. Niente app, niente account."
     },
     "howItWorks": {
-      "title": "Come Funziona. REPLASH",
-      "description": "Scopri come REPLASH registra, organizza e consegna automaticamente i video delle partite ai giocatori nel tuo centro."
+      "title": "Come Funziona. Replash",
+      "description": "Scopri come Replash registra, organizza e consegna automaticamente i video delle partite ai giocatori nel tuo centro."
     },
     "forFacilities": {
-      "title": "Per i Centri. REPLASH",
+      "title": "Per i Centri. Replash",
       "description": "Trasforma il tuo centro sportivo in un'esperienza moderna. Zero complessità operativa, nuovo servizio digitale, modello provato."
     },
     "forPlayers": {
-      "title": "Per i Giocatori. REPLASH",
+      "title": "Per i Giocatori. Replash",
       "description": "Guarda la tua partita, ritaglia i momenti migliori e condividili sui social media. La tua partita, pronta da rivivere."
     },
     "about": {
-      "title": "Chi Siamo. REPLASH",
-      "description": "REPLASH sta costruendo il replay layer per lo sport amatoriale, sostenuto dall'Università degli Studi di Milano. Portando video di livello professionale alle partite di tutti i giorni."
+      "title": "Chi Siamo. Replash",
+      "description": "Replash sta costruendo il replay layer per lo sport amatoriale, sostenuto dall'Università degli Studi di Milano. Portando video di livello professionale alle partite di tutti i giorni."
     }
   }
 }
