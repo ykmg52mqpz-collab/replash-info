@@ -804,25 +804,13 @@
         "q": "How quickly can we get started?",
         "a": "After your application is approved (typically within 3 days), we schedule installation at a time that suits you. Most facilities are up and running within 3 weeks of first contact."
       },
-      "7": {
-        "q": "Do players need an account to watch their match?",
-        "a": "No. REPLASH has zero account creation. Players go to the Find Your Match page, enter facility + date + time slot, and watch their match in under 30 seconds. No app needed, no password needed, no profile needed."
-      },
       "8": {
         "q": "Can players actually share clips on social media?",
         "a": "Yes. That's the core experience. REPLASH has a built-in clip cutter inside the platform. Players pick a 10–45 second moment from the match, download the clip to their phone, and share it on social media platforms under their own account. REPLASH is the place where the clip is made. Sharing happens on the player's own channels."
       },
-      "9": {
-        "q": "Are videos public? Could anyone find them online?",
-        "a": "No. Videos are never publicly listed and never appear in search engines. A match is only accessible when all four conditions match at once: correct facility, correct date, correct time slot, and the facility has activated the recording. There's no public browsing of recordings."
-      },
       "10": {
         "q": "What about GDPR?",
         "a": "REPLASH is fully compliant with GDPR, ECHR Article 8, and Italian Garante guidelines. Cameras record only the playing area. No audio, no facial recognition. Legal basis: legitimate interest (Art. 6/1-f) and contractual necessity (Art. 6/1-b). A three-tier notice model is in place (entrance signage + QR + booking notification). A Privacy & Legal Justification file is provided before installation."
-      },
-      "11": {
-        "q": "How long are recordings kept?",
-        "a": "7 days. After that, all footage is automatically deleted. Matches that aren't purchased are deleted shortly after the time slot ends. Only matches marked UNLOCKABLE are kept in storage."
       },
       "12": {
         "q": "What if we don't have a strong WiFi connection?",

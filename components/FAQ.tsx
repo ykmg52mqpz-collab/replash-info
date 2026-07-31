@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useTranslations } from "next-intl";
 import SectionHeading from "./SectionHeading";
 
-const faqKeys = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"] as const;
+const faqKeys = ["1", "2", "3", "4", "5", "6", "8", "10", "12"] as const;
 
 export default function FAQ() {
   const t = useTranslations("faq");

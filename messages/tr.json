@@ -804,25 +804,13 @@
         "q": "Ne kadar hızlı başlayabiliriz?",
         "a": "Başvurunuz onaylandıktan sonra (genellikle 3 gün içinde), size uygun bir zamanda kurulum planlarız. Çoğu saha ilk temastan sonra 3 hafta içinde çalışmaya başlar."
       },
-      "7": {
-        "q": "Oyuncuların maçlarını izlemek için hesap oluşturması gerekiyor mu?",
-        "a": "Hayır. REPLASH'te sıfır hesap oluşturma var. Oyuncular Maçını Bul sayfasına gider, saha + tarih + saat slotu girer ve maçlarını 30 saniyenin altında izler. Uygulama gerekmez, şifre gerekmez, profil gerekmez."
-      },
       "8": {
         "q": "Oyuncular gerçekten klipleri sosyal medyada paylaşabilir mi?",
         "a": "Evet. Bu çekirdek deneyim. REPLASH platformun içinde dahili bir clip cutter'a sahip. Oyuncular maçtan 10–45 saniyelik bir an seçer, klibi telefonlarına indirir ve kendi hesapları altında sosyal medya platformlarında paylaşır. REPLASH klibin yapıldığı yerdir. Paylaşım oyuncunun kendi kanallarında gerçekleşir."
       },
-      "9": {
-        "q": "Videolar genel midir? Kimse internette bulabilir mi?",
-        "a": "Hayır. Videolar asla genel listelenmez ve arama motorlarında görünmez. Bir maça yalnızca dört koşul aynı anda eşleştiğinde erişilebilir: doğru saha, doğru tarih, doğru saat slotu ve sahanın kaydı aktive etmiş olması. Kayıtların genel taraması yok."
-      },
       "10": {
         "q": "Ya GDPR?",
         "a": "REPLASH GDPR, AİHS Madde 8 ve İtalyan Garante yönergeleriyle tamamen uyumludur. Kameralar sadece oyun alanını kaydeder. Ses yok, yüz tanıma yok. Yasal temel: meşru menfaat (Madde 6/1-f) ve sözleşmesel gereklilik (Madde 6/1-b). Üç katmanlı bildirim modeli vardır (giriş tabelası + QR + rezervasyon bildirimi). Kurulumdan önce bir Gizlilik & Yasal Gerekçe dosyası sağlanır."
-      },
-      "11": {
-        "q": "Kayıtlar ne kadar saklanır?",
-        "a": "7 gün. Sonra tüm kayıtlar otomatik silinir. Satın alınmayan maçlar saat slotu bittikten kısa süre sonra silinir. Sadece UNLOCKABLE işaretli maçlar depolamada tutulur."
       },
       "12": {
         "q": "Güçlü WiFi bağlantımız yoksa?",

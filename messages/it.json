@@ -804,25 +804,13 @@
         "q": "Quanto velocemente possiamo iniziare?",
         "a": "Dopo l'approvazione della candidatura (di solito entro 3 giorni), pianifichiamo l'installazione in un momento che ti fa comodo. La maggior parte dei centri è operativa entro 3 settimane dal primo contatto."
       },
-      "7": {
-        "q": "I giocatori devono creare un account per guardare la partita?",
-        "a": "No. REPLASH ha zero creazione di account. I giocatori vanno alla pagina Trova la Partita, inseriscono centro + data + slot orario, e guardano la partita in meno di 30 secondi. Nessuna app richiesta, nessuna password richiesta, nessun profilo richiesto."
-      },
       "8": {
         "q": "I giocatori possono davvero condividere clip sui social media?",
         "a": "Sì. È l'esperienza centrale. REPLASH ha un clip cutter integrato nella piattaforma. I giocatori scelgono un momento di 10–45 secondi della partita, scaricano la clip sul telefono e la condividono sui social media sotto il proprio account. REPLASH è il luogo dove la clip viene fatta. La condivisione avviene sui canali del giocatore."
       },
-      "9": {
-        "q": "I video sono pubblici? Qualcuno potrebbe trovarli online?",
-        "a": "No. I video non sono mai elencati pubblicamente e non appaiono mai nei motori di ricerca. Una partita è accessibile solo quando tutte e quattro le condizioni coincidono: centro corretto, data corretta, slot orario corretto e il centro ha attivato la registrazione. Non c'è navigazione pubblica delle registrazioni."
-      },
       "10": {
         "q": "E il GDPR?",
         "a": "REPLASH è pienamente conforme a GDPR, CEDU Articolo 8 e linee guida del Garante italiano. Le telecamere riprendono solo l'area di gioco. Nessun audio, nessun riconoscimento facciale. Base legale: legittimo interesse (Art. 6/1-f) e necessità contrattuale (Art. 6/1-b). È in atto un modello di notifica a tre livelli (segnaletica all'ingresso + QR + notifica prenotazione). Un file Privacy & Legal Justification viene fornito prima dell'installazione."
-      },
-      "11": {
-        "q": "Per quanto tempo vengono conservate le registrazioni?",
-        "a": "7 giorni. Dopo, tutte le riprese vengono eliminate automaticamente. Le partite non acquistate vengono eliminate poco dopo la fine dello slot orario. Solo le partite marcate UNLOCKABLE vengono conservate."
       },
       "12": {
         "q": "E se non abbiamo una connessione WiFi forte?",

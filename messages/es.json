@@ -804,25 +804,13 @@
         "q": "¿Qué tan rápido podemos empezar?",
         "a": "Después de que tu solicitud sea aprobada (normalmente en 3 días), programamos la instalación en un momento que te convenga. La mayoría de los centros están operativos en 3 semanas desde el primer contacto."
       },
-      "7": {
-        "q": "¿Los jugadores necesitan una cuenta para ver su partido?",
-        "a": "No. REPLASH tiene cero creación de cuenta. Los jugadores van a la página Encuentra Tu Partido, introducen centro + fecha + franja horaria y miran su partido en menos de 30 segundos. No hace falta app, no hace falta contraseña, no hace falta perfil."
-      },
       "8": {
         "q": "¿Pueden los jugadores compartir clips en redes sociales?",
         "a": "Sí. Esa es la experiencia central. REPLASH tiene un clip cutter integrado dentro de la plataforma. Los jugadores eligen un momento de 10–45 segundos del partido, descargan el clip a su móvil y lo comparten en plataformas de redes sociales bajo su propia cuenta. REPLASH es el lugar donde se hace el clip. El compartir ocurre en los canales propios del jugador."
       },
-      "9": {
-        "q": "¿Son públicos los videos? ¿Podría alguien encontrarlos online?",
-        "a": "No. Los videos nunca se listan públicamente y nunca aparecen en motores de búsqueda. Un partido solo es accesible cuando las cuatro condiciones coinciden a la vez: centro correcto, fecha correcta, franja horaria correcta y que el centro haya activado la grabación. No hay navegación pública de grabaciones."
-      },
       "10": {
         "q": "¿Y el RGPD?",
         "a": "REPLASH cumple totalmente con RGPD, CEDH Artículo 8 y directrices del Garante italiano. Las cámaras graban solo el área de juego. Sin audio, sin reconocimiento facial. Base legal: interés legítimo (Art. 6/1-f) y necesidad contractual (Art. 6/1-b). Hay un modelo de notificación de tres niveles (señalización de entrada + QR + notificación de reserva). Se proporciona un archivo de Justificación de Privacidad y Legal antes de la instalación."
-      },
-      "11": {
-        "q": "¿Cuánto tiempo se guardan las grabaciones?",
-        "a": "7 días. Después, todas las grabaciones se eliminan automáticamente. Los partidos no comprados se eliminan poco después de que termine la franja horaria. Solo los partidos marcados UNLOCKABLE se mantienen en almacenamiento."
       },
       "12": {
         "q": "¿Qué pasa si no tenemos una conexión WiFi fuerte?",
