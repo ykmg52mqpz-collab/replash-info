@@ -102,6 +102,11 @@ export default function HeroSceneOverlay() {
             <stop offset="0%" stopColor="rgba(253,230,138,0.18)" />
             <stop offset="100%" stopColor="rgba(253,230,138,0)" />
           </linearGradient>
+
+          {/* Clip FOV cones to the pitch so nothing bleeds outside the field */}
+          <clipPath id="pitchClip">
+            <rect x={PITCH.x} y={PITCH.y} width={PITCH.w} height={PITCH.h} rx="8" />
+          </clipPath>
         </defs>
 
         {/* Base ink */}
@@ -134,15 +139,25 @@ export default function HeroSceneOverlay() {
           <line x1={PITCH.x + PITCH.w} y1={PITCH.cy + 40} x2={PITCH.x + PITCH.w + 12} y2={PITCH.cy + 40} />
         </g>
 
-        {/* Two REPLASH corner-post cameras at DIAGONAL corners:
-            top-left post + bottom-right post. Their FOV cones cross the pitch. */}
-        {/* Top-left camera — points down and to the right */}
-        <g transform={`translate(${PITCH.x - 30}, ${PITCH.y - 30})`}>
+        {/* FOV cones — clipped to pitch so they don't bleed outside the field */}
+        <g clipPath="url(#pitchClip)">
+          {/* Top-left cone — from top-left corner sweeping down-right */}
           <polygon
-            points={`0,0 ${PITCH.w + 40},${PITCH.h * 0.55} ${PITCH.w + 20},${PITCH.h + 40}`}
+            points={`${PITCH.x},${PITCH.y} ${PITCH.x + PITCH.w + 40},${PITCH.y + PITCH.h * 0.55} ${PITCH.x + PITCH.w},${PITCH.y + PITCH.h + 40}`}
             fill="url(#fov)"
             opacity="0.55"
           />
+          {/* Bottom-right cone — from bottom-right corner sweeping up-left */}
+          <polygon
+            points={`${PITCH.x + PITCH.w},${PITCH.y + PITCH.h} ${PITCH.x - 40},${PITCH.y + PITCH.h * 0.45} ${PITCH.x},${PITCH.y - 40}`}
+            fill="url(#fov)"
+            opacity="0.55"
+          />
+        </g>
+
+        {/* Two REPLASH cameras — sitting EXACTLY at diagonal pitch corners */}
+        {/* Top-left corner */}
+        <g transform={`translate(${PITCH.x}, ${PITCH.y})`}>
           <g transform="translate(-16, -14)">
             <rect width="32" height="24" rx="4" fill="#1a1a1a" stroke="rgba(253,230,138,0.55)" strokeWidth="1.2" />
             <circle cx="16" cy="12" r="6" fill="#0a0a0a" stroke="rgba(253,230,138,0.7)" strokeWidth="1.2" />
@@ -156,13 +171,8 @@ export default function HeroSceneOverlay() {
           </g>
         </g>
 
-        {/* Bottom-right camera — points up and to the left (diagonal partner) */}
-        <g transform={`translate(${PITCH.x + PITCH.w + 30}, ${PITCH.y + PITCH.h + 30})`}>
-          <polygon
-            points={`0,0 ${-(PITCH.w + 40)},${-PITCH.h * 0.55} ${-(PITCH.w + 20)},${-(PITCH.h + 40)}`}
-            fill="url(#fov)"
-            opacity="0.55"
-          />
+        {/* Bottom-right corner */}
+        <g transform={`translate(${PITCH.x + PITCH.w}, ${PITCH.y + PITCH.h})`}>
           <g transform="translate(-16, -14)">
             <rect width="32" height="24" rx="4" fill="#1a1a1a" stroke="rgba(253,230,138,0.55)" strokeWidth="1.2" />
             <circle cx="16" cy="12" r="6" fill="#0a0a0a" stroke="rgba(253,230,138,0.7)" strokeWidth="1.2" />
@@ -293,35 +303,7 @@ export default function HeroSceneOverlay() {
         <rect x="0" y="0" width="1600" height="900" fill="url(#lightR)" opacity="0.9" />
         <rect x="0" y="0" width="1600" height="900" fill="url(#vignette)" />
 
-        {/* Corner brackets — pulled well inside, larger, tick marks */}
-        <g stroke="rgba(253,230,138,0.55)" strokeWidth="1.6" fill="none" strokeLinecap="round">
-          <path d="M60 60 L60 100 M60 60 L100 60" />
-          <path d="M1540 60 L1540 100 M1540 60 L1500 60" />
-          <path d="M60 840 L60 800 M60 840 L100 840" />
-          <path d="M1540 840 L1540 800 M1540 840 L1500 840" />
-          {/* Center reticle marks (edges of frame) */}
-          <line x1="798" y1="30" x2="802" y2="30" strokeWidth="2" />
-          <line x1="798" y1="870" x2="802" y2="870" strokeWidth="2" />
-          <line x1="30" y1="448" x2="30" y2="452" strokeWidth="2" />
-          <line x1="1570" y1="448" x2="1570" y2="452" strokeWidth="2" />
-        </g>
       </svg>
-
-      {/* HUD chips — safely inset, high-contrast, monospace */}
-
-      {/* Top-left: camera label */}
-      <div className="pointer-events-none absolute left-6 top-24 flex items-center gap-2 rounded-md border border-white/10 bg-black/50 px-3 py-1.5 font-mono text-[10px] uppercase tracking-widest text-white/75 backdrop-blur-sm md:left-14 md:top-28">
-        <svg className="h-3 w-3 text-accent" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round">
-          <path d="M23 7l-7 5 7 5V7z" />
-          <rect x="1" y="5" width="15" height="14" rx="2" />
-        </svg>
-        Replash Cams 01–02 · Full Pitch
-      </div>
-
-      {/* Bottom-right: stream tech line */}
-      <div className="pointer-events-none absolute bottom-24 right-6 hidden font-mono text-[10px] uppercase tracking-widest text-white/50 md:bottom-24 md:right-14 md:block">
-        Auto-record · PoE · 1080p50 · Buffered
-      </div>
     </div>
   );
 }
