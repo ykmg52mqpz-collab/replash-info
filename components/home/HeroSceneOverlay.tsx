@@ -65,7 +65,6 @@ export default function HeroSceneOverlay() {
   }, []);
   const mm = pad(Math.floor(seconds / 60));
   const ss = pad(seconds % 60);
-  const matchMin = Math.floor(seconds / 60);
 
   return (
     <div className="absolute inset-0 z-[1] overflow-hidden">
@@ -135,9 +134,9 @@ export default function HeroSceneOverlay() {
           <line x1={PITCH.x + PITCH.w} y1={PITCH.cy + 40} x2={PITCH.x + PITCH.w + 12} y2={PITCH.cy + 40} />
         </g>
 
-        {/* Two REPLASH corner-post cameras (top-left + top-right of pitch),
-            each with a soft FOV cone sweeping down-across. */}
-        {/* Left camera — points down and to the right */}
+        {/* Two REPLASH corner-post cameras at DIAGONAL corners:
+            top-left post + bottom-right post. Their FOV cones cross the pitch. */}
+        {/* Top-left camera — points down and to the right */}
         <g transform={`translate(${PITCH.x - 30}, ${PITCH.y - 30})`}>
           <polygon
             points={`0,0 ${PITCH.w + 40},${PITCH.h * 0.55} ${PITCH.w + 20},${PITCH.h + 40}`}
@@ -157,10 +156,10 @@ export default function HeroSceneOverlay() {
           </g>
         </g>
 
-        {/* Right camera — mirrored, points down and to the left */}
-        <g transform={`translate(${PITCH.x + PITCH.w + 30}, ${PITCH.y - 30})`}>
+        {/* Bottom-right camera — points up and to the left (diagonal partner) */}
+        <g transform={`translate(${PITCH.x + PITCH.w + 30}, ${PITCH.y + PITCH.h + 30})`}>
           <polygon
-            points={`0,0 ${-(PITCH.w + 40)},${PITCH.h * 0.55} ${-(PITCH.w + 20)},${PITCH.h + 40}`}
+            points={`0,0 ${-(PITCH.w + 40)},${-PITCH.h * 0.55} ${-(PITCH.w + 20)},${-(PITCH.h + 40)}`}
             fill="url(#fov)"
             opacity="0.55"
           />
@@ -175,6 +174,29 @@ export default function HeroSceneOverlay() {
               transition={{ duration: 1.4, repeat: Infinity, ease: "easeInOut", delay: 0.7 }}
             />
           </g>
+        </g>
+
+        {/* REC indicator INSIDE the pitch (top-right corner of the pitch),
+            styled like the broadcast overlay on the feed itself. */}
+        <g transform={`translate(${PITCH.x + PITCH.w - 24}, ${PITCH.y + 24})`}>
+          <motion.circle
+            cx="0" cy="0" r="4"
+            fill="#ef4444"
+            animate={{ opacity: [1, 0.2, 1] }}
+            transition={{ duration: 1.4, repeat: Infinity, ease: "easeInOut" }}
+          />
+          <text
+            x="-12" y="1"
+            textAnchor="end"
+            dominantBaseline="central"
+            fontFamily="ui-monospace, SFMono-Regular, Menlo, monospace"
+            fontSize="13"
+            fontWeight="700"
+            letterSpacing="2"
+            fill="rgba(255,255,255,0.9)"
+          >
+            REC {mm}:{ss}
+          </text>
         </g>
 
         {/* Player trails (soft glow under each player) */}
@@ -294,36 +316,6 @@ export default function HeroSceneOverlay() {
           <rect x="1" y="5" width="15" height="14" rx="2" />
         </svg>
         Replash Cams 01–02 · Full Pitch
-      </div>
-
-      {/* Top-right: LIVE + REC counter */}
-      <div className="pointer-events-none absolute right-6 top-24 flex items-center gap-3 md:right-14 md:top-28">
-        <div className="flex items-center gap-1.5 rounded-md border border-red-500/40 bg-red-500/15 px-2.5 py-1 font-mono text-[10px] uppercase tracking-widest text-red-300 backdrop-blur-sm">
-          <motion.span
-            className="inline-block h-1.5 w-1.5 rounded-full bg-red-500"
-            animate={{ opacity: [1, 0.2, 1] }}
-            transition={{ duration: 1.4, repeat: Infinity, ease: "easeInOut" }}
-          />
-          Live
-        </div>
-        <div className="rounded-md border border-white/10 bg-black/50 px-3 py-1.5 font-mono text-[10px] uppercase tracking-widest text-white/85 backdrop-blur-sm">
-          Rec 00:{mm}:{ss}
-        </div>
-      </div>
-
-      {/* Bottom-left: scoreboard (match minute + fake score) */}
-      <div className="pointer-events-none absolute bottom-24 left-6 hidden items-stretch gap-0 rounded-md border border-white/10 bg-black/55 font-mono text-white/85 backdrop-blur-sm md:bottom-24 md:left-14 md:flex">
-        <div className="flex items-center gap-2 border-r border-white/10 px-3 py-2 text-[10px] uppercase tracking-widest text-white/60">
-          <span className="inline-block h-1.5 w-1.5 rounded-full bg-accent" />
-          Min {matchMin}&apos;
-        </div>
-        <div className="flex items-center gap-2 px-3 py-2 text-xs font-bold">
-          <span className="text-white">A</span>
-          <span className="text-accent">2</span>
-          <span className="text-white/40">–</span>
-          <span className="text-accent">1</span>
-          <span className="text-white">B</span>
-        </div>
       </div>
 
       {/* Bottom-right: stream tech line */}
