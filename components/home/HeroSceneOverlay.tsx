@@ -76,13 +76,6 @@ export default function HeroSceneOverlay() {
         aria-hidden
       >
         <defs>
-          {/* Pitch turf gradient — dark cinematic green */}
-          <radialGradient id="turf" cx="50%" cy="45%" r="70%">
-            <stop offset="0%" stopColor="#1a3a26" />
-            <stop offset="60%" stopColor="#0f2419" />
-            <stop offset="100%" stopColor="#061510" />
-          </radialGradient>
-
           {/* Warm stadium light pools (top-left + top-right tungsten) */}
           <radialGradient id="lightL" cx="15%" cy="0%" r="45%">
             <stop offset="0%" stopColor="rgba(253,230,138,0.22)" />
@@ -115,22 +108,8 @@ export default function HeroSceneOverlay() {
         {/* Base ink */}
         <rect x="0" y="0" width="1600" height="900" fill="#0a0a0a" />
 
-        {/* Pitch */}
-        <rect x={PITCH.x} y={PITCH.y} width={PITCH.w} height={PITCH.h} rx="8" fill="url(#turf)" />
-
-        {/* Turf stripes (very subtle) */}
-        <g opacity="0.06">
-          {Array.from({ length: 10 }).map((_, i) => (
-            <rect
-              key={i}
-              x={PITCH.x + (PITCH.w / 10) * i}
-              y={PITCH.y}
-              width={PITCH.w / 10}
-              height={PITCH.h}
-              fill={i % 2 === 0 ? "#ffffff" : "transparent"}
-            />
-          ))}
-        </g>
+        {/* Pitch — solid single tone */}
+        <rect x={PITCH.x} y={PITCH.y} width={PITCH.w} height={PITCH.h} rx="8" fill="#0f2a1c" />
 
         {/* Field lines */}
         <g stroke="rgba(255,255,255,0.22)" strokeWidth="2" fill="none">
@@ -156,14 +135,15 @@ export default function HeroSceneOverlay() {
           <line x1={PITCH.x + PITCH.w} y1={PITCH.cy + 40} x2={PITCH.x + PITCH.w + 12} y2={PITCH.cy + 40} />
         </g>
 
-        {/* Camera FOV cone — REPLASH camera position marker */}
-        <g transform={`translate(${PITCH.cx}, ${PITCH.y - 90})`}>
+        {/* Two REPLASH corner-post cameras (top-left + top-right of pitch),
+            each with a soft FOV cone sweeping down-across. */}
+        {/* Left camera — points down and to the right */}
+        <g transform={`translate(${PITCH.x - 30}, ${PITCH.y - 30})`}>
           <polygon
-            points={`0,0 ${-PITCH.w / 2 + 40},${PITCH.h + 90} ${PITCH.w / 2 - 40},${PITCH.h + 90}`}
+            points={`0,0 ${PITCH.w + 40},${PITCH.h * 0.55} ${PITCH.w + 20},${PITCH.h + 40}`}
             fill="url(#fov)"
-            opacity="0.6"
+            opacity="0.55"
           />
-          {/* Camera body */}
           <g transform="translate(-16, -14)">
             <rect width="32" height="24" rx="4" fill="#1a1a1a" stroke="rgba(253,230,138,0.55)" strokeWidth="1.2" />
             <circle cx="16" cy="12" r="6" fill="#0a0a0a" stroke="rgba(253,230,138,0.7)" strokeWidth="1.2" />
@@ -173,6 +153,26 @@ export default function HeroSceneOverlay() {
               fill="#ef4444"
               animate={{ opacity: [1, 0.2, 1] }}
               transition={{ duration: 1.4, repeat: Infinity, ease: "easeInOut" }}
+            />
+          </g>
+        </g>
+
+        {/* Right camera — mirrored, points down and to the left */}
+        <g transform={`translate(${PITCH.x + PITCH.w + 30}, ${PITCH.y - 30})`}>
+          <polygon
+            points={`0,0 ${-(PITCH.w + 40)},${PITCH.h * 0.55} ${-(PITCH.w + 20)},${PITCH.h + 40}`}
+            fill="url(#fov)"
+            opacity="0.55"
+          />
+          <g transform="translate(-16, -14)">
+            <rect width="32" height="24" rx="4" fill="#1a1a1a" stroke="rgba(253,230,138,0.55)" strokeWidth="1.2" />
+            <circle cx="16" cy="12" r="6" fill="#0a0a0a" stroke="rgba(253,230,138,0.7)" strokeWidth="1.2" />
+            <circle cx="16" cy="12" r="2.5" fill="rgba(253,230,138,0.85)" />
+            <motion.circle
+              cx="6" cy="5" r="2"
+              fill="#ef4444"
+              animate={{ opacity: [1, 0.2, 1] }}
+              transition={{ duration: 1.4, repeat: Infinity, ease: "easeInOut", delay: 0.7 }}
             />
           </g>
         </g>
@@ -293,7 +293,7 @@ export default function HeroSceneOverlay() {
           <path d="M23 7l-7 5 7 5V7z" />
           <rect x="1" y="5" width="15" height="14" rx="2" />
         </svg>
-        Replash Cam 01 · Pitch View
+        Replash Cams 01–02 · Full Pitch
       </div>
 
       {/* Top-right: LIVE + REC counter */}
