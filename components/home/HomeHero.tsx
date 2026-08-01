@@ -9,7 +9,7 @@ export default function HomeHero() {
 
   return (
     <section
-      className="relative overflow-hidden bg-ink-900 pt-[26rem] pb-24 md:pt-[34rem] md:pb-36"
+      className="relative flex min-h-[100svh] items-center overflow-hidden bg-ink-900 pt-28 pb-20 md:pt-32 md:pb-24"
     >
       {/* Background image — friends watching match highlights after the game */}
       <div className="absolute inset-0" aria-hidden>
