@@ -1,18 +1,39 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { useRef } from "react";
+import { motion, useScroll, useTransform, useReducedMotion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 
 export default function HomeHero() {
   const t = useTranslations("home.hero");
+  const sectionRef = useRef<HTMLElement | null>(null);
+  const prefersReduced = useReducedMotion();
+
+  // Scroll progress across the hero: 0 at top, 1 once it has scrolled fully out.
+  const { scrollYProgress } = useScroll({
+    target: sectionRef,
+    offset: ["start start", "end start"],
+  });
+
+  // Background drifts down slowly + scales up a touch → "slower than the page".
+  const bgY = useTransform(scrollYProgress, [0, 1], ["0%", "18%"]);
+  const bgScale = useTransform(scrollYProgress, [0, 1], [1.05, 1.14]);
+
+  // Foreground text drifts up faster and fades out as you scroll.
+  const textY = useTransform(scrollYProgress, [0, 1], ["0%", "-35%"]);
+  const textOpacity = useTransform(scrollYProgress, [0, 0.65, 1], [1, 0.6, 0]);
+
+  const parallaxBg = prefersReduced ? {} : { y: bgY, scale: bgScale };
+  const parallaxText = prefersReduced ? {} : { y: textY, opacity: textOpacity };
 
   return (
     <section
+      ref={sectionRef}
       className="relative flex min-h-[100svh] items-center overflow-hidden bg-ink-900 pt-28 pb-20 md:pt-32 md:pb-24"
     >
       {/* Background image — friends watching match highlights after the game */}
-      <div className="absolute inset-0" aria-hidden>
+      <motion.div className="absolute inset-0 will-change-transform" style={parallaxBg} aria-hidden>
         <img
           src="/images/gen_hero_friends.jpg"
           alt=""
@@ -21,7 +42,7 @@ export default function HomeHero() {
         />
         <div className="absolute inset-0 bg-gradient-to-b from-ink-900/55 via-ink-900/55 to-ink-900/95" />
         <div className="absolute inset-0 bg-gradient-to-r from-ink-900/40 via-transparent to-ink-900/40" />
-      </div>
+      </motion.div>
 
       {/* Glow orb */}
       <div
@@ -31,13 +52,13 @@ export default function HomeHero() {
       />
       <div className="absolute inset-0 grid-noise opacity-10" aria-hidden />
 
-      <div className="container-x relative">
-        <motion.div
-          initial={{ opacity: 0, y: 32 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, ease: "easeOut" }}
-          className="mx-auto max-w-4xl text-center"
-        >
+      <div className="container-x relative z-10">
+        <motion.div style={parallaxText} className="mx-auto max-w-4xl text-center will-change-transform">
+          <motion.div
+            initial={{ opacity: 0, y: 32 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7, ease: "easeOut" }}
+          >
           {/* Title */}
           <motion.h1
             initial={{ opacity: 0, y: 32 }}
@@ -86,6 +107,7 @@ export default function HomeHero() {
             >
               {t("ctaSecondary")}
             </Link>
+          </motion.div>
           </motion.div>
         </motion.div>
       </div>
