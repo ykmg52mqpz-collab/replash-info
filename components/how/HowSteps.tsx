@@ -2,15 +2,9 @@
 
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
+import StepMockup from "./StepMockups";
 
 const stepKeys = ["1", "2", "3", "4", "5", "6"] as const;
-
-// Optional visual images for some steps
-const stepImages: Partial<Record<(typeof stepKeys)[number], { src: string; alt: string }>> = {
-  "1": { src: "/images/gen_marco_booking.jpg", alt: "Marco booking the court with + Match Video option" },
-  "2": { src: "/images/gen_marco_padel2v2.jpg", alt: "2v2 padel match captured silently by REPLASH PoE camera" },
-  "4": { src: "/images/gen_marco_admin.jpg", alt: "Facility staff unlocking the match from the REPLASH admin panel" },
-};
 
 const stepIcons = [
   // Calendar+Play (booked & played)
@@ -73,17 +67,10 @@ export default function HowSteps() {
                       {t(`steps.${key}.desc`)}
                     </p>
 
-                    {/* Optional visual — the concrete text lives in the step description above */}
-                    {stepImages[key] && (
-                      <div className="mt-4 overflow-hidden rounded-xl border border-white/8 bg-black/20">
-                        <img
-                          src={stepImages[key]!.src}
-                          alt={stepImages[key]!.alt}
-                          className="h-40 w-full object-cover sm:h-48"
-                          style={{ opacity: 0.85 }}
-                        />
-                      </div>
-                    )}
+                    {/* Animated UI mockup — mimics a screen recording of the actual action */}
+                    <div className="mt-5">
+                      <StepMockup step={key} />
+                    </div>
                   </div>
                 </motion.div>
               ))}
