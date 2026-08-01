@@ -7,7 +7,11 @@
     "about": "About",
     "find": "Find Your Match",
     "bookDemo": "Become a Pilot Facility",
-    "contact": "Contact"
+    "contact": "Contact",
+    "notice": {
+      "text": "Pilot program open — recruiting pilot facilities for Q1 2026.",
+      "cta": "Apply"
+    }
   },
   "home": {
     "hero": {

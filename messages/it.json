@@ -7,7 +7,11 @@
     "about": "Chi Siamo",
     "find": "Trova la Partita",
     "bookDemo": "Diventa Centro Pilota",
-    "contact": "Contatti"
+    "contact": "Contatti",
+    "notice": {
+      "text": "Programma pilota aperto — cerchiamo centri pilota per Q1 2026.",
+      "cta": "Candidati"
+    }
   },
   "home": {
     "hero": {

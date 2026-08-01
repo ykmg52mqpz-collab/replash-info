@@ -7,7 +7,11 @@
     "about": "Nosotros",
     "find": "Encuentra Tu Partido",
     "bookDemo": "Conviértete en Sede Piloto",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "notice": {
+      "text": "Programa piloto abierto — buscando centros piloto para Q1 2026.",
+      "cta": "Solicitar"
+    }
   },
   "home": {
     "hero": {

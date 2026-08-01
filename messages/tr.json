@@ -7,7 +7,11 @@
     "about": "Hakkımızda",
     "find": "Maçını Bul",
     "bookDemo": "Pilot Saha Ol",
-    "contact": "İletişim"
+    "contact": "İletişim",
+    "notice": {
+      "text": "Pilot program açık — 2026 Q1 için pilot sahalar arıyoruz.",
+      "cta": "Başvur"
+    }
   },
   "home": {
     "hero": {

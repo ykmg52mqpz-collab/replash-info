@@ -30,109 +30,134 @@ export default function Header() {
 
   return (
     <>
-      <header
-        className={`fixed inset-x-0 top-0 z-50 transition-[background-color,border-color,box-shadow,backdrop-filter] duration-500 ${
-          scrolled
-            ? "border-b border-white/[0.06] bg-ink-900/80 shadow-[0_1px_0_rgba(255,255,255,0.04)] backdrop-blur-2xl"
-            : "border-b border-transparent bg-transparent"
-        }`}
-      >
-        <div className="container-x flex h-16 items-center justify-between gap-4">
-          {/* Logo */}
-          <div className="flex items-center gap-2.5">
-            <img
-              src="/images/replash-logo.png"
-              alt="REPLASH"
-              className="h-10 w-auto select-none md:h-11"
-              draggable={false}
-            />
-            <span
-              lang="en"
-              className="font-display text-xl font-bold tracking-[0.32em] text-accent md:text-2xl"
-            >
-              REPLASH
+      {/* Notification bar — thin top strip, above the nav */}
+      <div className="fixed inset-x-0 top-0 z-[60] bg-black/95 backdrop-blur-md">
+        <div className="container-x flex h-10 items-center justify-center gap-3 text-[11px] md:text-xs">
+          <span className="flex items-center gap-2 text-white/75">
+            <span className="relative flex h-1.5 w-1.5">
+              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-accent opacity-60" />
+              <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-accent" />
             </span>
+            <span className="hidden sm:inline">{t("notice.text")}</span>
+            <span className="sm:hidden">{t("notice.text").split(" — ")[0]}</span>
+          </span>
+          <Link
+            href="/contact"
+            className="rounded-full bg-white/10 px-3 py-1 font-semibold text-white transition hover:bg-white/20"
+          >
+            {t("notice.cta")}
+          </Link>
+        </div>
+      </div>
+
+      {/* Floating pill nav — sits below the notification bar */}
+      <header className="pointer-events-none fixed inset-x-0 top-10 z-50 pt-3">
+        <div className="container-x">
+          <div
+            className={`pointer-events-auto mx-auto flex h-14 items-center justify-between gap-4 rounded-full border px-3 pl-4 pr-2 transition-[background-color,border-color,box-shadow,backdrop-filter] duration-500 md:px-4 md:pl-5 md:pr-2.5 ${
+              scrolled
+                ? "border-white/[0.08] bg-ink-900/85 shadow-[0_10px_40px_-15px_rgba(0,0,0,0.7)] backdrop-blur-2xl"
+                : "border-white/[0.06] bg-ink-900/50 shadow-[0_10px_40px_-15px_rgba(0,0,0,0.5)] backdrop-blur-xl"
+            }`}
+          >
+            {/* Logo */}
+            <Link href="/" className="flex items-center gap-2">
+              <img
+                src="/images/replash-logo.png"
+                alt="REPLASH"
+                className="h-8 w-auto select-none md:h-9"
+                draggable={false}
+              />
+              <span
+                lang="en"
+                className="font-display text-lg font-bold tracking-[0.32em] text-accent md:text-xl"
+              >
+                REPLASH
+              </span>
+            </Link>
+
+            {/* Desktop nav links */}
+            <nav className="hidden items-center gap-1 md:flex">
+              {navLinks.map((link) => {
+                const isActive = pathname === link.href;
+                return (
+                  <Link
+                    key={link.href}
+                    href={link.href}
+                    className={`group relative rounded-full px-3 py-1.5 text-sm transition-colors duration-200 ${
+                      isActive
+                        ? "text-white"
+                        : "text-white/60 hover:text-white"
+                    }`}
+                  >
+                    {link.label}
+                    <span
+                      className={`absolute inset-x-3 bottom-1 h-px rounded-full bg-accent transition-transform duration-200 ${
+                        isActive ? "scale-x-100" : "scale-x-0 group-hover:scale-x-100"
+                      }`}
+                    />
+                  </Link>
+                );
+              })}
+            </nav>
+
+            {/* Right side */}
+            <div className="flex items-center gap-2">
+              <LanguageToggle />
+              <Link
+                href="/contact"
+                className="hidden rounded-full bg-accent px-4 py-2 text-sm font-semibold text-ink-900 shadow-glow transition-[background-color,box-shadow,transform] active:scale-[0.98] duration-200 hover:bg-accent-neon hover:shadow-[0_0_30px_rgba(253,230,138,0.4)] md:inline-flex"
+              >
+                {t("bookDemo")}
+              </Link>
+              {/* Mobile hamburger */}
+              <button
+                type="button"
+                onClick={() => setMobileOpen((v) => !v)}
+                className="flex h-9 w-9 items-center justify-center rounded-full border border-white/10 bg-white/5 text-white/70 transition hover:bg-white/10 hover:text-white md:hidden"
+                aria-label="Toggle menu"
+              >
+                {mobileOpen ? (
+                  <svg className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                ) : (
+                  <svg className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                  </svg>
+                )}
+              </button>
+            </div>
           </div>
 
-          {/* Desktop nav links */}
-          <nav className="hidden items-center gap-1 md:flex">
-            {navLinks.map((link) => {
-              const isActive = pathname === link.href;
-              return (
+          {/* Mobile menu — dropped below the pill */}
+          <div
+            className={`pointer-events-auto mx-auto mt-2 overflow-hidden rounded-2xl border border-white/[0.08] bg-ink-900/95 backdrop-blur-2xl transition-[max-height,opacity] duration-300 md:hidden ${
+              mobileOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
+            }`}
+          >
+            <nav className="flex flex-col gap-1 p-3">
+              {navLinks.map((link) => (
                 <Link
                   key={link.href}
                   href={link.href}
-                  className={`group relative px-3 py-1.5 text-sm transition-colors duration-200 ${
-                    isActive ? "text-white" : "text-white/55 hover:text-white"
+                  className={`rounded-lg px-3 py-2.5 text-sm transition ${
+                    pathname === link.href
+                      ? "bg-accent/10 text-accent"
+                      : "text-white/65 hover:bg-white/5 hover:text-white"
                   }`}
                 >
                   {link.label}
-                  <span
-                    className={`absolute inset-x-3 bottom-0 h-px rounded-full bg-accent transition-transform duration-200 ${
-                      isActive ? "scale-x-100" : "scale-x-0 group-hover:scale-x-100"
-                    }`}
-                  />
                 </Link>
-              );
-            })}
-          </nav>
-
-          {/* Right side */}
-          <div className="flex items-center gap-3">
-            <LanguageToggle />
-            <Link
-              href="/contact"
-              className="hidden rounded-full bg-accent px-5 py-2 text-sm font-semibold text-ink-900 shadow-glow transition-[background-color,box-shadow,transform] active:scale-[0.98] duration-200 hover:bg-accent-neon hover:shadow-[0_0_30px_rgba(253,230,138,0.4)] md:inline-flex"
-            >
-              {t("bookDemo")}
-            </Link>
-            {/* Mobile hamburger */}
-            <button
-              type="button"
-              onClick={() => setMobileOpen((v) => !v)}
-              className="flex h-9 w-9 items-center justify-center rounded-lg border border-white/10 bg-white/5 text-white/70 transition hover:bg-white/10 hover:text-white md:hidden"
-              aria-label="Toggle menu"
-            >
-              {mobileOpen ? (
-                <svg className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
-                </svg>
-              ) : (
-                <svg className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
-                </svg>
-              )}
-            </button>
-          </div>
-        </div>
-
-        {/* Mobile menu */}
-        <div
-          className={`overflow-hidden border-t border-white/[0.06] bg-ink-900/95 backdrop-blur-2xl transition-[max-height,opacity] duration-300 md:hidden ${
-            mobileOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
-          }`}
-        >
-          <nav className="container-x flex flex-col gap-1 py-4">
-            {navLinks.map((link) => (
+              ))}
               <Link
-                key={link.href}
-                href={link.href}
-                className={`rounded-lg px-3 py-2.5 text-sm transition ${
-                  pathname === link.href
-                    ? "bg-accent/10 text-accent"
-                    : "text-white/60 hover:bg-white/5 hover:text-white"
-                }`}
+                href="/contact"
+                className="mt-2 rounded-full bg-accent px-5 py-2.5 text-center text-sm font-semibold text-ink-900 shadow-glow transition hover:bg-accent-neon"
               >
-                {link.label}
+                {t("bookDemo")}
               </Link>
-            ))}
-            <Link
-              href="/contact"
-              className="mt-2 rounded-full bg-accent px-5 py-2.5 text-center text-sm font-semibold text-ink-900 shadow-glow transition hover:bg-accent-neon"
-            >
-              {t("bookDemo")}
-            </Link>
-          </nav>
+            </nav>
+          </div>
         </div>
       </header>
     </>
