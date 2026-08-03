@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import ParallaxImage from "@/components/ParallaxImage";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 
@@ -13,7 +14,7 @@ export default function WhyFacilities() {
   return (
     <section className="section-y border-t border-white/5 bg-ink-900 relative overflow-hidden">
       <div className="absolute inset-0" aria-hidden>
-        <img src="/images/gen_padel_club_empty.jpg" alt="" className="h-full w-full object-cover object-center" style={{ opacity: 0.15 }} />
+        <ParallaxImage src="/images/gen_padel_club_empty.jpg" imgClassName="h-full w-full object-cover object-center" imgStyle={{ opacity: 0.15 }} />
         <div className="absolute inset-0 bg-gradient-to-r from-ink-900 via-ink-900/60 to-ink-900" />
       </div>
 

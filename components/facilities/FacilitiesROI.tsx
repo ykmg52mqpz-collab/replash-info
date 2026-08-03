@@ -2,6 +2,7 @@
 
 import { useMemo, useState } from "react";
 import { motion } from "framer-motion";
+import ParallaxImage from "@/components/ParallaxImage";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import SectionHeading from "@/components/SectionHeading";
@@ -36,12 +37,10 @@ export default function FacilitiesROI() {
   return (
     <section className="section-y border-t border-white/5 bg-ink-900 relative overflow-hidden">
       {/* Bg image */}
-      <img
+      <ParallaxImage
         src="/images/gen_facility_owner_pov.jpg"
-        alt=""
-        aria-hidden
-        className="pointer-events-none absolute inset-0 h-full w-full object-cover opacity-30"
-        style={{ filter: "brightness(1.1)" }}
+        imgClassName="h-full w-full object-cover opacity-30"
+        imgStyle={{ filter: "brightness(1.1)" }}
       />
       <div
         className="pointer-events-none absolute inset-0 bg-gradient-to-b from-ink-900/90 via-ink-900/55 to-ink-900/95"

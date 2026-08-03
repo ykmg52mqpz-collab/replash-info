@@ -16,13 +16,13 @@ export default function HomeHero() {
     offset: ["start start", "end start"],
   });
 
-  // Background drifts down slowly + scales up a touch → "slower than the page".
-  const bgY = useTransform(scrollYProgress, [0, 1], ["0%", "18%"]);
-  const bgScale = useTransform(scrollYProgress, [0, 1], [1.05, 1.14]);
+  // Background drifts down noticeably + scales up → strong "slower than the page".
+  const bgY = useTransform(scrollYProgress, [0, 1], ["0%", "28%"]);
+  const bgScale = useTransform(scrollYProgress, [0, 1], [1.1, 1.3]);
 
-  // Foreground text drifts up faster and fades out as you scroll.
-  const textY = useTransform(scrollYProgress, [0, 1], ["0%", "-35%"]);
-  const textOpacity = useTransform(scrollYProgress, [0, 0.65, 1], [1, 0.6, 0]);
+  // Foreground text shoots up much faster and fades out early.
+  const textY = useTransform(scrollYProgress, [0, 1], ["0%", "-85%"]);
+  const textOpacity = useTransform(scrollYProgress, [0, 0.45, 1], [1, 0.5, 0]);
 
   const parallaxBg = prefersReduced ? {} : { y: bgY, scale: bgScale };
   const parallaxText = prefersReduced ? {} : { y: textY, opacity: textOpacity };
@@ -32,8 +32,10 @@ export default function HomeHero() {
       ref={sectionRef}
       className="relative flex min-h-[100svh] items-center overflow-hidden bg-ink-900 pt-28 pb-20 md:pt-32 md:pb-24"
     >
-      {/* Background image — friends watching match highlights after the game */}
-      <motion.div className="absolute inset-0 will-change-transform" style={parallaxBg} aria-hidden>
+      {/* Background image — friends watching match highlights after the game.
+          Extra vertical overscan (-inset-y) so the downward parallax drift
+          never reveals a gap at the top edge. */}
+      <motion.div className="absolute -inset-y-[25%] inset-x-0 will-change-transform" style={parallaxBg} aria-hidden>
         <img
           src="/images/gen_hero_friends.jpg"
           alt=""

@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import ParallaxImage from "@/components/ParallaxImage";
 import { useTranslations } from "next-intl";
 import SectionHeading from "@/components/SectionHeading";
 
@@ -12,7 +13,7 @@ export default function PlayersRelive() {
   return (
     <section className="section-y border-t border-white/5 bg-ink-900 relative overflow-hidden">
       <div className="absolute inset-0" aria-hidden>
-        <img src="/images/gen_player_watching.jpg" alt="" className="h-full w-full object-cover object-right" style={{ opacity: 0.6, filter: "brightness(1.15)" }} />
+        <ParallaxImage src="/images/gen_player_watching.jpg" imgClassName="h-full w-full object-cover object-right" imgStyle={{ opacity: 0.6, filter: "brightness(1.15)" }} />
         <div className="absolute inset-0 bg-gradient-to-r from-ink-900/90 via-ink-900/40 to-ink-900/90" />
       </div>
 

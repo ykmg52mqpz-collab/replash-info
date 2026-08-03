@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import ParallaxImage from "@/components/ParallaxImage";
 
 interface PageHeroProps {
   eyebrow?: string;
@@ -20,11 +21,10 @@ export default function PageHero({
     <section className="relative overflow-hidden bg-ink-900 pt-36 pb-20 md:pt-44 md:pb-28">
       {image && (
         <div className="absolute inset-0" aria-hidden>
-          <img
+          <ParallaxImage
             src={image}
-            alt=""
-            className="h-full w-full object-cover object-center"
-            style={{ opacity: imageOpacity }}
+            imgClassName="h-full w-full object-cover object-center"
+            imgStyle={{ opacity: imageOpacity }}
           />
           <div className="absolute inset-0 bg-gradient-to-b from-ink-900/60 via-ink-900/30 to-ink-900/90" />
         </div>
