@@ -20,14 +20,8 @@ export default function ContactForm() {
     const form = e.currentTarget;
     const data = new FormData(form);
 
-    const endpoint = process.env.NEXT_PUBLIC_FORMSPREE_ENDPOINT;
+    const endpoint = "https://formspree.io/f/mwleepqw";
     try {
-      if (!endpoint) {
-        await new Promise((r) => setTimeout(r, 700));
-        setStatus("success");
-        form.reset();
-        return;
-      }
       const res = await fetch(endpoint, {
         method: "POST",
         body: data,

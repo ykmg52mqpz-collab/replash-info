@@ -30,28 +30,8 @@ export default function Header() {
 
   return (
     <>
-      {/* Notification bar — thin top strip, above the nav */}
-      <div className="fixed inset-x-0 top-0 z-[60] bg-black/95 backdrop-blur-md">
-        <div className="container-x flex h-10 items-center justify-center gap-3 text-[11px] md:text-xs">
-          <span className="flex items-center gap-2 text-white/75">
-            <span className="relative flex h-1.5 w-1.5">
-              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-accent opacity-60" />
-              <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-accent" />
-            </span>
-            <span className="hidden sm:inline">{t("notice.text")}</span>
-            <span className="sm:hidden">{t("notice.text").split(" — ")[0]}</span>
-          </span>
-          <Link
-            href="/contact"
-            className="rounded-full bg-white/10 px-3 py-1 font-semibold text-white transition hover:bg-white/20"
-          >
-            {t("notice.cta")}
-          </Link>
-        </div>
-      </div>
-
-      {/* Floating pill nav — sits below the notification bar */}
-      <header className="pointer-events-none fixed inset-x-0 top-10 z-50 pt-3">
+      {/* Floating pill nav */}
+      <header className="pointer-events-none fixed inset-x-0 top-0 z-50 pt-3">
         <div className="container-x">
           <div
             className={`pointer-events-auto mx-auto flex h-14 items-center justify-between gap-4 rounded-full border px-3 pl-4 pr-2 transition-[background-color,border-color,box-shadow,backdrop-filter] duration-500 md:px-4 md:pl-5 md:pr-2.5 ${
