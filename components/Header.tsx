@@ -50,9 +50,9 @@ export default function Header() {
               />
               <span
                 lang="en"
-                className="font-display text-lg font-bold tracking-[0.32em] text-accent md:text-xl"
+                className="font-display text-xl font-bold tracking-tight text-accent md:text-2xl"
               >
-                REPLASH
+                Replash
               </span>
             </Link>
 

@@ -30,8 +30,8 @@ export default function Footer() {
                 className="h-12 w-auto select-none"
                 draggable={false}
               />
-              <span lang="en" className="font-display text-2xl font-bold tracking-[0.32em] text-accent">
-                REPLASH
+              <span lang="en" className="font-display text-2xl font-bold tracking-tight text-accent">
+                Replash
               </span>
             </div>
             <p className="max-w-xs text-sm text-white/50 leading-relaxed">{t("tagline")}</p>
