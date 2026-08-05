@@ -71,7 +71,6 @@ function Step1Booking() {
             transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
           >
             <span className="text-white/85">{slot}</span>
-            <span className="text-xs text-white/40">Free</span>
           </motion.div>
         ))}
       </div>
