@@ -3,7 +3,6 @@ import Footer from "@/components/Footer";
 import HomeHero from "@/components/home/HomeHero";
 import HomeIntro from "@/components/home/HomeIntro";
 import TwoLayerValue from "@/components/home/TwoLayerValue";
-import HomeTurkeyProof from "@/components/home/HomeTurkeyProof";
 import WhyFacilities from "@/components/home/WhyFacilities";
 import WhatPlayersGet from "@/components/home/WhatPlayersGet";
 import FAQ from "@/components/FAQ";
@@ -16,7 +15,6 @@ export default function Home() {
       <HomeHero />
       <HomeIntro />
       <TwoLayerValue />
-      <HomeTurkeyProof />
       <WhyFacilities />
       <WhatPlayersGet />
       <FAQ />
