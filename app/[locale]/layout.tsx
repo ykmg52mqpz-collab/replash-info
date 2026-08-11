@@ -37,6 +37,12 @@ export async function generateMetadata({
     title: t("title"),
     description: t("description"),
     metadataBase: new URL("https://replash.info"),
+    applicationName: "Replash",
+    appleWebApp: {
+      capable: true,
+      title: "Replash",
+      statusBarStyle: "black-translucent",
+    },
     alternates: {
       canonical: locale === "it" ? "/" : `/${locale}`,
       languages: {
@@ -50,7 +56,7 @@ export async function generateMetadata({
       title: t("title"),
       description: t("description"),
       url: locale === "it" ? "https://replash.info" : `https://replash.info/${locale}`,
-      siteName: "REPLASH",
+      siteName: "Replash",
       locale: { it: "it_IT", en: "en_US", tr: "tr_TR", es: "es_ES" }[locale] || "en_US",
       type: "website",
       images: [
@@ -58,7 +64,7 @@ export async function generateMetadata({
           url: "/og-image.png",
           width: 1200,
           height: 630,
-          alt: "REPLASH — Play. Record. Relive.",
+          alt: "Replash. Play. Record. Relive.",
         },
       ],
     },
