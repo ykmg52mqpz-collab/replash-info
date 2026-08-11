@@ -849,7 +849,11 @@
     "submitting": "Gönderiliyor...",
     "success": "Mesajınız alındı! 24 saat içinde size ulaşacağız.",
     "error": "Bir şeyler yanlış gitti. Lütfen birazdan tekrar deneyin.",
-    "trust": "Taahhüt gerekmez. Ücretsiz danışmanlık. 24 saat içinde yanıt."
+    "trust": "Taahhüt gerekmez. Ücretsiz danışmanlık. 24 saat içinde yanıt.",
+    "whatsapp": {
+      "aria": "WhatsApp'tan yaz",
+      "prefill": "Merhaba! Tesisim için Replash hakkında bilgi almak istiyorum."
+    }
   },
   "footer": {
     "tagline": "Sadece bir maçtan fazlası.",

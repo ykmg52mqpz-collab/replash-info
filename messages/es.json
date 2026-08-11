@@ -849,7 +849,11 @@
     "submitting": "Enviando...",
     "success": "¡Mensaje recibido! Te contactaremos en 24 horas.",
     "error": "Algo salió mal. Por favor inténtalo de nuevo en un momento.",
-    "trust": "Sin compromiso. Consulta gratuita. Respuesta en 24 horas."
+    "trust": "Sin compromiso. Consulta gratuita. Respuesta en 24 horas.",
+    "whatsapp": {
+      "aria": "Escríbenos por WhatsApp",
+      "prefill": "¡Hola! Me gustaría saber más sobre Replash para mi centro."
+    }
   },
   "footer": {
     "tagline": "Más que solo un partido.",

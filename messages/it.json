@@ -849,7 +849,11 @@
     "submitting": "Invio in corso...",
     "success": "Messaggio ricevuto! Ti risponderemo entro 24 ore.",
     "error": "Qualcosa è andato storto. Riprova tra un momento.",
-    "trust": "Nessun impegno richiesto. Consulenza gratuita. Risposta entro 24 ore."
+    "trust": "Nessun impegno richiesto. Consulenza gratuita. Risposta entro 24 ore.",
+    "whatsapp": {
+      "aria": "Scrivici su WhatsApp",
+      "prefill": "Ciao! Vorrei saperne di più su Replash per il mio centro."
+    }
   },
   "footer": {
     "tagline": "Più di una semplice partita.",

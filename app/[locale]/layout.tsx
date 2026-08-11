@@ -7,6 +7,7 @@ import { routing, type Locale } from "@/i18n/routing";
 
 const locales = routing.locales;
 import "../globals.css";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 const display = Space_Grotesk({
   subsets: ["latin"],
@@ -85,6 +86,7 @@ export default async function LocaleLayout({
       <body className="font-body bg-ink-900 text-white antialiased">
         <NextIntlClientProvider messages={messages} locale={locale}>
           {children}
+          <WhatsAppButton />
         </NextIntlClientProvider>
       </body>
     </html>
