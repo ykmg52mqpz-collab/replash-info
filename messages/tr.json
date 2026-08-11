@@ -567,7 +567,12 @@
         "yearlySuffix": "yıllık",
         "yearlyNote": "Personelinize sıfır ek iş yükü ile."
       },
-      "disclaimer": "* Tahmin spor başına ortalama video satış fiyatına dayanmaktadır. Hesaplama tamamen örnektir. Kendi rakamlarınızı girip potansiyelinizi görün."
+      "disclaimer": "* Tahmin spor başına ortalama video satış fiyatına dayanmaktadır. Hesaplama tamamen örnektir. Kendi rakamlarınızı girip potansiyelinizi görün.",
+      "hook": {
+        "title": "Bu tahmini tesisinin aylık gelirine çevir.",
+        "desc": "Kısa bir görüşme ayarla. Bu rakamları senin tesisine göre çıkaralım; kurulum, süre ve şartları birlikte konuşalım.",
+        "cta": "Görüşme ayarla"
+      }
     }
   },
   "forPlayers": {

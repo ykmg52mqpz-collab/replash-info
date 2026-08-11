@@ -567,7 +567,12 @@
         "yearlySuffix": "per year",
         "yearlyNote": "With zero extra work for your staff."
       },
-      "disclaimer": "* Estimate based on average video sale price per sport. The calculation is purely illustrative. Enter your own numbers to see your potential."
+      "disclaimer": "* Estimate based on average video sale price per sport. The calculation is purely illustrative. Enter your own numbers to see your potential.",
+      "hook": {
+        "title": "Turn this estimate into your monthly income.",
+        "desc": "Book a short call. We'll map these numbers to your exact venue and walk you through setup, timelines, and terms.",
+        "cta": "Book a call"
+      }
     }
   },
   "forPlayers": {

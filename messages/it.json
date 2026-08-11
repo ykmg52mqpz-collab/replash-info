@@ -567,7 +567,12 @@
         "yearlySuffix": "all'anno",
         "yearlyNote": "Con zero lavoro aggiuntivo per il tuo staff."
       },
-      "disclaimer": "* Stima basata sul prezzo medio di vendita del video per sport. Il calcolo è puramente illustrativo. Inserisci i tuoi numeri per vedere il tuo potenziale."
+      "disclaimer": "* Stima basata sul prezzo medio di vendita del video per sport. Il calcolo è puramente illustrativo. Inserisci i tuoi numeri per vedere il tuo potenziale.",
+      "hook": {
+        "title": "Trasforma questa stima nel reddito mensile del tuo centro.",
+        "desc": "Prenota una breve call. Adattiamo questi numeri al tuo centro e ti spieghiamo installazione, tempi e condizioni.",
+        "cta": "Prenota una call"
+      }
     }
   },
   "forPlayers": {

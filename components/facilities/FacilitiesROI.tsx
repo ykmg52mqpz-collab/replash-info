@@ -17,7 +17,6 @@ const FACILITY_SHARE: Record<Sport, number> = {
 
 export default function FacilitiesROI() {
   const t = useTranslations("forFacilities.roi");
-  const tCta = useTranslations("forFacilities.cta");
 
   const [sport, setSport] = useState<Sport>("padel");
   const [courts, setCourts] = useState(4);
@@ -152,13 +151,25 @@ export default function FacilitiesROI() {
             {t("disclaimer")}
           </p>
 
-          <div className="mt-7 flex justify-center">
-            <Link
-              href="/contact"
-              className="inline-flex items-center justify-center rounded-full bg-accent px-7 py-3 text-sm font-semibold text-ink-900 shadow-glow transition-[background-color,box-shadow,transform] active:scale-[0.98] hover:bg-accent-neon hover:shadow-[0_0_50px_rgba(254,243,199,0.5)]"
-            >
-              {tCta("button")}
-            </Link>
+          {/* Meeting hook — personalized conversion moment, right after they see their number */}
+          <div className="mt-8 rounded-2xl border border-white/10 bg-white/[0.03] px-6 py-6 text-center">
+            <h3 className="font-display text-lg font-bold text-white md:text-xl">
+              {t("hook.title")}
+            </h3>
+            <p className="mx-auto mt-2 max-w-md text-sm leading-relaxed text-white/55">
+              {t("hook.desc")}
+            </p>
+            <div className="mt-5 flex justify-center">
+              <Link
+                href="/contact"
+                className="group inline-flex items-center gap-2 rounded-full bg-accent px-7 py-3 text-sm font-semibold text-ink-900 shadow-glow transition-[background-color,box-shadow,transform] active:scale-[0.98] hover:bg-accent-neon hover:shadow-[0_0_50px_rgba(254,243,199,0.5)]"
+              >
+                {t("hook.cta")}
+                <svg className="h-3.5 w-3.5 transition-transform group-hover:translate-x-1" viewBox="0 0 20 20" fill="currentColor" aria-hidden>
+                  <path d="M10.293 3.293a1 1 0 011.414 0l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414-1.414L13.586 10H4a1 1 0 110-2h9.586l-3.293-3.293a1 1 0 010-1.414z" />
+                </svg>
+              </Link>
+            </div>
           </div>
         </motion.div>
       </div>
