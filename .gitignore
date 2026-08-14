@@ -34,3 +34,14 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Replash platform state (local data, secrets, media)
+db/data.json
+db/data.json.tmp
+db/.secret
+db/.webhook-secret
+db/.sessions.json
+db/.ratelimit.json
+db/access.log
+media/
+edge/config.json

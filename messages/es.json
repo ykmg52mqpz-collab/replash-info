@@ -172,7 +172,7 @@
     "hero": {
       "eyebrow": "Encuentra Tu Partido",
       "title": "Mira tu partido.",
-      "subtitle": "Solo tres campos — centro, fecha, franja horaria — y estás viendo el partido."
+      "subtitle": "¿Tienes el código del club? Introdúcelo y estarás viendo tu partido en segundos."
     },
     "form": {
       "facility": "Centro",
@@ -203,7 +203,42 @@
       "desc": "Un video solo se muestra cuando las cuatro condiciones coinciden a la vez: centro correcto, fecha correcta, franja horaria correcta y que el centro haya activado la grabación. Sin listados públicos. Sin URLs adivinables. Tu partido es solo tuyo.",
       "noShare": "Los videos nunca aparecen en motores de búsqueda. Los enlaces no son públicos."
     },
-    "demoNote": "Esta es una vista previa de demo. El acceso en vivo estará disponible en centros asociados en el lanzamiento."
+    "watch": {
+      "title": "Encuentra tu partido",
+      "subtitle": "Introduce el código que el club te dio después del partido.",
+      "codeLabel": "Código del partido",
+      "button": "Ver el partido",
+      "buttonLoading": "Buscando…",
+      "fallbackToggle": "¿Sin código? Busca por pista y hora",
+      "court": "Pista / Campo",
+      "courtPlaceholder": "Elige primero el club",
+      "rateLimited": "Demasiados intentos. Inténtalo de nuevo en un minuto.",
+      "playerLabel": "Grabación del partido",
+      "processing": {
+        "title": "Vídeo en proceso",
+        "desc": "Tu vídeo estará listo en unos {minutes} minutos. Vuelve a intentarlo en breve."
+      },
+      "notFound": {
+        "title": "Código no válido o partido no disponible",
+        "desc": "Comprueba el código o pregunta al personal del club. Si pagaste y no ves el vídeo, abre una solicitud abajo."
+      },
+      "refund": {
+        "open": "Problema con el vídeo / Reembolso",
+        "title": "Problema con el vídeo / Solicitud de reembolso",
+        "desc": "¿Pagaste y no puedes verlo? Envíanos los detalles: lo revisaremos y te enviaremos una confirmación de partido gratis.",
+        "email": "Tu email",
+        "message": "Describe el problema (opcional)",
+        "send": "Enviar solicitud",
+        "sent": "Solicitud enviada. Referencia:"
+      },
+      "clip": {
+        "label": "Corta un momento",
+        "hint": "Arrastra en la línea de tiempo para seleccionar 15–40s y descarga.",
+        "download": "Descargar clip",
+        "range": "Selecciona entre 15 y 40 segundos."
+      },
+      "expires": "Este vídeo se elimina automáticamente el {date}."
+    }
   },
   "howItWorks": {
     "hero": {

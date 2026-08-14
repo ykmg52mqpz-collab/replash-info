@@ -172,7 +172,7 @@
     "hero": {
       "eyebrow": "Find Your Match",
       "title": "Watch your match.",
-      "subtitle": "Just three fields — facility, date, time slot — and you're watching the game."
+      "subtitle": "Got your code from the facility? Enter it and you're watching in seconds."
     },
     "form": {
       "facility": "Facility",
@@ -203,7 +203,42 @@
       "desc": "A video is only displayed when all four conditions match at once: correct facility, correct date, correct time slot, and the facility has activated the recording. No public listings. No guessable URLs. Your match is yours alone.",
       "noShare": "Videos never appear in search engines. Links are not public."
     },
-    "demoNote": "This is a demo preview. Live access will be available at partner facilities at launch."
+    "watch": {
+      "title": "Find your match",
+      "subtitle": "Enter the code the facility gave you after the match.",
+      "codeLabel": "Match code",
+      "button": "Watch the match",
+      "buttonLoading": "Searching…",
+      "fallbackToggle": "No code? Search by court and time",
+      "court": "Court / Pitch",
+      "courtPlaceholder": "Choose facility first",
+      "rateLimited": "Too many attempts. Please try again in a minute.",
+      "playerLabel": "Match recording",
+      "processing": {
+        "title": "Video processing",
+        "desc": "Your video will be ready in about {minutes} minutes. Please try again shortly."
+      },
+      "notFound": {
+        "title": "Invalid code or match not available",
+        "desc": "Check the code or ask the facility staff. If you paid but can't see your video, open a request below."
+      },
+      "refund": {
+        "open": "Video problem / Refund",
+        "title": "Video problem / Refund request",
+        "desc": "Paid but can't watch? Send us the details — we'll review and email you a free-match confirmation.",
+        "email": "Your email",
+        "message": "Describe the problem (optional)",
+        "send": "Send request",
+        "sent": "Request sent. Reference:"
+      },
+      "clip": {
+        "label": "Cut a clip",
+        "hint": "Drag on the timeline to select 15–40s, then download.",
+        "download": "Download clip",
+        "range": "Select between 15 and 40 seconds."
+      },
+      "expires": "This video auto-deletes on {date}."
+    }
   },
   "howItWorks": {
     "hero": {

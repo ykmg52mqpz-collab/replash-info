@@ -1,0 +1,9 @@
+{
+  "server": "http://localhost:3000",
+  "cameraId": "cam-<facility>-<court>",
+  "cameraToken": "camk_...",
+
+  "_comment": "Each camera is bound to a facility+court (register it in Admin → Cameras to get its id + token). 'source' is the camera's RTSP URL; use 'test' to trial without hardware. The slot is auto-derived from the clock.",
+  "source": "rtsp://user:pass@192.168.1.50:554/stream1",
+  "duration": 3600
+}

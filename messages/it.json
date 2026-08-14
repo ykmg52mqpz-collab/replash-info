@@ -172,7 +172,7 @@
     "hero": {
       "eyebrow": "Trova la Tua Partita",
       "title": "Guarda la tua partita.",
-      "subtitle": "Solo tre campi — centro, data, slot orario — e stai già guardando la partita."
+      "subtitle": "Hai il codice del centro? Inseriscilo e guardi la partita in pochi secondi."
     },
     "form": {
       "facility": "Centro",
@@ -203,7 +203,42 @@
       "desc": "Un video viene mostrato solo quando tutte e quattro le condizioni corrispondono insieme: centro corretto, data corretta, slot orario corretto e il centro ha attivato la registrazione. Nessuna lista pubblica. Nessun URL indovinabile. La tua partita è solo tua.",
       "noShare": "I video non appaiono mai nei motori di ricerca. I link non sono pubblici."
     },
-    "demoNote": "Questa è un'anteprima demo. L'accesso live sarà disponibile presso i centri partner al lancio."
+    "watch": {
+      "title": "Trova la tua partita",
+      "subtitle": "Inserisci il codice che il centro ti ha dato dopo la partita.",
+      "codeLabel": "Codice partita",
+      "button": "Guarda la partita",
+      "buttonLoading": "Ricerca in corso…",
+      "fallbackToggle": "Non hai un codice? Cerca per campo e orario",
+      "court": "Campo / Pista",
+      "courtPlaceholder": "Prima scegli il centro",
+      "rateLimited": "Troppi tentativi. Riprova tra un minuto.",
+      "playerLabel": "Registrazione partita",
+      "processing": {
+        "title": "Video in elaborazione",
+        "desc": "Il tuo video sarà pronto tra circa {minutes} minuti. Riprova più tardi."
+      },
+      "notFound": {
+        "title": "Codice non valido o partita non disponibile",
+        "desc": "Controlla il codice o chiedi allo staff del centro. Se hai pagato ma non vedi il video, apri una richiesta qui sotto."
+      },
+      "refund": {
+        "open": "Problema video / Rimborso",
+        "title": "Problema video / Richiesta rimborso",
+        "desc": "Hai pagato ma non riesci a guardare? Inviaci i dettagli: verificheremo e ti invieremo una conferma per una partita gratuita.",
+        "email": "La tua email",
+        "message": "Descrivi il problema (facoltativo)",
+        "send": "Invia richiesta",
+        "sent": "Richiesta inviata. Riferimento:"
+      },
+      "clip": {
+        "label": "Taglia un momento",
+        "hint": "Trascina sulla timeline per selezionare 15–40s, poi scarica.",
+        "download": "Scarica clip",
+        "range": "Seleziona tra 15 e 40 secondi."
+      },
+      "expires": "Questo video si cancella automaticamente il {date}."
+    }
   },
   "howItWorks": {
     "hero": {

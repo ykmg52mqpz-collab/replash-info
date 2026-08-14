@@ -172,7 +172,7 @@
     "hero": {
       "eyebrow": "Maçını Bul",
       "title": "Maçınızı izleyin.",
-      "subtitle": "Sadece üç alan — saha, tarih, saat slotu — ve maçı izliyorsunuz."
+      "subtitle": "Tesisten kodunu aldın mı? Gir ve saniyeler içinde maçını izle."
     },
     "form": {
       "facility": "Saha",
@@ -203,7 +203,42 @@
       "desc": "Bir video sadece dört koşul aynı anda eşleştiğinde gösterilir: doğru saha, doğru tarih, doğru saat slotu ve sahanın kaydı aktive etmiş olması. Genel listeleme yok. Tahmin edilebilir URL yok. Maçınız sadece sizindir.",
       "noShare": "Videolar asla arama motorlarında görünmez. Bağlantılar genel değildir."
     },
-    "demoNote": "Bu bir demo önizleme. Canlı erişim lansmanda partner sahalarda kullanılabilir olacak."
+    "watch": {
+      "title": "Maçını bul",
+      "subtitle": "Maçtan sonra tesisin sana verdiği kodu gir.",
+      "codeLabel": "Maç kodu",
+      "button": "Maçı izle",
+      "buttonLoading": "Aranıyor…",
+      "fallbackToggle": "Kodun yok mu? Saha ve saatle ara",
+      "court": "Saha / Kort",
+      "courtPlaceholder": "Önce tesisi seç",
+      "rateLimited": "Çok fazla deneme. Bir dakika sonra tekrar dene.",
+      "playerLabel": "Maç kaydı",
+      "processing": {
+        "title": "Video hazırlanıyor",
+        "desc": "Videon yaklaşık {minutes} dakika içinde hazır olacak. Az sonra tekrar dene."
+      },
+      "notFound": {
+        "title": "Geçersiz kod veya maç mevcut değil",
+        "desc": "Kodu kontrol et veya tesis personeline sor. Ödeme yaptıysan ve videoyu göremiyorsan aşağıdan talep aç."
+      },
+      "refund": {
+        "open": "Video sorunu / İade",
+        "title": "Video sorunu / İade talebi",
+        "desc": "Ödedin ama izleyemiyor musun? Detayları gönder — inceleyip ücretsiz maç onayını e-postayla ileteceğiz.",
+        "email": "E-posta adresin",
+        "message": "Sorunu açıkla (isteğe bağlı)",
+        "send": "Talep gönder",
+        "sent": "Talep gönderildi. Referans:"
+      },
+      "clip": {
+        "label": "Klip kes",
+        "hint": "Zaman çizelgesinde sürükleyerek 15–40 sn seç, sonra indir.",
+        "download": "Klibi indir",
+        "range": "15 ile 40 saniye arasında seç."
+      },
+      "expires": "Bu video {date} tarihinde otomatik silinir."
+    }
   },
   "howItWorks": {
     "hero": {
