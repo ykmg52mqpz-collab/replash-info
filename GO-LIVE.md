@@ -6,17 +6,24 @@ Toplam süre: ~30-45 dk. Senin yapman gerekenler 🙋 ile, sunucunun otomatik ya
 
 ---
 
-## 1) 🙋 Sunucu aç (Hetzner önerisi, ~€5/ay)
+## 1) 🙋 Sunucuyu Müjdat'tan al
 
-1. https://www.hetzner.com/cloud → hesap aç
-2. **New Server**:
-   - Konum: **Falkenstein** veya **Nürnberg** (Almanya, AB ✅)
-   - İmaj: **Ubuntu 24.04**
-   - Tip: **CX22** (2 vCPU / 4 GB) — başlangıç için yeterli
-   - SSH anahtarı ekle (yoksa parola ile de olur)
-3. Sunucunun **IP adresini** not al (örn. `188.34.x.x`)
+Sunucuyu Müjdat sağlıyor (Almanya ✅ AB/GDPR uygun). Ondan istenecekler:
 
-> Alternatifler: Scaleway (Paris), OVH (Fransa) — hepsi AB, kurulum aynı.
+| Gereksinim | Değer |
+|---|---|
+| İşletim sistemi | **Ubuntu 22.04 veya 24.04** (temiz kurulum) |
+| Kaynak | En az **2 vCPU / 4 GB RAM / 40 GB disk** |
+| Erişim | **Root SSH** erişimi (IP + kullanıcı + parola veya SSH anahtarı) |
+| Ağ | Sabit **public IP**; **80 ve 443** portları dışarı açık |
+| Not | Sunucuda başka web sunucusu (nginx/apache) 80/443'ü tutmamalı |
+
+Müjdat'tan gelecek bilgiyi not al: `SUNUCU_IP`, SSH kullanıcısı, parola/anahtar.
+
+> Müjdat kendi video sistemini aynı makinede değil ayrı yerde çalıştıracaksa
+> sorun yok — bizim platform bu sunucuda, onun sistemi kendi yerinde durur,
+> webhook'la konuşurlar. Aynı makineyi paylaşacaklarsa 80/443 çakışmasını
+> önceden konuşmak gerekir.
 
 ## 2) 🙋 Kurulum scriptini çalıştır
 
