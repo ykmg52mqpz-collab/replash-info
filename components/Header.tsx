@@ -83,6 +83,13 @@ export default function Header() {
 
             {/* Right side */}
             <div className="flex items-center gap-2">
+              {/* Player action — find your match */}
+              <Link
+                href="/find"
+                className="hidden rounded-full border border-accent/40 px-4 py-2 text-sm font-semibold text-accent transition-[background-color,border-color,transform] active:scale-[0.98] duration-200 hover:border-accent hover:bg-accent/10 lg:inline-flex"
+              >
+                {t("find")}
+              </Link>
               <LanguageToggle />
               <Link
                 href="/contact"
@@ -131,8 +138,14 @@ export default function Header() {
                 </Link>
               ))}
               <Link
+                href="/find"
+                className="mt-2 rounded-full border border-accent/40 px-5 py-2.5 text-center text-sm font-semibold text-accent transition hover:border-accent hover:bg-accent/10"
+              >
+                {t("find")}
+              </Link>
+              <Link
                 href="/contact"
-                className="mt-2 rounded-full bg-accent px-5 py-2.5 text-center text-sm font-semibold text-ink-900 shadow-glow transition hover:bg-accent-neon"
+                className="rounded-full bg-accent px-5 py-2.5 text-center text-sm font-semibold text-ink-900 shadow-glow transition hover:bg-accent-neon"
               >
                 {t("bookDemo")}
               </Link>
