@@ -52,7 +52,7 @@ export default function Header() {
                 lang="en"
                 className="font-display text-xl font-bold tracking-tight text-accent md:text-2xl"
               >
-                Replash
+                replash
               </span>
             </Link>
 

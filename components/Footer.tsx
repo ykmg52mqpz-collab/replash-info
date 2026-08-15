@@ -31,7 +31,7 @@ export default function Footer() {
                 draggable={false}
               />
               <span lang="en" className="font-display text-2xl font-bold tracking-tight text-accent">
-                Replash
+                replash
               </span>
             </div>
             <p className="max-w-xs text-sm text-white/50 leading-relaxed">{t("tagline")}</p>

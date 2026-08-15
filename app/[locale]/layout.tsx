@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Space_Grotesk, Inter } from "next/font/google";
+import { Hanken_Grotesk, Inter } from "next/font/google";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
@@ -9,7 +9,10 @@ const locales = routing.locales;
 import "../globals.css";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
-const display = Space_Grotesk({
+// Hanken Grotesk — a clean neutral neo-grotesk, the closest free stand-in
+// for Neue Haas Grotesk Display. Swap to a self-hosted Neue Haas Grotesk
+// (next/font/local) once the licensed .woff2 files are available.
+const display = Hanken_Grotesk({
   subsets: ["latin"],
   variable: "--font-display",
   weight: ["400", "500", "600", "700"],
