@@ -1,0 +1,17 @@
+# Replash — Caddy reverse proxy (otomatik HTTPS / Let's Encrypt)
+__DOMAIN__, www.__DOMAIN__ {
+	encode gzip
+
+	# Müjdat'ın büyük video push'ları için gövde limiti (Mod B; 2 GB)
+	request_body {
+		max_size 2GB
+	}
+
+	reverse_proxy 127.0.0.1:3000
+
+	header {
+		Strict-Transport-Security "max-age=31536000; includeSubDomains"
+		X-Content-Type-Options "nosniff"
+		Referrer-Policy "no-referrer-when-downgrade"
+	}
+}
