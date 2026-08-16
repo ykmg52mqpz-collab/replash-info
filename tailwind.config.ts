@@ -23,10 +23,10 @@ const config: Config = {
         muted: "#6B7280",
       },
       fontFamily: {
-        // Headings: real Neue Haas Grotesk Display (Adobe Fonts / Typekit).
+        // Whole site on Neue Haas Grotesk Display (Adobe Fonts / Typekit).
+        // Headings render Medium (600); body/subheadings resolve to Roman (500).
         display: ["neue-haas-grotesk-display", "system-ui", "sans-serif"],
-        // Body: platform system font (SF Pro on Apple) per apple-design guidance.
-        body: ["system-ui", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "sans-serif"],
+        body: ["neue-haas-grotesk-display", "system-ui", "sans-serif"],
       },
       backgroundImage: {
         "hero-gradient":
