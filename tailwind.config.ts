@@ -23,8 +23,10 @@ const config: Config = {
         muted: "#6B7280",
       },
       fontFamily: {
-        display: ["var(--font-display)", "system-ui", "sans-serif"],
-        body: ["var(--font-body)", "system-ui", "sans-serif"],
+        // Headings: real Neue Haas Grotesk Display (Adobe Fonts / Typekit).
+        display: ["neue-haas-grotesk-display", "system-ui", "sans-serif"],
+        // Body: platform system font (SF Pro on Apple) per apple-design guidance.
+        body: ["system-ui", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "sans-serif"],
       },
       backgroundImage: {
         "hero-gradient":

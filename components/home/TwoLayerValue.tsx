@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
+import CountUp from "@/components/CountUp";
 
 export default function TwoLayerValue() {
   const t = useTranslations("home.twoLayer");
@@ -13,6 +14,7 @@ export default function TwoLayerValue() {
       title: t("layer1.title"),
       desc: t("layer1.desc"),
       accent: false,
+      stat: 95, // animated headline stat: "95% of amateur matches are never recorded"
     },
     {
       index: "02",
@@ -20,6 +22,7 @@ export default function TwoLayerValue() {
       title: t("layer2.title"),
       desc: t("layer2.desc"),
       accent: true,
+      stat: null,
     },
   ];
 
@@ -95,7 +98,18 @@ export default function TwoLayerValue() {
                   >
                     {layer.label}
                   </div>
-                  <h3 className="font-display text-2xl font-bold leading-tight text-white">
+                  {layer.stat != null && (
+                    <CountUp
+                      to={layer.stat}
+                      suffix="%"
+                      className="block font-display text-5xl font-bold leading-none text-accent md:text-6xl"
+                    />
+                  )}
+                  <h3
+                    className={`font-display font-bold leading-tight text-white ${
+                      layer.stat != null ? "mt-2 text-xl md:text-2xl" : "text-2xl"
+                    }`}
+                  >
                     {layer.title}
                   </h3>
                   <p className="mt-3 text-base leading-relaxed text-white/55">{layer.desc}</p>

@@ -32,9 +32,14 @@ textarea:focus-visible,
   border-radius: inherit;
 }
 
-/* Display font (Space Grotesk) — geometric grotesk, modern editorial.
-   Tight tracking on large headings per type-craft; normal line-height. */
+/* Display font: Neue Haas Grotesk Display (Adobe Fonts). The web project
+   ships only the Light (300) weight, so force 300 and disable synthesis to
+   avoid faux-bold from the site's font-bold utilities. Light Neue Haas at
+   large sizes reads as premium editorial. */
 .font-display {
+  font-family: "neue-haas-grotesk-display", system-ui, sans-serif;
+  font-weight: 300;
+  font-synthesis: none;
   letter-spacing: -0.02em;
   line-height: 1.05;
 }
@@ -42,10 +47,12 @@ textarea:focus-visible,
 /* Large headings get tighter tracking (frontend-design: -0.03em on big type) */
 h1.font-display,
 h2.font-display {
+  font-weight: 300;
   letter-spacing: -0.03em;
   line-height: 1.02;
 }
 h3.font-display {
+  font-weight: 300;
   letter-spacing: -0.015em;
 }
 

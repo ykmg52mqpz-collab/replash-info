@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { Space_Grotesk, Inter } from "next/font/google";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
@@ -9,22 +8,6 @@ const locales = routing.locales;
 import "../globals.css";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import MotionProvider from "@/components/MotionProvider";
-
-// Interim display font until the licensed Neue Haas Grotesk Display files
-// are provided (then swap this to next/font/local).
-const display = Space_Grotesk({
-  subsets: ["latin"],
-  variable: "--font-display",
-  weight: ["400", "500", "600", "700"],
-  display: "swap",
-});
-
-const body = Inter({
-  subsets: ["latin"],
-  variable: "--font-body",
-  weight: ["400", "500", "600", "700"],
-  display: "swap",
-});
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
@@ -91,7 +74,11 @@ export default async function LocaleLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale} className={`${display.variable} ${body.variable}`}>
+    <html lang={locale}>
+      <head>
+        {/* Adobe Fonts (Typekit) — Neue Haas Grotesk Display */}
+        <link rel="stylesheet" href="https://use.typekit.net/qqj8ayc.css" />
+      </head>
       <body className="font-body bg-ink-900 text-white antialiased">
         <NextIntlClientProvider messages={messages} locale={locale}>
           <MotionProvider>
