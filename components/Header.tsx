@@ -50,7 +50,8 @@ export default function Header() {
               />
               <span
                 lang="en"
-                className="font-display text-xl font-bold tracking-tight text-accent md:text-2xl"
+                style={{ fontWeight: 600 }}
+                className="font-display text-xl tracking-tight text-accent md:text-2xl"
               >
                 replash
               </span>

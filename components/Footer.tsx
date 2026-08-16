@@ -30,7 +30,7 @@ export default function Footer() {
                 className="h-12 w-auto select-none"
                 draggable={false}
               />
-              <span lang="en" className="font-display text-2xl font-bold tracking-tight text-accent">
+              <span lang="en" style={{ fontWeight: 600 }} className="font-display text-2xl tracking-tight text-accent">
                 replash
               </span>
             </div>
