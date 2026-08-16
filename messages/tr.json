@@ -888,7 +888,9 @@
     "whatsapp": {
       "aria": "WhatsApp'tan yaz",
       "prefill": "Merhaba! Tesisim için Replash hakkında bilgi almak istiyorum."
-    }
+    },
+    "whatsappIntro": "Merhaba! Replash pilot programı için başvurmak istiyorum:",
+    "whatsappSubmit": "WhatsApp'tan gönder"
   },
   "footer": {
     "tagline": "Sadece bir maçtan fazlası.",

@@ -888,7 +888,9 @@
     "whatsapp": {
       "aria": "Scrivici su WhatsApp",
       "prefill": "Ciao! Vorrei saperne di più su Replash per il mio centro."
-    }
+    },
+    "whatsappIntro": "Ciao! Vorrei candidarmi al programma pilota di Replash:",
+    "whatsappSubmit": "Invia su WhatsApp"
   },
   "footer": {
     "tagline": "Più di una semplice partita.",
