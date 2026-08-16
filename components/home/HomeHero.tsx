@@ -59,7 +59,7 @@ export default function HomeHero() {
           <motion.div
             initial={{ opacity: 0, y: 32 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7, ease: "easeOut" }}
+            transition={{ duration: 0.7, ease: [0.23, 1, 0.32, 1] }}
           >
           {/* Title */}
           <motion.h1

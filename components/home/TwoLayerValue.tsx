@@ -38,7 +38,7 @@ export default function TwoLayerValue() {
           initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-80px" }}
-          transition={{ duration: 0.6, ease: "easeOut" }}
+          transition={{ duration: 0.6, ease: [0.23, 1, 0.32, 1] }}
           className="lg:sticky lg:top-28 lg:self-start"
         >
           <h2 className="font-display text-3xl font-bold leading-[1.1] tracking-tight text-balance md:text-4xl lg:text-5xl">
@@ -62,7 +62,7 @@ export default function TwoLayerValue() {
                 initial={{ opacity: 0, x: 24 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true, margin: "-40px" }}
-                transition={{ duration: 0.55, delay: i * 0.12, ease: "easeOut" }}
+                transition={{ duration: 0.55, delay: i * 0.12, ease: [0.23, 1, 0.32, 1] }}
                 className="relative flex gap-5"
               >
                 {/* Index marker on the spine */}

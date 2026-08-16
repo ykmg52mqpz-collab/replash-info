@@ -40,14 +40,14 @@ export default function Hero() {
         <motion.div
           initial={{ opacity: 0, y: 32 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, ease: "easeOut" }}
+          transition={{ duration: 0.7, ease: [0.23, 1, 0.32, 1] }}
           className="mx-auto max-w-4xl text-center"
         >
           {/* Title */}
           <motion.h1
             initial={{ opacity: 0, y: 32 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.1, ease: "easeOut" }}
+            transition={{ duration: 0.8, delay: 0.1, ease: [0.23, 1, 0.32, 1] }}
             className="font-display text-5xl font-bold leading-[1.1] tracking-tight text-balance md:text-6xl lg:text-7xl"
             style={{
               background:
@@ -64,7 +64,7 @@ export default function Hero() {
           <motion.p
             initial={{ opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
+            transition={{ duration: 0.8, delay: 0.2, ease: [0.23, 1, 0.32, 1] }}
             className="mt-6 text-lg text-white/55 md:text-xl"
           >
             {t("subtitle")}
@@ -74,7 +74,7 @@ export default function Hero() {
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.35, ease: "easeOut" }}
+            transition={{ duration: 0.6, delay: 0.35, ease: [0.23, 1, 0.32, 1] }}
             className="mt-10 flex flex-col items-center justify-center gap-3 sm:flex-row"
           >
             <a
@@ -105,7 +105,7 @@ export default function Hero() {
         <motion.div
           initial={{ opacity: 0, y: 56 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1, delay: 0.65, ease: "easeOut" }}
+          transition={{ duration: 1, delay: 0.65, ease: [0.23, 1, 0.32, 1] }}
           className="mx-auto mt-20 max-w-5xl"
         >
           <div className="overflow-hidden rounded-2xl border border-white/10 shadow-[0_40px_140px_-20px_rgba(0,0,0,0.9)]">

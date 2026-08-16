@@ -23,7 +23,7 @@ export default function Privacy() {
               initial={{ opacity: 0, x: 16 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, margin: "-40px" }}
-              transition={{ duration: 0.4, delay: i * 0.06, ease: "easeOut" }}
+              transition={{ duration: 0.4, delay: i * 0.06, ease: [0.23, 1, 0.32, 1] }}
               className="flex items-start gap-3 rounded-xl border border-white/10 bg-white/[0.03] p-4"
             >
               <span className="mt-0.5 flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-white/10">

@@ -68,7 +68,7 @@ function Step1Booking() {
                   }
                 : undefined
             }
-            transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
+            transition={{ duration: 6, repeat: Infinity, ease: [0.77, 0, 0.175, 1] }}
           >
             <span className="text-white/85">{slot}</span>
           </motion.div>
@@ -95,12 +95,12 @@ function Step1Booking() {
               "rgba(255,255,255,0.08)",
             ],
           }}
-          transition={{ duration: 6, repeat: Infinity, times: [0, 0.35, 0.5, 0.85, 1], ease: "easeInOut" }}
+          transition={{ duration: 6, repeat: Infinity, times: [0, 0.35, 0.5, 0.85, 1], ease: [0.77, 0, 0.175, 1] }}
         >
           <motion.div
             className="absolute top-0.5 h-4 w-4 rounded-full bg-white shadow"
             animate={{ x: [2, 2, 18, 18, 2] }}
-            transition={{ duration: 6, repeat: Infinity, times: [0, 0.35, 0.5, 0.85, 1], ease: "easeInOut" }}
+            transition={{ duration: 6, repeat: Infinity, times: [0, 0.35, 0.5, 0.85, 1], ease: [0.77, 0, 0.175, 1] }}
           />
         </motion.div>
       </div>
@@ -137,15 +137,15 @@ function Step2Recording() {
             transition={{ duration: 10, repeat: Infinity, ease: "linear" }}
           />
           {/* Two players (white team) */}
-          <motion.circle r="3" fill="white" animate={{ cx: [90, 110, 95, 90], cy: [70, 85, 100, 70] }} transition={{ duration: 12, repeat: Infinity, ease: "easeInOut" }} />
-          <motion.circle r="3" fill="white" animate={{ cx: [140, 160, 145, 140], cy: [110, 100, 130, 110] }} transition={{ duration: 12, repeat: Infinity, ease: "easeInOut", delay: 0.5 }} />
+          <motion.circle r="3" fill="white" animate={{ cx: [90, 110, 95, 90], cy: [70, 85, 100, 70] }} transition={{ duration: 12, repeat: Infinity, ease: [0.77, 0, 0.175, 1] }} />
+          <motion.circle r="3" fill="white" animate={{ cx: [140, 160, 145, 140], cy: [110, 100, 130, 110] }} transition={{ duration: 12, repeat: Infinity, ease: [0.77, 0, 0.175, 1], delay: 0.5 }} />
           {/* Two players (dark team) */}
-          <motion.circle r="3" fill="#111" stroke="white" strokeWidth="0.5" animate={{ cx: [230, 210, 220, 230], cy: [80, 95, 110, 80] }} transition={{ duration: 12, repeat: Infinity, ease: "easeInOut" }} />
-          <motion.circle r="3" fill="#111" stroke="white" strokeWidth="0.5" animate={{ cx: [180, 200, 185, 180], cy: [110, 95, 125, 110] }} transition={{ duration: 12, repeat: Infinity, ease: "easeInOut", delay: 0.8 }} />
+          <motion.circle r="3" fill="#111" stroke="white" strokeWidth="0.5" animate={{ cx: [230, 210, 220, 230], cy: [80, 95, 110, 80] }} transition={{ duration: 12, repeat: Infinity, ease: [0.77, 0, 0.175, 1] }} />
+          <motion.circle r="3" fill="#111" stroke="white" strokeWidth="0.5" animate={{ cx: [180, 200, 185, 180], cy: [110, 95, 125, 110] }} transition={{ duration: 12, repeat: Infinity, ease: [0.77, 0, 0.175, 1], delay: 0.8 }} />
         </svg>
         {/* REC ticker */}
         <div className="absolute right-2 top-2 flex items-center gap-1.5 rounded bg-black/50 px-2 py-1 font-mono text-[10px] font-bold uppercase tracking-widest text-white/85 backdrop-blur-sm">
-          <motion.span className="h-1.5 w-1.5 rounded-full bg-red-500" animate={{ opacity: [1, 0.2, 1] }} transition={{ duration: 1.4, repeat: Infinity, ease: "easeInOut" }} />
+          <motion.span className="h-1.5 w-1.5 rounded-full bg-red-500" animate={{ opacity: [1, 0.2, 1] }} transition={{ duration: 1.4, repeat: Infinity, ease: [0.77, 0, 0.175, 1] }} />
           Rec 47:12
         </div>
         {/* Camera label bottom-left */}
@@ -180,7 +180,7 @@ function Step3Tagging() {
             className="flex items-center justify-between rounded-lg border border-white/[0.08] bg-white/[0.02] px-3 py-2"
             initial={{ opacity: 0, x: -12 }}
             animate={{ opacity: [0, 1, 1, 1, 0], x: [-12, 0, 0, 0, -12] }}
-            transition={{ duration: 6, repeat: Infinity, delay: i * 0.4, times: [0, 0.15, 0.5, 0.85, 1], ease: "easeOut" }}
+            transition={{ duration: 6, repeat: Infinity, delay: i * 0.4, times: [0, 0.15, 0.5, 0.85, 1], ease: [0.23, 1, 0.32, 1] }}
           >
             <span className="font-mono text-[10px] uppercase tracking-widest text-white/45">{chip.label}</span>
             <span className="text-sm text-white/85">{chip.value}</span>
@@ -235,7 +235,7 @@ function Step4Admin() {
                   }
                 : undefined
             }
-            transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
+            transition={{ duration: 6, repeat: Infinity, ease: [0.77, 0, 0.175, 1] }}
             style={i === 0 ? { opacity: 0.55 } : {}}
           >
             <span className="text-white/80">{row.time}</span>
@@ -259,7 +259,7 @@ function Step4Admin() {
                     "rgba(255,255,255,0.6)",
                   ],
                 }}
-                transition={{ duration: 6, repeat: Infinity, times: [0, 0.35, 0.5, 0.85, 1], ease: "easeInOut" }}
+                transition={{ duration: 6, repeat: Infinity, times: [0, 0.35, 0.5, 0.85, 1], ease: [0.77, 0, 0.175, 1] }}
               >
                 <motion.span
                   animate={{ opacity: [1, 1, 0, 0, 1] }}
@@ -364,7 +364,7 @@ function Step6Share() {
               className="absolute top-0 h-1 rounded-full bg-accent"
               initial={{ left: "18%", width: "8%" }}
               animate={{ left: ["18%", "22%", "26%", "18%"], width: ["8%", "14%", "18%", "8%"] }}
-              transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
+              transition={{ duration: 6, repeat: Infinity, ease: [0.77, 0, 0.175, 1] }}
             />
           </div>
           <div className="mt-1.5 flex justify-between font-mono text-[9px] uppercase tracking-widest text-white/50">

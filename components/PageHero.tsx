@@ -44,7 +44,7 @@ export default function PageHero({
         <motion.h1
           initial={{ opacity: 0, y: 28 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, delay: 0.1, ease: "easeOut" }}
+          transition={{ duration: 0.7, delay: 0.1, ease: [0.23, 1, 0.32, 1] }}
           className="mx-auto max-w-3xl font-display text-4xl font-bold leading-[1.1] tracking-tight text-balance md:text-5xl lg:text-6xl"
           style={{
             background: "linear-gradient(to bottom, #ffffff 40%, rgba(255,255,255,0.5))",
@@ -60,7 +60,7 @@ export default function PageHero({
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7, delay: 0.2, ease: "easeOut" }}
+            transition={{ duration: 0.7, delay: 0.2, ease: [0.23, 1, 0.32, 1] }}
             className="mx-auto mt-6 max-w-2xl text-lg text-white/55 md:text-xl"
           >
             {subtitle}

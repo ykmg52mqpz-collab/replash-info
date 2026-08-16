@@ -8,6 +8,7 @@ import { routing, type Locale } from "@/i18n/routing";
 const locales = routing.locales;
 import "../globals.css";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import MotionProvider from "@/components/MotionProvider";
 
 // Interim display font until the licensed Neue Haas Grotesk Display files
 // are provided (then swap this to next/font/local).
@@ -93,8 +94,10 @@ export default async function LocaleLayout({
     <html lang={locale} className={`${display.variable} ${body.variable}`}>
       <body className="font-body bg-ink-900 text-white antialiased">
         <NextIntlClientProvider messages={messages} locale={locale}>
-          {children}
-          <WhatsAppButton />
+          <MotionProvider>
+            {children}
+            <WhatsAppButton />
+          </MotionProvider>
         </NextIntlClientProvider>
       </body>
     </html>

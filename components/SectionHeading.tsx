@@ -18,7 +18,7 @@ export default function SectionHeading({
       initial={{ opacity: 0, y: 24 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-80px" }}
-      transition={{ duration: 0.6, ease: "easeOut" }}
+      transition={{ duration: 0.6, ease: [0.23, 1, 0.32, 1] }}
       className={`max-w-3xl ${align === "center" ? "mx-auto text-center" : ""}`}
     >
       <h2 className="font-display text-3xl font-bold leading-tight tracking-tight text-balance md:text-4xl lg:text-5xl">

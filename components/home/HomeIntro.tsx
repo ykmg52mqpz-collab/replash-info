@@ -24,7 +24,7 @@ export default function HomeIntro() {
           initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-60px" }}
-          transition={{ duration: 0.7, ease: "easeOut" }}
+          transition={{ duration: 0.7, ease: [0.23, 1, 0.32, 1] }}
           className="mx-auto max-w-4xl text-center"
         >
           {/* Slogan — main marketing line */}

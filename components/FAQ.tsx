@@ -30,7 +30,7 @@ export default function FAQ() {
                 initial={{ opacity: 0, y: 16 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-40px" }}
-                transition={{ duration: 0.4, delay: i * 0.06, ease: "easeOut" }}
+                transition={{ duration: 0.4, delay: i * 0.06, ease: [0.23, 1, 0.32, 1] }}
               >
                 <button
                   type="button"
@@ -66,7 +66,7 @@ export default function FAQ() {
                       initial={{ height: 0, opacity: 0 }}
                       animate={{ height: "auto", opacity: 1 }}
                       exit={{ height: 0, opacity: 0 }}
-                      transition={{ duration: 0.3, ease: "easeInOut" }}
+                      transition={{ duration: 0.3, ease: [0.77, 0, 0.175, 1] }}
                       className="overflow-hidden"
                     >
                       <p className="pb-5 pr-10 text-sm leading-relaxed text-white/60">
