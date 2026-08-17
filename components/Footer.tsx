@@ -52,13 +52,10 @@ export default function Footer() {
             ))}
           </nav>
 
-          {/* Demo / internal tools — visible for testing; refine before launch */}
+          {/* Player access */}
           <nav className="flex flex-col gap-2">
-            <span className="text-xs font-semibold uppercase tracking-widest text-white/25 mb-1">Demo</span>
+            <span className="text-xs font-semibold uppercase tracking-widest text-white/25 mb-1">{tNav("forPlayers")}</span>
             <Link href="/find" className="text-sm text-white/50 transition hover:text-white">{tNav("find")}</Link>
-            <Link href="/ingest" className="text-sm text-white/50 transition hover:text-white">Test Camera</Link>
-            <Link href="/panel" className="text-sm text-white/50 transition hover:text-white">Facility Panel</Link>
-            <Link href="/admin" className="text-sm text-white/50 transition hover:text-white">Admin</Link>
           </nav>
 
           {/* CTA */}
