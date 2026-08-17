@@ -6,7 +6,7 @@
     "forPlayers": "Para Jugadores",
     "about": "Nosotros",
     "find": "Encuentra Tu Partido",
-    "bookDemo": "Conviértete en Sede Piloto",
+    "bookDemo": "Solicita una demo",
     "contact": "Contacto",
     "notice": {
       "text": "Programa piloto abierto — buscando centros piloto para Q1 2026.",
@@ -16,10 +16,10 @@
   "home": {
     "hero": {
       "badge": "Para Centros Deportivos Amateur",
-      "title": "Juega. Graba. Revive.",
-      "subtitle": "Replash convierte los partidos amateur de fútbol y pádel en momentos digitales compartibles. Grabados automáticamente, accesibles al instante y pensados para los centros deportivos modernos.",
-      "cta": "Conviértete en Sede Piloto",
-      "ctaSecondary": "Cómo Funciona"
+      "title": "Play. Record. Relive.",
+      "subtitle": "Dale a los jugadores un partido para revivir. Un nuevo ingreso para tu centro. Replash graba los partidos automáticamente y los deja listos para ver, recortar y compartir.",
+      "cta": "Solicita una demo",
+      "ctaSecondary": "Cómo funciona"
     },
     "intro": {
       "eyebrow": "Para Propietarios de Centros",

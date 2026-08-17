@@ -6,7 +6,7 @@
     "forPlayers": "Per i Giocatori",
     "about": "Chi Siamo",
     "find": "Trova la Partita",
-    "bookDemo": "Diventa Centro Pilota",
+    "bookDemo": "Richiedi una demo",
     "contact": "Contatti",
     "notice": {
       "text": "Programma pilota aperto — cerchiamo centri pilota per Q1 2026.",
@@ -16,10 +16,10 @@
   "home": {
     "hero": {
       "badge": "Per Centri Sportivi Amatoriali",
-      "title": "Gioca. Registra. Rivivilo.",
-      "subtitle": "Replash trasforma le partite di calcio e padel amatoriale in momenti digitali condivisibili. Registrati in automatico, accessibili all'istante, pensati per i centri sportivi moderni.",
-      "cta": "Diventa Centro Pilota",
-      "ctaSecondary": "Scopri Come Funziona"
+      "title": "Play. Record. Relive.",
+      "subtitle": "Dai ai giocatori una partita da rivivere. Un nuovo ricavo per il tuo centro. Replash registra le partite in automatico e le rende pronte da guardare, ritagliare e condividere.",
+      "cta": "Richiedi una demo",
+      "ctaSecondary": "Scopri come funziona"
     },
     "intro": {
       "eyebrow": "Per i Gestori di Centri Sportivi",

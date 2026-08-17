@@ -6,7 +6,7 @@
     "forPlayers": "Oyuncular İçin",
     "about": "Hakkımızda",
     "find": "Maçını Bul",
-    "bookDemo": "Pilot Saha Ol",
+    "bookDemo": "Demo iste",
     "contact": "İletişim",
     "notice": {
       "text": "Pilot program açık — 2026 Q1 için pilot sahalar arıyoruz.",
@@ -16,10 +16,10 @@
   "home": {
     "hero": {
       "badge": "Amatör Spor Sahaları İçin",
-      "title": "Oyna. Kaydet. Yeniden Yaşa.",
-      "subtitle": "Replash, amatör futbol ve padel maçlarını paylaşılabilir dijital anlara dönüştürür. Otomatik kayıt, anında erişim, modern spor tesisleri için tasarlanmış.",
-      "cta": "Pilot Saha Ol",
-      "ctaSecondary": "Nasıl Çalışır"
+      "title": "Play. Record. Relive.",
+      "subtitle": "Oyunculara yeniden yaşanacak bir maç ver. Tesisine yeni bir gelir. Replash maçları otomatik kaydeder; izlemeye, kesmeye ve paylaşmaya hazır hale getirir.",
+      "cta": "Demo iste",
+      "ctaSecondary": "Nasıl çalışır"
     },
     "intro": {
       "eyebrow": "Saha Sahipleri İçin",

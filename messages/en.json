@@ -6,7 +6,7 @@
     "forPlayers": "For Players",
     "about": "About",
     "find": "Find Your Match",
-    "bookDemo": "Become a Pilot Facility",
+    "bookDemo": "Book a demo",
     "contact": "Contact",
     "notice": {
       "text": "Pilot program open — recruiting pilot facilities for Q1 2026.",
@@ -17,9 +17,9 @@
     "hero": {
       "badge": "For Amateur Sport Facilities",
       "title": "Play. Record. Relive.",
-      "subtitle": "Replash turns amateur football and padel matches into shareable digital moments. Automatically recorded, instantly accessible, and built for modern sports facilities.",
-      "cta": "Become a Pilot Facility",
-      "ctaSecondary": "See How It Works"
+      "subtitle": "Give players a match to relive. A new revenue stream for your venue. Replash records matches automatically and makes them ready to watch, clip, and share.",
+      "cta": "Book a demo",
+      "ctaSecondary": "See how it works"
     },
     "intro": {
       "eyebrow": "For Facility Owners",
