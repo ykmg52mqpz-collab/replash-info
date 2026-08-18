@@ -143,7 +143,7 @@
         },
         "3": {
           "title": "Staff Activates on Sale",
-          "desc": "When a player buys video access, your team taps 'Video Sold' in the panel. One click, status: UNLOCKABLE."
+          "desc": "When the team wants the video, your team enables it from the panel with one tap."
         },
         "4": {
           "title": "Players Watch and Enjoy",
@@ -157,7 +157,7 @@
       "items": {
         "1": "Cameras record the playing area only. No changing rooms, no entrances",
         "2": "No audio recording. No facial recognition. Ever.",
-        "3": "Videos are private. Accessible only with the right facility + date + time + UNLOCKABLE status",
+        "3": "Videos are private. Accessible only with the match code handed out by the facility.",
         "4": "All footage is automatically deleted after 7 days",
         "5": "Fully compliant with GDPR, ECHR Art. 8, and Italian Garante regulations",
         "6": "Clear signage and data processing agreements provided before installation"
@@ -172,7 +172,7 @@
     "hero": {
       "eyebrow": "Find Your Match",
       "title": "Watch your match.",
-      "subtitle": "Got your code from the facility? Enter it and you're watching in seconds."
+      "subtitle": "Got your match code? Enter it and watch the match in seconds."
     },
     "form": {
       "facility": "Facility",
@@ -190,17 +190,17 @@
     "errors": {
       "notFound": {
         "title": "We couldn't find your match",
-        "desc": "Either the time slot doesn't match a recording, or the facility hasn't activated the video yet. Ask reception to confirm the sale, then try again.",
+        "desc": "Either the code is wrong, or the facility hasn't enabled the video yet. Ask the front desk to confirm, then try again.",
         "report": "Report an Issue"
       },
       "locked": {
         "title": "Video not yet unlocked",
-        "desc": "Your facility hasn't confirmed the sale yet. The video will be available as soon as the receptionist taps 'Video Sold'."
+        "desc": "Your facility hasn't enabled the video yet. It'll be available as soon as the front desk activates it."
       }
     },
     "explainer": {
       "title": "How access works",
-      "desc": "A video is only displayed when all four conditions match at once: correct facility, correct date, correct time slot, and the facility has activated the recording. No public listings. No guessable URLs. Your match is yours alone.",
+      "desc": "The video only opens with the match code the facility hands to the team. No public listing, no guessable link, no video in search engines. Your match is yours alone.",
       "noShare": "Videos never appear in search engines. Links are not public."
     },
     "watch": {
@@ -244,7 +244,7 @@
     "hero": {
       "eyebrow": "How It Works",
       "title": "Six simple steps. Zero complexity for your team.",
-      "subtitle": "From kick-off to replay. Replash handles everything in between. Below: each step explained, with Marco's real Tuesday night padel match as a concrete example."
+      "subtitle": "From kickoff to replay, Replash handles everything in between. Below: every step explained, with Marco's Tuesday-night padel match as a concrete example."
     },
     "marcoIntro": {
       "name": "Marco",
@@ -271,29 +271,29 @@
       },
       "3": {
         "label": "Step 3",
-        "title": "Match is Organised by Time Slot",
-        "desc": "Each recording is automatically tagged by venue, date, and time slot. Making it discoverable through the Find Your Match flow.",
+        "title": "The Facility Enables the Video",
+        "desc": "When the team wants the video, the facility staff enables it from the Replash panel with one tap. It's the only recurring action required, and it takes seconds.",
         "marco": {
-          "time": "20:00",
-          "example": "The system records Marco's match as: Example Padel Club · Tuesday 14 May 2026 · 19:00–20:00. This precise tag is the only way the match can be found later."
+          "time": "20:05",
+          "example": "At the front desk the staff opens the Replash panel, finds today's 19:00–20:00 slot and enables the video for Marco's team. No other technical step."
         }
       },
       "4": {
         "label": "Step 4",
-        "title": "Staff Activates on Sale",
-        "desc": "When a player has purchased video access, facility staff opens the Replash admin panel, finds the right match in the day's list and unlocks it. The match status flips from LOCKED to UNLOCKABLE. That's the only recurring action required.",
+        "title": "Get the Match Code",
+        "desc": "As soon as the video is enabled, the team gets a unique match code — at the front desk or via the QR at the entrance. One code for the whole team.",
         "marco": {
-          "time": "20:05",
-          "example": "At reception the receptionist opens the Replash panel, finds today's 19:00–20:00 slot in the match list, reviews the time slot, player count and amount, and unlocks it. The match status flips to UNLOCKABLE and access is immediately ready for Marco's team."
+          "time": "20:06",
+          "example": "Marco gets his match code from the front desk. The same code works for all four players."
         }
       },
       "5": {
         "label": "Step 5",
-        "title": "Player Finds the Match",
-        "desc": "Players visit replash.eu, enter the three fields (facility, date, time slot), and watch.",
+        "title": "Enter the Code on Replash",
+        "desc": "Players go to replash.eu, enter the match code, and the video opens. No account, no app, no public listing.",
         "marco": {
           "time": "20:08",
-          "example": "Marco visits replash.eu on his phone. He picks Example Padel Club, today's date, and 19:00–20:00. The system checks all 4 conditions match. And his match plays on his phone instantly."
+          "example": "Marco visits replash.eu on his phone, enters the match code, and his recording plays instantly."
         }
       },
       "6": {
@@ -348,7 +348,7 @@
         "2": {
           "name": "Cloud",
           "function": "EU-based object storage",
-          "detail": "Only matches marked UNLOCKABLE are kept long-term. Unsold matches deleted shortly after."
+          "detail": "Only matches enabled by the facility are kept long-term. The rest deleted shortly after."
         },
         "3": {
           "name": "Web",
@@ -357,14 +357,14 @@
         },
         "4": {
           "name": "Billing",
-          "function": "Status-based reconciliation engine",
-          "detail": "Automatic revenue split. Tamper-proof, fully audited, monthly settlement."
+          "function": "Reconciliation engine",
+          "detail": "Automatic revenue split, fully tracked, with monthly settlement."
         }
       }
     },
     "cta": {
       "title": "Ready to see it in action?",
-      "button": "Become a Pilot Facility"
+      "button": "Book a demo"
     }
   },
   "forFacilities": {
@@ -502,7 +502,7 @@
           "football": "€1,215 / mo"
         }
       },
-      "footer": "Pure passive income. No cost. Single action per sale: tap 'Video Sold'."
+      "footer": "Purely passive income. No cost. One action per match: enable the video from the panel."
     },
     "objections": {
       "eyebrow": "Common Concerns. Addressed",
@@ -567,7 +567,7 @@
         },
         "4": {
           "title": "Activate Sold Matches",
-          "desc": "When a player pays for video access, your staff taps one button: 'Video Sold'. That's the only recurring action."
+          "desc": "When the team wants the video, your staff enables it from the panel with one tap. This is the only recurring action."
         }
       }
     },
@@ -619,7 +619,7 @@
     "watch": {
       "eyebrow": "Watch Your Game",
       "title": "Your full match, available after the final whistle.",
-      "desc": "After your match is complete and access is activated, you can watch the entire recording through a simple web link or QR code. No app download needed. No account needed. Just your game, ready to watch."
+      "desc": "Once the match is over and the facility has enabled the video, enter the match code and watch the full recording from a simple web link. No app to download, no account to create. Just your match, ready to watch."
     },
     "clipping": {
       "eyebrow": "Clip the Best Moments",
@@ -698,8 +698,8 @@
           "desc": "Scan the QR code at your court, or visit the Replash website."
         },
         "2": {
-          "title": "Find Your Match",
-          "desc": "Enter your venue, date, and time slot."
+          "title": "Enter the Code",
+          "desc": "Enter the match code the facility gave you."
         },
         "3": {
           "title": "Watch and Enjoy",
@@ -838,7 +838,7 @@
       },
       "4": {
         "q": "Does my staff have to do anything per match?",
-        "a": "Just one tap. When a player pays for video access, your receptionist marks the match 'Video Sold' in the facility panel. The recording flips from LOCKED to UNLOCKABLE. Everything else (recording, storage, delivery, clip cutter) is fully automated."
+        "a": "One tap. When the team wants the video, the front desk enables it from the panel. Everything else (recording, storage, code delivery, clip cutter) is fully automatic."
       },
       "5": {
         "q": "What happens if a camera fails or there's a technical issue?",
@@ -912,7 +912,7 @@
     },
     "find": {
       "title": "Find Your Match. Replash",
-      "description": "Three fields, thirty seconds, your game. Watch your amateur football or padel match. No app, no account."
+      "description": "Got your match code? Enter it and watch your amateur football or padel match. No app, no account."
     },
     "howItWorks": {
       "title": "How It Works. Replash",

@@ -71,7 +71,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 flex flex-col items-start justify-between gap-3 border-t border-white/5 pt-6 text-xs text-white/35 md:flex-row md:items-center">
-          <span>© {year} <span lang="en">replash.info</span>. {t("rights")}</span>
+          <span>© {year} <span lang="en">replash.eu</span>. {t("rights")}</span>
           <a href="#" className="hover:text-white transition">{t("privacy")}</a>
         </div>
       </div>

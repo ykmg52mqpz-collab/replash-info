@@ -143,7 +143,7 @@
         },
         "3": {
           "title": "El Personal Activa en la Venta",
-          "desc": "Cuando un jugador compra acceso al video, tu equipo toca 'Video Vendido' en el panel. Un clic, estado: UNLOCKABLE."
+          "desc": "Cuando el equipo quiere el vídeo, tu equipo lo activa desde el panel con un toque."
         },
         "4": {
           "title": "Los Jugadores Ven y Disfrutan",
@@ -157,7 +157,7 @@
       "items": {
         "1": "Las cámaras graban solo el área de juego. Sin vestuarios, sin entradas",
         "2": "Sin grabación de audio. Sin reconocimiento facial. Nunca.",
-        "3": "Los videos son privados. Accesibles solo con la combinación correcta de centro + fecha + hora + estado UNLOCKABLE",
+        "3": "Los vídeos son privados. Accesibles solo con el código del partido entregado por el centro.",
         "4": "Todas las grabaciones se eliminan automáticamente después de 7 días",
         "5": "Totalmente conforme con el RGPD, CEDH Art. 8 y normativa del Garante italiano",
         "6": "Señalización clara y acuerdos de tratamiento de datos antes de la instalación"
@@ -172,7 +172,7 @@
     "hero": {
       "eyebrow": "Encuentra Tu Partido",
       "title": "Mira tu partido.",
-      "subtitle": "¿Tienes el código del club? Introdúcelo y estarás viendo tu partido en segundos."
+      "subtitle": "¿Tienes el código del partido? Introdúcelo y mira el partido en segundos."
     },
     "form": {
       "facility": "Centro",
@@ -190,18 +190,18 @@
     "errors": {
       "notFound": {
         "title": "No pudimos encontrar tu partido",
-        "desc": "O la franja horaria no coincide con una grabación, o el centro aún no ha activado el video. Pide a recepción que confirme la venta y vuelve a intentarlo.",
+        "desc": "O el código es incorrecto, o el centro aún no ha activado el vídeo. Pide confirmación en recepción y vuelve a intentarlo.",
         "report": "Reportar un Problema"
       },
       "locked": {
         "title": "Video aún no desbloqueado",
-        "desc": "Tu centro aún no ha confirmado la venta. El video estará disponible en cuanto el recepcionista pulse 'Video Vendido'."
+        "desc": "Tu centro aún no ha activado el vídeo. Estará disponible en cuanto recepción lo active."
       }
     },
     "explainer": {
       "title": "Cómo funciona el acceso",
-      "desc": "Un video solo se muestra cuando las cuatro condiciones coinciden a la vez: centro correcto, fecha correcta, franja horaria correcta y que el centro haya activado la grabación. Sin listados públicos. Sin URLs adivinables. Tu partido es solo tuyo.",
-      "noShare": "Los videos nunca aparecen en motores de búsqueda. Los enlaces no son públicos."
+      "desc": "El vídeo solo se abre con el código del partido que el centro entrega al equipo. Sin lista pública, sin enlace adivinable, sin vídeo en buscadores. Tu partido es solo tuyo.",
+      "noShare": "Los vídeos nunca aparecen en buscadores. Los enlaces no son públicos."
     },
     "watch": {
       "title": "Encuentra tu partido",
@@ -244,7 +244,7 @@
     "hero": {
       "eyebrow": "Cómo Funciona",
       "title": "Seis pasos simples. Cero complejidad para tu equipo.",
-      "subtitle": "Del saque inicial al replay. Replash gestiona todo lo del medio. Abajo: cada paso explicado, con el partido real de pádel de Marco un martes por la noche como ejemplo concreto."
+      "subtitle": "Del saque inicial a la repetición, Replash gestiona todo lo que hay en medio. Abajo: cada paso explicado, con el partido de pádel del martes por la noche de Marco como ejemplo concreto."
     },
     "marcoIntro": {
       "name": "Marco",
@@ -271,29 +271,29 @@
       },
       "3": {
         "label": "Paso 3",
-        "title": "Organizado por Franja Horaria",
-        "desc": "Cada grabación se etiqueta automáticamente por centro, fecha y franja horaria. Haciéndola descubrible a través del flujo Encuentra Tu Partido.",
+        "title": "El Centro Activa el Vídeo",
+        "desc": "Cuando el equipo quiere el vídeo, el personal del centro lo activa desde el panel de Replash con un toque. Es la única acción recurrente necesaria, y lleva segundos.",
         "marco": {
-          "time": "20:00",
-          "example": "El sistema registra el partido de Marco como: Example Padel Club · Martes 14 Mayo 2026 · 19:00–20:00. Esta etiqueta precisa es la única forma en que el partido se puede encontrar después."
+          "time": "20:05",
+          "example": "En recepción el personal abre el panel de Replash, encuentra la franja de hoy 19:00–20:00 y activa el vídeo para el equipo de Marco. Ningún otro paso técnico."
         }
       },
       "4": {
         "label": "Paso 4",
-        "title": "El Personal Activa en la Venta",
-        "desc": "Cuando un jugador ha comprado el acceso al video, el personal del centro abre el panel de administración Replash, encuentra el partido correcto en la lista del día y lo desbloquea. El estado pasa de LOCKED a UNLOCKABLE. Esa es la única acción recurrente requerida.",
+        "title": "Recibe el Código del Partido",
+        "desc": "En cuanto se activa el vídeo, el equipo recibe un código de partido único — en recepción o mediante el QR de la entrada. Un solo código para todo el equipo.",
         "marco": {
-          "time": "20:05",
-          "example": "En recepción el personal abre el panel Replash, encuentra la franja 19:00–20:00 de hoy en la lista de partidos, comprueba hora, número de jugadores e importe, y lo desbloquea. El estado del partido pasa a UNLOCKABLE y el acceso está listo de inmediato para el equipo de Marco."
+          "time": "20:06",
+          "example": "Marco recibe el código de su partido en recepción. El mismo código funciona para los cuatro jugadores."
         }
       },
       "5": {
         "label": "Paso 5",
-        "title": "El Jugador Encuentra el Partido",
-        "desc": "Los jugadores visitan replash.eu, introducen los tres campos (centro, fecha, franja horaria) y miran.",
+        "title": "Introduce el Código en Replash",
+        "desc": "Los jugadores van a replash.eu, introducen el código del partido y el vídeo se abre. Sin cuenta, sin app, sin lista pública.",
         "marco": {
           "time": "20:08",
-          "example": "Marco visita replash.eu desde su móvil. Elige Example Padel Club, la fecha de hoy y 19:00–20:00. El sistema verifica que las 4 condiciones coincidan. Y su partido se reproduce en su móvil al instante."
+          "example": "Marco visita replash.eu desde su móvil, introduce el código del partido y su grabación se reproduce al instante."
         }
       },
       "6": {
@@ -348,7 +348,7 @@
         "2": {
           "name": "Cloud",
           "function": "Almacenamiento de objetos en la UE",
-          "detail": "Solo los partidos marcados UNLOCKABLE se mantienen a largo plazo. Los no vendidos se eliminan poco después."
+          "detail": "Solo los partidos activados por el centro se conservan a largo plazo. Los demás se eliminan poco después."
         },
         "3": {
           "name": "Web",
@@ -357,14 +357,14 @@
         },
         "4": {
           "name": "Billing",
-          "function": "Motor de conciliación basado en estado",
-          "detail": "División de ingresos automática. A prueba de manipulación, totalmente auditada, liquidación mensual."
+          "function": "Motor de conciliación",
+          "detail": "Reparto de ingresos automático, totalmente trazado, con liquidación mensual."
         }
       }
     },
     "cta": {
       "title": "¿Listo para verlo en acción?",
-      "button": "Conviértete en Sede Piloto"
+      "button": "Solicita una demo"
     }
   },
   "forFacilities": {
@@ -502,7 +502,7 @@
           "football": "€1.215 / mes"
         }
       },
-      "footer": "Ingresos puramente pasivos. Sin coste. Una sola acción por venta: toca 'Video Vendido'."
+      "footer": "Ingresos puramente pasivos. Sin coste. Una acción por partido: activar el vídeo desde el panel."
     },
     "objections": {
       "eyebrow": "Preocupaciones Comunes. Resueltas",
@@ -567,7 +567,7 @@
         },
         "4": {
           "title": "Activar Partidos Vendidos",
-          "desc": "Cuando un jugador paga por el acceso al video, tu personal toca un solo botón: 'Video Vendido'. Esa es la única acción recurrente."
+          "desc": "Cuando el equipo quiere el vídeo, tu personal lo activa desde el panel con un toque. Esta es la única acción recurrente."
         }
       }
     },
@@ -619,7 +619,7 @@
     "watch": {
       "eyebrow": "Mira Tu Partido",
       "title": "Tu partido completo, disponible después del pitido final.",
-      "desc": "Después de que tu partido termine y se active el acceso, puedes ver toda la grabación a través de un simple enlace web o código QR. No hace falta descargar app. No hace falta cuenta. Solo tu partido, listo para verlo."
+      "desc": "Cuando el partido termina y el centro ha activado el vídeo, introduce el código del partido y mira la grabación completa desde un simple enlace web. Sin app que descargar, sin cuenta que crear. Solo tu partido, listo para ver."
     },
     "clipping": {
       "eyebrow": "Recorta los Mejores Momentos",
@@ -698,8 +698,8 @@
           "desc": "Escanea el código QR en tu pista o visita el sitio web de Replash."
         },
         "2": {
-          "title": "Encuentra Tu Partido",
-          "desc": "Introduce tu centro, fecha y franja horaria."
+          "title": "Introduce el Código",
+          "desc": "Introduce el código del partido que te dio el centro."
         },
         "3": {
           "title": "Mira y Disfruta",
@@ -838,7 +838,7 @@
       },
       "4": {
         "q": "¿Mi personal tiene que hacer algo por cada partido?",
-        "a": "Solo un clic. Cuando un jugador paga por el acceso al video, tu recepcionista marca el partido como 'Video Vendido' en el panel del centro. La grabación pasa de LOCKED a UNLOCKABLE. Todo lo demás (grabación, almacenamiento, entrega, clip cutter) está totalmente automatizado."
+        "a": "Un toque. Cuando el equipo quiere el vídeo, recepción lo activa desde el panel. Todo lo demás (grabación, almacenamiento, entrega del código, clip cutter) es totalmente automático."
       },
       "5": {
         "q": "¿Qué pasa si una cámara falla o hay un problema técnico?",
@@ -912,7 +912,7 @@
     },
     "find": {
       "title": "Encuentra Tu Partido. Replash",
-      "description": "Tres campos, treinta segundos, tu partido. Mira tu partido amateur de fútbol o pádel. Sin app, sin cuenta."
+      "description": "¿Tienes el código del partido? Introdúcelo y mira tu partido amateur de fútbol o pádel. Sin app, sin cuenta."
     },
     "howItWorks": {
       "title": "Cómo Funciona. Replash",

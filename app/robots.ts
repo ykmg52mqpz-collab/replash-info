@@ -1,13 +1,12 @@
 import type { MetadataRoute } from "next";
 
 export default function robots(): MetadataRoute.Robots {
+  // This deployment is a development staging copy. The production site lives on
+  // replash.eu, so this copy must never be indexed by search engines.
   return {
     rules: {
       userAgent: "*",
-      allow: "/",
-      // Internal / product tools — never index from the marketing site.
-      disallow: ["/admin", "/panel", "/ingest", "/api/"],
+      disallow: "/",
     },
-    sitemap: "https://replash.info/sitemap.xml",
   };
 }

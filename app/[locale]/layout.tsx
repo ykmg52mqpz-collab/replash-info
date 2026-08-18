@@ -22,8 +22,11 @@ export async function generateMetadata({
   return {
     title: t("title"),
     description: t("description"),
-    metadataBase: new URL("https://replash.info"),
+    metadataBase: new URL("https://replash.eu"),
     applicationName: "Replash",
+    // This repo is a development staging copy; the production site lives on
+    // replash.eu. Keep this deployment out of search indexes entirely.
+    robots: { index: false, follow: false },
     appleWebApp: {
       capable: true,
       title: "Replash",
@@ -41,7 +44,7 @@ export async function generateMetadata({
     openGraph: {
       title: t("title"),
       description: t("description"),
-      url: locale === "it" ? "https://replash.info" : `https://replash.info/${locale}`,
+      url: locale === "it" ? "https://replash.eu" : `https://replash.eu/${locale}`,
       siteName: "Replash",
       locale: { it: "it_IT", en: "en_US", tr: "tr_TR", es: "es_ES" }[locale] || "en_US",
       type: "website",

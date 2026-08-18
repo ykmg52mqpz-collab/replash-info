@@ -136,7 +136,6 @@ export default function PanelApp() {
           />
           {err && <div className="mt-3 rounded-xl border border-red-400/30 bg-red-400/10 p-3 text-sm text-red-200">{t("bad")}</div>}
           <button className="mt-4 w-full rounded-xl bg-accent px-6 py-3 text-sm font-bold text-ink-900">{t("enter")}</button>
-          <p className="mt-4 text-center text-xs text-white/30">{t("demo")}: 482913 · 739104 · 150726 · 901284</p>
         </form>
       </div>
     );

@@ -91,7 +91,7 @@ export default function PlayersClipping() {
                     <span className="text-white/40">Timeline</span>
                     <span className="flex items-center gap-1 rounded-full border border-accent/30 bg-accent/15 px-2 py-0.5">
                       <span className="h-1.5 w-1.5 rounded-full bg-accent" />
-                      <span className="text-[9px] font-semibold uppercase tracking-wider text-accent">AI Highlights</span>
+                      <span className="text-[9px] font-semibold uppercase tracking-wider text-accent">AI Highlights · Soon</span>
                     </span>
                   </div>
                   <span className="font-mono text-accent">Selected: 00:17:08 → 00:17:23</span>

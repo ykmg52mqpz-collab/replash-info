@@ -177,12 +177,11 @@ export default function AdminApp() {
           <h1 className="font-display text-xl font-bold">{t("login")}</h1>
           <p className="mb-5 mt-1 text-sm text-white/50">{t("sub")}</p>
           <div className="flex flex-col gap-3">
-            <input name="email" type="email" required defaultValue="admin@replash.info" placeholder={t("email")} className={input} />
+            <input name="email" type="email" required placeholder={t("email")} className={input} />
             <input name="password" type="password" required placeholder={t("pass")} className={input} />
           </div>
           {err && <div className="mt-3 rounded-xl border border-red-400/30 bg-red-400/10 p-3 text-sm text-red-200">{t("bad")}</div>}
           <button className="mt-4 w-full rounded-xl bg-accent px-6 py-3 text-sm font-bold text-ink-900">{t("enter")}</button>
-          <p className="mt-4 text-center text-xs text-white/30">{t("demo")}: admin@replash.info / replash2025</p>
         </form>
       </div>
     );

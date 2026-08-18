@@ -143,7 +143,7 @@
         },
         "3": {
           "title": "Personel Satışta Aktive Eder",
-          "desc": "Oyuncu video erişimi satın aldığında, ekibiniz panelde 'Video Satıldı' tuşuna basar. Tek tıklama, durum: UNLOCKABLE."
+          "desc": "Takım videoyu istediğinde, ekibin panelden tek dokunuşla etkinleştirir."
         },
         "4": {
           "title": "Oyuncular İzler ve Eğlenir",
@@ -157,7 +157,7 @@
       "items": {
         "1": "Kameralar sadece oyun alanını kaydeder. Soyunma odası, giriş yok",
         "2": "Ses kaydı yok. Yüz tanıma yok. Asla.",
-        "3": "Videolar özel. Sadece doğru saha + tarih + saat + UNLOCKABLE durumu ile erişilebilir",
+        "3": "Videolar özeldir. Yalnızca tesisin verdiği maç koduyla erişilebilir.",
         "4": "Tüm kayıtlar 7 gün sonra otomatik silinir",
         "5": "GDPR, AİHS Madde 8 ve İtalyan Garante düzenlemelerine tamamen uyumlu",
         "6": "Kurulumdan önce açık tabela ve veri işleme anlaşmaları sağlanır"
@@ -172,7 +172,7 @@
     "hero": {
       "eyebrow": "Maçını Bul",
       "title": "Maçınızı izleyin.",
-      "subtitle": "Tesisten kodunu aldın mı? Gir ve saniyeler içinde maçını izle."
+      "subtitle": "Maç kodun var mı? Gir ve maçı saniyeler içinde izle."
     },
     "form": {
       "facility": "Saha",
@@ -190,18 +190,18 @@
     "errors": {
       "notFound": {
         "title": "Maçınızı bulamadık",
-        "desc": "Ya saat slotu bir kayıtla eşleşmiyor ya da saha videoyu henüz aktive etmedi. Resepsiyondan satışı onaylamasını isteyin, sonra tekrar deneyin.",
+        "desc": "Ya kod yanlış ya da tesis videoyu henüz etkinleştirmedi. Resepsiyondan teyit iste, sonra tekrar dene.",
         "report": "Sorun Bildir"
       },
       "locked": {
         "title": "Video henüz açılmadı",
-        "desc": "Sahanız henüz satışı onaylamadı. Resepsiyon 'Video Satıldı' tuşuna basar basmaz video kullanılabilir olacak."
+        "desc": "Tesisin videoyu henüz etkinleştirmedi. Resepsiyon etkinleştirir etkinleştirmez hazır olacak."
       }
     },
     "explainer": {
       "title": "Erişim nasıl çalışır",
-      "desc": "Bir video sadece dört koşul aynı anda eşleştiğinde gösterilir: doğru saha, doğru tarih, doğru saat slotu ve sahanın kaydı aktive etmiş olması. Genel listeleme yok. Tahmin edilebilir URL yok. Maçınız sadece sizindir.",
-      "noShare": "Videolar asla arama motorlarında görünmez. Bağlantılar genel değildir."
+      "desc": "Video yalnızca tesisin takıma verdiği maç koduyla açılır. Herkese açık liste yok, tahmin edilebilir bağlantı yok, arama motorlarında video yok. Maçın sadece senin.",
+      "noShare": "Videolar arama motorlarında asla görünmez. Bağlantılar herkese açık değildir."
     },
     "watch": {
       "title": "Maçını bul",
@@ -244,7 +244,7 @@
     "hero": {
       "eyebrow": "Nasıl Çalışır",
       "title": "Altı basit adım. Ekibiniz için sıfır karmaşıklık.",
-      "subtitle": "Başlangıç vuruşundan replay'e. Replash aradaki her şeyi yönetir. Aşağıda: her adım Marco'nun gerçek Salı akşamı padel maçı somut örneğiyle açıklandı."
+      "subtitle": "İlk vuruştan tekrar oynatmaya kadar, Replash aradaki her şeyi halleder. Aşağıda: her adım, Marco'nun salı gecesi padel maçı somut örnek olarak açıklanıyor."
     },
     "marcoIntro": {
       "name": "Marco",
@@ -271,29 +271,29 @@
       },
       "3": {
         "label": "Adım 3",
-        "title": "Slot Bazlı Düzenlenir",
-        "desc": "Her kayıt otomatik olarak saha, tarih ve saat slotuna göre etiketlenir. Maçını Bul akışı üzerinden keşfedilebilir hale gelir.",
+        "title": "Tesis Videoyu Etkinleştirir",
+        "desc": "Takım videoyu istediğinde, tesis personeli Replash panelinden tek dokunuşla etkinleştirir. Gereken tek tekrarlı işlem budur ve saniyeler sürer.",
         "marco": {
-          "time": "20:00",
-          "example": "Sistem Marco'nun maçını şu şekilde kaydeder: Example Padel Club · Salı 14 Mayıs 2026 · 19:00–20:00. Bu kesin etiket, maçın daha sonra bulunmasının tek yoludur."
+          "time": "20:05",
+          "example": "Resepsiyonda personel Replash panelini açar, bugünün 19:00–20:00 dilimini bulur ve Marco'nun takımı için videoyu etkinleştirir. Başka teknik adım yok."
         }
       },
       "4": {
         "label": "Adım 4",
-        "title": "Personel Satışta Aktive Eder",
-        "desc": "Bir oyuncu video erişimini satın aldığında, saha personeli Replash admin panelini açar, günün maç listesinden doğru maçı bulur ve unlock eder. Maç durumu LOCKED'tan UNLOCKABLE'a geçer. Gerekli olan tek tekrar eden işlem budur.",
+        "title": "Maç Kodunu Al",
+        "desc": "Video etkinleştirilir etkinleştirilmez takım benzersiz bir maç kodu alır — resepsiyonda ya da girişteki QR ile. Tüm takım için tek kod.",
         "marco": {
-          "time": "20:05",
-          "example": "Resepsiyonist Replash panelini açar, günün maç listesinden 19:00–20:00 slotunu bulur, saati, oyuncu sayısını ve tutarı kontrol eder ve unlock eder. Maç durumu UNLOCKABLE'a geçer ve erişim Marco'nun takımına anında hazır olur."
+          "time": "20:06",
+          "example": "Marco maç kodunu resepsiyondan alır. Aynı kod dört oyuncunun hepsi için çalışır."
         }
       },
       "5": {
         "label": "Adım 5",
-        "title": "Oyuncu Maçı Bulur",
-        "desc": "Oyuncular replash.eu'u ziyaret eder, üç alanı (saha, tarih, slot) doldurur ve izler.",
+        "title": "Kodu Replash'e Gir",
+        "desc": "Oyuncular replash.eu'ya gider, maç kodunu girer ve video açılır. Hesap yok, uygulama yok, herkese açık liste yok.",
         "marco": {
           "time": "20:08",
-          "example": "Marco telefonundan replash.eu'u ziyaret eder. Example Padel Club, bugünün tarihi ve 19:00–20:00'yi seçer. Sistem 4 koşulun da eşleştiğini kontrol eder. Ve maç anında telefonunda oynamaya başlar."
+          "example": "Marco telefonundan replash.eu'yu ziyaret eder, maç kodunu girer ve kaydı anında oynatılır."
         }
       },
       "6": {
@@ -348,7 +348,7 @@
         "2": {
           "name": "Cloud",
           "function": "AB bazlı nesne depolama",
-          "detail": "Sadece UNLOCKABLE işaretli maçlar uzun süre tutulur. Satılmayan maçlar kısa süre sonra silinir."
+          "detail": "Yalnızca tesisin etkinleştirdiği maçlar uzun süreli saklanır. Diğerleri kısa süre sonra silinir."
         },
         "3": {
           "name": "Web",
@@ -357,14 +357,14 @@
         },
         "4": {
           "name": "Billing",
-          "function": "Durum bazlı mutabakat motoru",
-          "detail": "Otomatik gelir paylaşımı. Kurcalanamaz, tamamen denetlenir, aylık mutabakat."
+          "function": "Mutabakat motoru",
+          "detail": "Otomatik gelir paylaşımı, tamamen izlenebilir, aylık ödemeyle."
         }
       }
     },
     "cta": {
       "title": "Çalışırken görmeye hazır mısınız?",
-      "button": "Pilot Saha Ol"
+      "button": "Demo iste"
     }
   },
   "forFacilities": {
@@ -502,7 +502,7 @@
           "football": "€1.215 / ay"
         }
       },
-      "footer": "Saf pasif gelir. Maliyet yok. Satış başına tek eylem: 'Video Satıldı' tuşuna bas."
+      "footer": "Tamamen pasif gelir. Maliyet yok. Maç başına tek işlem: videoyu panelden etkinleştir."
     },
     "objections": {
       "eyebrow": "Yaygın Endişeler. Cevaplandı",
@@ -567,7 +567,7 @@
         },
         "4": {
           "title": "Satılan Maçları Aktive Edin",
-          "desc": "Bir oyuncu video erişimi için ödediğinde, personeliniz tek bir butona basar: 'Video Satıldı'. Tek tekrarlayan eylem budur."
+          "desc": "Takım videoyu istediğinde, personelin panelden tek dokunuşla etkinleştirir. Tek tekrarlı işlem budur."
         }
       }
     },
@@ -619,7 +619,7 @@
     "watch": {
       "eyebrow": "Maçınızı İzleyin",
       "title": "Maçınızın tamamı, son düdükten sonra hazır.",
-      "desc": "Maçınız bittikten ve erişim aktive edildikten sonra, kayıtın tamamını basit bir web bağlantısı veya QR kod üzerinden izleyebilirsiniz. Uygulama indirilmesi gerekmez. Hesap gerekmez. Sadece maçınız, izlemeye hazır."
+      "desc": "Maç bittikten ve tesis videoyu etkinleştirdikten sonra, maç kodunu gir ve tüm kaydı basit bir web bağlantısından izle. İndirilecek uygulama yok, oluşturulacak hesap yok. Sadece maçın, izlemeye hazır."
     },
     "clipping": {
       "eyebrow": "En İyi Anları Kesin",
@@ -698,8 +698,8 @@
           "desc": "Sahanızdaki QR kodu tarayın veya Replash web sitesini ziyaret edin."
         },
         "2": {
-          "title": "Maçınızı Bulun",
-          "desc": "Sahanızı, tarihinizi ve saat slotunuzu girin."
+          "title": "Kodu Gir",
+          "desc": "Tesisin sana verdiği maç kodunu gir."
         },
         "3": {
           "title": "İzleyin ve Tadını Çıkarın",
@@ -838,7 +838,7 @@
       },
       "4": {
         "q": "Personelimin her maç için bir şey yapması gerekiyor mu?",
-        "a": "Sadece bir tıklama. Bir oyuncu video erişimi için ödediğinde, resepsiyonist saha panelinde maçı 'Video Satıldı' olarak işaretler. Kayıt LOCKED'tan UNLOCKABLE'a geçer. Geri kalan her şey (kayıt, depolama, teslimat, clip cutter) tamamen otomatik."
+        "a": "Tek dokunuş. Takım videoyu istediğinde, resepsiyon panelden etkinleştirir. Geri kalan her şey (kayıt, depolama, kod teslimi, klip kesici) tamamen otomatiktir."
       },
       "5": {
         "q": "Bir kamera arızalanırsa veya teknik sorun olursa ne olur?",
@@ -912,7 +912,7 @@
     },
     "find": {
       "title": "Maçını Bul. Replash",
-      "description": "Üç alan, otuz saniye, maçınız. Amatör futbol veya padel maçınızı izleyin. Uygulama yok, hesap yok."
+      "description": "Maç kodun var mı? Gir ve amatör futbol veya padel maçını izle. Uygulama yok, hesap yok."
     },
     "howItWorks": {
       "title": "Nasıl Çalışır. Replash",
