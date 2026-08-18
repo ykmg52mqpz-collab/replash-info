@@ -7,11 +7,7 @@
     "about": "About",
     "find": "Find Your Match",
     "bookDemo": "Book a demo",
-    "contact": "Contact",
-    "notice": {
-      "text": "Pilot program open — recruiting pilot facilities for Q1 2026.",
-      "cta": "Apply"
-    }
+    "contact": "Contact"
   },
   "home": {
     "hero": {
@@ -25,7 +21,8 @@
       "eyebrow": "For Facility Owners",
       "slogan": "A new revenue stream every month. With zero upfront cost.",
       "tagline": "More than pitch time.",
-      "cta": "Talk to us"
+      "cta": "Talk to us",
+      "sports": "Available today for football and padel. Built to grow with other sports."
     },
     "twoLayer": {
       "eyebrow": "Value on Both Sides",

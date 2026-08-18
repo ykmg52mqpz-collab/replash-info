@@ -7,11 +7,7 @@
     "about": "Hakkımızda",
     "find": "Maçını Bul",
     "bookDemo": "Demo iste",
-    "contact": "İletişim",
-    "notice": {
-      "text": "Pilot program açık — 2026 Q1 için pilot sahalar arıyoruz.",
-      "cta": "Başvur"
-    }
+    "contact": "İletişim"
   },
   "home": {
     "hero": {
@@ -25,7 +21,8 @@
       "eyebrow": "Saha Sahipleri İçin",
       "slogan": "Her ay yeni bir gelir kaynağı. Sıfır başlangıç maliyetiyle.",
       "tagline": "Saha zamanından fazlası.",
-      "cta": "Bizimle Konuşun"
+      "cta": "Bizimle Konuşun",
+      "sports": "Bugün futbol ve padel için hazır. Diğer sporlarla büyümek için tasarlandı."
     },
     "twoLayer": {
       "eyebrow": "İki Taraf İçin de Değer",

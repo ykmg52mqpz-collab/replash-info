@@ -261,7 +261,7 @@ export default function IngestApp() {
               </select>
             </label>
             <label className="text-[11px] uppercase tracking-wider text-white/40">{t("pin")}
-              <input value={pin} onChange={(e) => setPin(e.target.value.replace(/\D/g, "").slice(0, 6))} placeholder="482913" inputMode="numeric" className={`${input} mt-1.5 w-full`} />
+              <input value={pin} onChange={(e) => setPin(e.target.value.replace(/\D/g, "").slice(0, 6))} placeholder="••••••" inputMode="numeric" className={`${input} mt-1.5 w-full`} />
             </label>
             <div className="grid grid-cols-2 gap-3">
               <label className="text-[11px] uppercase tracking-wider text-white/40">{t("date")}

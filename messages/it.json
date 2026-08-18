@@ -7,11 +7,7 @@
     "about": "Chi Siamo",
     "find": "Trova la Partita",
     "bookDemo": "Richiedi una demo",
-    "contact": "Contatti",
-    "notice": {
-      "text": "Programma pilota aperto — cerchiamo centri pilota per Q1 2026.",
-      "cta": "Candidati"
-    }
+    "contact": "Contatti"
   },
   "home": {
     "hero": {
@@ -25,7 +21,8 @@
       "eyebrow": "Per i Gestori di Centri Sportivi",
       "slogan": "Un nuovo flusso di ricavi ogni mese. Senza alcun costo iniziale.",
       "tagline": "Più del semplice campo.",
-      "cta": "Parla con noi"
+      "cta": "Parla con noi",
+      "sports": "Disponibile oggi per calcio e padel. Progettato per crescere con altri sport."
     },
     "twoLayer": {
       "eyebrow": "Valore da Entrambi i Lati",

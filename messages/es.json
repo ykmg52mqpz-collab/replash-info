@@ -7,11 +7,7 @@
     "about": "Nosotros",
     "find": "Encuentra Tu Partido",
     "bookDemo": "Solicita una demo",
-    "contact": "Contacto",
-    "notice": {
-      "text": "Programa piloto abierto — buscando centros piloto para Q1 2026.",
-      "cta": "Solicitar"
-    }
+    "contact": "Contacto"
   },
   "home": {
     "hero": {
@@ -25,7 +21,8 @@
       "eyebrow": "Para Propietarios de Centros",
       "slogan": "Un nuevo flujo de ingresos cada mes. Sin coste inicial.",
       "tagline": "Más que tiempo de pista.",
-      "cta": "Habla con nosotros"
+      "cta": "Habla con nosotros",
+      "sports": "Disponible hoy para fútbol y pádel. Diseñado para crecer con otros deportes."
     },
     "twoLayer": {
       "eyebrow": "Valor en Ambos Lados",

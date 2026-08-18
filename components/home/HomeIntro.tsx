@@ -55,6 +55,17 @@ export default function HomeIntro() {
             {t("tagline")}
           </motion.p>
 
+          {/* Sports scope — available today, built to grow */}
+          <motion.p
+            initial={{ opacity: 0, y: 12 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.32 }}
+            className="mx-auto mt-5 max-w-xl text-sm leading-relaxed text-white/45"
+          >
+            {t("sports")}
+          </motion.p>
+
           {/* CTA */}
           <motion.div
             initial={{ opacity: 0, y: 12 }}
