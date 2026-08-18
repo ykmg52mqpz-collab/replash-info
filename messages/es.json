@@ -28,18 +28,18 @@
       "cta": "Habla con nosotros"
     },
     "twoLayer": {
-      "eyebrow": "La Oportunidad en Dos Capas",
-      "title": "Un problema invisible. Un nuevo hábito.",
-      "subtitle": "Replash cierra un vacío que todos en el deporte amateur sienten. Y al mismo tiempo construye un comportamiento que encaja con la era de las redes sociales.",
+      "eyebrow": "Valor en Ambos Lados",
+      "title": "Para los jugadores. Y para tu centro.",
+      "subtitle": "Replash da a los jugadores un partido que revivir y a tu centro un nuevo servicio que ofrecer. Un sistema, dos tipos de valor.",
       "layer1": {
-        "label": "Capa 1. El Vacío",
-        "title": "de los partidos amateur nunca se graban.",
-        "desc": "Mientras el fútbol profesional captura un solo gol desde cien ángulos, en el campo amateur el mejor momento desaparece en el segundo en que ocurre. Los jugadores se van con un recuerdo y nada que mostrar."
+        "label": "Para los Jugadores",
+        "title": "de los partidos amateur nunca se graba.",
+        "desc": "El mejor momento de un partido se desvanece en el instante en que ocurre. Con Replash los jugadores salen de la pista con el partido completo, listo para ver, recortar y compartir."
       },
       "layer2": {
-        "label": "Capa 2. El Hábito",
-        "title": "La gente no solo juega. Comparte.",
-        "desc": "Las redes sociales ya no son el fondo de la vida. Son el primer plano. Después de una comida, después de un entrenamiento, después de un paseo. ¿Después de un partido? Casi nada. Replash cierra ese vacío."
+        "label": "Para el Centro",
+        "title": "Un nuevo servicio que los jugadores realmente quieren.",
+        "desc": "Cada partido grabado es un servicio más que ofrecer y un nuevo ingreso — sin coste inicial, una sola acción del personal. Tu centro se convierte en el lugar donde los partidos se reviven."
       }
     },
     "whatIs": {
@@ -596,13 +596,13 @@
         "eyebrow": "TU ESTIMACIÓN",
         "videos": "Videos vendidos",
         "videosHint": "al mes",
-        "share": "Tu parte (15%)",
+        "share": "Tu parte estimada",
         "shareHint": "ganancia mensual",
         "yearlyEyebrow": "POTENCIAL ANUAL",
         "yearlySuffix": "al año",
         "yearlyNote": "Sin trabajo extra para tu personal."
       },
-      "disclaimer": "* Estimación basada en el precio medio de venta del video por deporte. El cálculo es puramente ilustrativo. Ingresa tus propios números para ver tu potencial.",
+      "disclaimer": "* Estimación indicativa basada en el uso del servicio. El cálculo es solo ilustrativo; los términos finales se definen durante el onboarding.",
       "hook": {
         "title": "Convierte esta estimación en los ingresos mensuales de tu centro.",
         "desc": "Reserva una llamada breve. Ajustamos estos números a tu centro y te explicamos instalación, plazos y condiciones.",
@@ -658,23 +658,23 @@
     },
     "whyVideo": {
       "eyebrow": "Por Qué los Jugadores Eligen el Video",
-      "title": "Cuatro razones difíciles de saltar.",
+      "title": "Por qué los jugadores quieren el vídeo.",
       "reasons": {
         "1": {
-          "title": "Satisfacción Psicológica",
-          "desc": "Después de una comida publicas una story. Después de un entrenamiento, un selfie en el espejo. ¿Después de un partido? Casi nada. Replash cierra ese momento vacío."
+          "title": "Un recuerdo que guardar",
+          "desc": "Después de una comida publicas una foto. Después de entrenar, un selfie. ¿Después de un partido? Casi nada. Replash por fin te da algo que volver a ver y compartir."
         },
         "2": {
           "title": "El Momento, Capturado",
-          "desc": "La mirada después del primer gol. El golpe final de un set ganador. Estos desaparecen en el segundo en que ocurren. A menos que algo esté mirando. Replash construye una capa de memoria sobre el campo."
+          "desc": "La mirada tras el primer gol. El golpe que cierra el set. Momentos que se desvanecen en el instante en que ocurren, a menos que algo esté grabando. Con Replash siguen siendo tuyos."
         },
         "3": {
-          "title": "Recortar y Compartir, Sin Fricción",
-          "desc": "Abre la grabación. Elige 10 segundos. Descarga. Publica. No hace falta cuenta, no hace falta app, no hace falta perfil. La simplicidad misma es parte de la decisión."
+          "title": "Recorta y Comparte, Sin Fricción",
+          "desc": "Abre la grabación. Elige 10 segundos. Descarga. Comparte. Sin cuenta, sin app, sin perfil."
         },
         "4": {
-          "title": "Prueba Social",
-          "desc": "Cuando ves clips de equipos que jugaron en el mismo centro en redes sociales, la próxima reserva viene con '+ video' por defecto. Reflejo, no decisión."
+          "title": "Cuando tus amigos lo ven",
+          "desc": "Cuando ves clips de equipos que jugaron en tu mismo centro, añadir el vídeo a tu próxima reserva se siente natural."
         }
       }
     },
@@ -903,7 +903,8 @@
       "contact": "Contacto"
     },
     "privacy": "Política de Privacidad",
-    "rights": "Todos los derechos reservados."
+    "rights": "Todos los derechos reservados.",
+    "cookie": "Política de Cookies"
   },
   "meta": {
     "home": {

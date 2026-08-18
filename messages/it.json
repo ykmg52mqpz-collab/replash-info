@@ -28,18 +28,18 @@
       "cta": "Parla con noi"
     },
     "twoLayer": {
-      "eyebrow": "L'Opportunità a Due Livelli",
-      "title": "Un problema invisibile. Una nuova abitudine.",
-      "subtitle": "Replash chiude un vuoto che tutti nello sport amatoriale sentono. E al tempo stesso costruisce un comportamento che si sposa con l'era dei social media.",
+      "eyebrow": "Valore da Entrambi i Lati",
+      "title": "Per i giocatori. E per il tuo centro.",
+      "subtitle": "Replash dà ai giocatori una partita da rivivere e al tuo centro un nuovo servizio da offrire. Un solo sistema, due tipi di valore.",
       "layer1": {
-        "label": "Livello 1. Il Vuoto",
+        "label": "Per i Giocatori",
         "title": "delle partite amatoriali non viene mai registrato.",
-        "desc": "Mentre il calcio professionale cattura un singolo gol da cento angoli, sul campo amatoriale il momento migliore svanisce nell'attimo in cui accade. I giocatori se ne vanno con un ricordo e niente da mostrare."
+        "desc": "Il momento migliore di una partita svanisce nell'attimo in cui accade. Con Replash i giocatori escono dal campo con la partita completa, pronta da guardare, ritagliare e condividere."
       },
       "layer2": {
-        "label": "Livello 2. L'Abitudine",
-        "title": "Le persone non giocano e basta. Condividono.",
-        "desc": "I social media non sono più lo sfondo della vita. Sono in primo piano. Dopo un pasto, dopo un allenamento, dopo un'escursione. Dopo una partita? Quasi nulla. Replash chiude quel vuoto."
+        "label": "Per il Centro",
+        "title": "Un nuovo servizio che i giocatori vogliono.",
+        "desc": "Ogni partita registrata è un servizio in più da offrire e un nuovo ricavo, senza costi iniziali e con una sola azione dello staff. Il tuo centro diventa il posto dove le partite si rivivono."
       }
     },
     "whatIs": {
@@ -579,7 +579,7 @@
     "roi": {
       "eyebrow": "CALCOLATORE DI RICAVI",
       "title": "Calcola la tua entrata mensile passiva",
-      "subtitle": "¿Quanti campi hai? Quanti video pensi di vendere al giorno per campo? Inserisci i tuoi numeri e scopri la tua quota mensile.",
+      "subtitle": "Quanti campi hai? Quanti video pensi di vendere al giorno per campo? Inserisci i tuoi numeri e scopri la tua quota mensile.",
       "sport": {
         "padel": "Padel",
         "football": "Calcio"
@@ -596,13 +596,13 @@
         "eyebrow": "LA TUA STIMA",
         "videos": "Video venduti",
         "videosHint": "al mese",
-        "share": "La tua quota (15%)",
+        "share": "La tua quota stimata",
         "shareHint": "guadagno mensile",
         "yearlyEyebrow": "POTENZIALE ANNUO",
         "yearlySuffix": "all'anno",
         "yearlyNote": "Con zero lavoro aggiuntivo per il tuo staff."
       },
-      "disclaimer": "* Stima basata sul prezzo medio di vendita del video per sport. Il calcolo è puramente illustrativo. Inserisci i tuoi numeri per vedere il tuo potenziale.",
+      "disclaimer": "* Stima indicativa basata sull'utilizzo del servizio. Il calcolo è puramente illustrativo; i termini finali vengono definiti in fase di onboarding.",
       "hook": {
         "title": "Trasforma questa stima nel reddito mensile del tuo centro.",
         "desc": "Prenota una breve call. Adattiamo questi numeri al tuo centro e ti spieghiamo installazione, tempi e condizioni.",
@@ -658,23 +658,23 @@
     },
     "whyVideo": {
       "eyebrow": "Perché i Giocatori Scelgono il Video",
-      "title": "Quattro motivi difficili da saltare.",
+      "title": "Perché i giocatori vogliono il video.",
       "reasons": {
         "1": {
-          "title": "Soddisfazione Psicologica",
-          "desc": "Dopo un pasto pubblichi una story. Dopo un allenamento, un mirror selfie. Dopo una partita? Quasi nulla. Replash chiude quel vuoto."
+          "title": "Un ricordo da tenere",
+          "desc": "Dopo un pasto pubblichi una foto. Dopo un allenamento, un selfie. Dopo una partita? Quasi niente. Replash ti dà finalmente qualcosa da rivedere e condividere."
         },
         "2": {
           "title": "Il Momento, Catturato",
-          "desc": "Lo sguardo dopo il primo gol. Il colpo finale di un set vinto. Questi momenti svaniscono nell'istante in cui accadono. A meno che qualcosa li stia guardando. Replash costruisce un layer di memoria sopra il campo."
+          "desc": "Lo sguardo dopo il primo gol. Il colpo che chiude il set. Momenti che svaniscono nell'istante in cui accadono, a meno che qualcosa li stia registrando. Con Replash restano tuoi."
         },
         "3": {
-          "title": "Ritaglia & Condividi, Senza Attriti",
-          "desc": "Apri la registrazione. Scegli 10 secondi. Scarica. Pubblica. Nessun account richiesto, nessuna app richiesta, nessun profilo richiesto. La semplicità stessa è parte della decisione."
+          "title": "Ritaglia e Condividi, Senza Attriti",
+          "desc": "Apri la registrazione. Scegli 10 secondi. Scarica. Condividi. Nessun account, nessuna app, nessun profilo."
         },
         "4": {
-          "title": "Social Proof",
-          "desc": "Quando vedi clip di squadre che hanno giocato nello stesso centro sui social media, la prossima prenotazione arriva con '+ video' come default. Un riflesso, non una decisione."
+          "title": "Quando gli amici lo vedono",
+          "desc": "Quando vedi le clip delle squadre che hanno giocato nel tuo stesso centro, aggiungere il video alla prossima prenotazione diventa naturale."
         }
       }
     },
@@ -903,7 +903,8 @@
       "contact": "Contatti"
     },
     "privacy": "Privacy Policy",
-    "rights": "Tutti i diritti riservati."
+    "rights": "Tutti i diritti riservati.",
+    "cookie": "Cookie Policy"
   },
   "meta": {
     "home": {

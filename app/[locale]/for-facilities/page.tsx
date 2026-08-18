@@ -1,7 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import PageHero from "@/components/PageHero";
-import FacilitiesCompetitors from "@/components/facilities/FacilitiesCompetitors";
 import FacilitiesEngagement from "@/components/facilities/FacilitiesEngagement";
 import FacilitiesROI from "@/components/facilities/FacilitiesROI";
 import FacilitiesObjections from "@/components/facilities/FacilitiesObjections";
@@ -32,9 +31,8 @@ export default async function ForFacilitiesPage() {
         image="/images/gen_padel_golden.jpg"
         imageOpacity={0.5}
       />
-      <FacilitiesCompetitors />
-      <FacilitiesEngagement />
       <FacilitiesROI />
+      <FacilitiesEngagement />
       <FacilitiesObjections />
       <FacilitiesMarketing />
       <FacilitiesWhatYouDo />

@@ -32,7 +32,9 @@ export default function LanguageToggle() {
       aria-label="Language"
       className="inline-flex items-center rounded-full border border-white/10 bg-white/5 p-0.5 text-xs font-medium backdrop-blur"
     >
-      {(["it", "en", "tr", "es"] as const).map((code) => (
+      {/* Only IT (primary) and EN (secondary) are surfaced. TR/ES stay in the
+          routing config so the architecture remains scalable to more markets. */}
+      {(["it", "en"] as const).map((code) => (
         <button
           key={code}
           type="button"

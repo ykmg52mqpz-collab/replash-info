@@ -28,18 +28,18 @@
       "cta": "Bizimle Konuşun"
     },
     "twoLayer": {
-      "eyebrow": "İki Katmanlı Fırsat",
-      "title": "Görünmez bir sorun. Yeni bir alışkanlık.",
-      "subtitle": "Replash, amatör sporda herkesin hissettiği bir boşluğu kapatıyor. Ve aynı zamanda sosyal medya çağına uygun bir davranış inşa ediyor.",
+      "eyebrow": "İki Taraf İçin de Değer",
+      "title": "Oyuncular için. Ve tesisin için.",
+      "subtitle": "Replash oyunculara yeniden yaşanacak bir maç, tesisine sunacağı yeni bir hizmet verir. Tek sistem, iki tür değer.",
       "layer1": {
-        "label": "Katman 1. Boşluk",
-        "title": "amatör maç hiç kayıt altına alınmıyor.",
-        "desc": "Profesyonel futbol tek bir golü yüzlerce açıdan yakalarken, amatör sahada en güzel an olduğu saniye uçup gidiyor. Oyuncular sadece bir hatırayla sahadan ayrılıyor. Gösterecek hiçbir şeyleri yok."
+        "label": "Oyuncular İçin",
+        "title": "amatör maç hiçbir zaman kaydedilmiyor.",
+        "desc": "Bir maçın en güzel anı olduğu anda kaybolur. Replash ile oyuncular sahadan tüm maçla ayrılır — izlemeye, kesmeye ve paylaşmaya hazır."
       },
       "layer2": {
-        "label": "Katman 2. Alışkanlık",
-        "title": "İnsanlar artık sadece oynamıyor. Paylaşıyor.",
-        "desc": "Sosyal medya artık hayatın arka planında değil. Ön planında. Yemekten sonra, antrenmandan sonra, yürüyüşten sonra... Maçtan sonra? Neredeyse hiçbir şey. Replash bu boşluğu kapatıyor."
+        "label": "Tesis İçin",
+        "title": "Oyuncuların gerçekten istediği yeni bir hizmet.",
+        "desc": "Kaydedilen her maç, sunulacak bir hizmet ve yeni bir gelir demek — başlangıç maliyeti yok, tek personel işlemi. Tesisin, maçların yeniden yaşandığı yer olur."
       }
     },
     "whatIs": {
@@ -596,13 +596,13 @@
         "eyebrow": "TAHMINI GELIRINIZ",
         "videos": "Satılan video",
         "videosHint": "aylık",
-        "share": "Payınız (%15)",
+        "share": "Tahmini payın",
         "shareHint": "aylık kazanç",
         "yearlyEyebrow": "YILLIK POTANSIYEL",
         "yearlySuffix": "yıllık",
         "yearlyNote": "Personelinize sıfır ek iş yükü ile."
       },
-      "disclaimer": "* Tahmin spor başına ortalama video satış fiyatına dayanmaktadır. Hesaplama tamamen örnektir. Kendi rakamlarınızı girip potansiyelinizi görün.",
+      "disclaimer": "* Hizmet kullanımına dayalı gösterge niteliğinde bir tahmindir. Hesaplama yalnızca örnektir; nihai koşullar onboarding sırasında belirlenir.",
       "hook": {
         "title": "Bu tahmini tesisinin aylık gelirine çevir.",
         "desc": "Kısa bir görüşme ayarla. Bu rakamları senin tesisine göre çıkaralım; kurulum, süre ve şartları birlikte konuşalım.",
@@ -658,23 +658,23 @@
     },
     "whyVideo": {
       "eyebrow": "Oyuncular Videoyu Neden Seçer",
-      "title": "Atlaması zor dört neden.",
+      "title": "Oyuncular videoyu neden ister.",
       "reasons": {
         "1": {
-          "title": "Psikolojik Tatmin",
-          "desc": "Yemekten sonra bir story paylaşırsın. Antrenmandan sonra ayna selfie'si. Maçtan sonra? Neredeyse hiçbir şey. Replash o boş anı kapatır."
+          "title": "Saklanacak bir anı",
+          "desc": "Yemekten sonra fotoğraf paylaşırsın. Antrenmandan sonra bir selfie. Maçtan sonra? Neredeyse hiçbir şey. Replash sana nihayet tekrar izleyip paylaşacak bir şey verir."
         },
         "2": {
-          "title": "An, Yakalandı",
-          "desc": "İlk golden sonraki bakış. Galibiyet setinin son vuruşu. Bunlar olduğu saniye uçar. Bir şey izlemiyorsa. Replash sahanın üzerine bir hafıza katmanı inşa eder."
+          "title": "Yakalanan An",
+          "desc": "İlk goldeki bakış. Seti kapatan vuruş. Bir şey kaydetmiyorsa olduğu anda kaybolan anlar. Replash ile senin kalırlar."
         },
         "3": {
           "title": "Kes ve Paylaş, Sürtünmesiz",
-          "desc": "Kaydı aç. 10 saniye seç. İndir. Paylaş. Hesap gerekmez, uygulama gerekmez, profil gerekmez. Basitliğin kendisi karar mekanizmasının bir parçasıdır."
+          "desc": "Kaydı aç. 10 saniye seç. İndir. Paylaş. Hesap yok, uygulama yok, profil yok."
         },
         "4": {
-          "title": "Sosyal Kanıt",
-          "desc": "Aynı sahada oynayan takımların kliplerini sosyal medyada gördüğünüzde, bir sonraki rezervasyon '+ video' varsayılan olarak gelir. Refleks, karar değil."
+          "title": "Arkadaşların gördüğünde",
+          "desc": "Aynı tesiste oynayan takımların kliplerini gördüğünde, bir sonraki rezervasyona videoyu eklemek doğal gelir."
         }
       }
     },
@@ -903,7 +903,8 @@
       "contact": "İletişim"
     },
     "privacy": "Gizlilik Politikası",
-    "rights": "Tüm hakları saklıdır."
+    "rights": "Tüm hakları saklıdır.",
+    "cookie": "Çerez Politikası"
   },
   "meta": {
     "home": {

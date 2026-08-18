@@ -28,18 +28,18 @@
       "cta": "Talk to us"
     },
     "twoLayer": {
-      "eyebrow": "The Two-Layer Opportunity",
-      "title": "An invisible problem. A new habit.",
-      "subtitle": "Replash closes a gap that everyone in amateur sport feels. And at the same time builds a behavior that fits the social-media era.",
+      "eyebrow": "Value on Both Sides",
+      "title": "For the players. And for your facility.",
+      "subtitle": "Replash gives players a match to relive and your facility a new service to offer. One system, two kinds of value.",
       "layer1": {
-        "label": "Layer 1. The Gap",
+        "label": "For Players",
         "title": "of amateur matches are never recorded.",
-        "desc": "While professional football captures a single goal from a hundred angles, on the amateur field the best moment vanishes the second it happens. Players walk off with a memory and nothing to show for it."
+        "desc": "The best moment of a match fades the instant it happens. With Replash players leave the court with the full match, ready to watch, clip and share."
       },
       "layer2": {
-        "label": "Layer 2. The Habit",
-        "title": "People don't just play. They share.",
-        "desc": "Social media platforms are no longer the background of human life. They're the foreground. After a meal, after a workout, after a hike. After a match? Almost nothing. Replash closes that gap."
+        "label": "For the Facility",
+        "title": "A new service players actually want.",
+        "desc": "Every recorded match is one more service to offer and new revenue — no upfront cost, one staff action. Your facility becomes the place where matches get relived."
       }
     },
     "whatIs": {
@@ -596,13 +596,13 @@
         "eyebrow": "YOUR ESTIMATE",
         "videos": "Videos sold",
         "videosHint": "per month",
-        "share": "Your share (15%)",
+        "share": "Your estimated share",
         "shareHint": "monthly earning",
         "yearlyEyebrow": "YEARLY POTENTIAL",
         "yearlySuffix": "per year",
         "yearlyNote": "With zero extra work for your staff."
       },
-      "disclaimer": "* Estimate based on average video sale price per sport. The calculation is purely illustrative. Enter your own numbers to see your potential.",
+      "disclaimer": "* Indicative estimate based on service usage. The calculation is illustrative only; final terms are defined during onboarding.",
       "hook": {
         "title": "Turn this estimate into your monthly income.",
         "desc": "Book a short call. We'll map these numbers to your exact venue and walk you through setup, timelines, and terms.",
@@ -658,23 +658,23 @@
     },
     "whyVideo": {
       "eyebrow": "Why Players Pick the Video",
-      "title": "Four reasons it's hard to skip.",
+      "title": "Why players want the video.",
       "reasons": {
         "1": {
-          "title": "Psychological Satisfaction",
-          "desc": "After a meal you post a story. After a workout, a mirror selfie. After a match? Almost nothing. Replash closes the empty moment."
+          "title": "A memory to keep",
+          "desc": "After a meal you post a photo. After a workout, a selfie. After a match? Almost nothing. Replash finally gives you something to rewatch and share."
         },
         "2": {
           "title": "The Moment, Captured",
-          "desc": "The look after the first goal. The final shot of a winning set. These vanish the second they happen. Unless something is watching. Replash builds a memory layer over the pitch."
+          "desc": "The look after the first goal. The shot that closes the set. Moments that vanish the instant they happen — unless something is recording. With Replash they stay yours."
         },
         "3": {
-          "title": "Clip & Share, Frictionless",
-          "desc": "Open the recording. Pick 10 seconds. Download. Post. No account needed, no app needed, no profile needed. The simplicity itself is part of the decision."
+          "title": "Clip and Share, No Friction",
+          "desc": "Open the recording. Pick 10 seconds. Download. Share. No account, no app, no profile."
         },
         "4": {
-          "title": "Social Proof",
-          "desc": "When you see clips from teams that played at the same venue on social media, the next booking comes with '+ video' as the default. Reflex, not decision."
+          "title": "When friends see it",
+          "desc": "When you see clips from teams that played at your own facility, adding the video to your next booking just feels natural."
         }
       }
     },
@@ -903,7 +903,8 @@
       "contact": "Contact"
     },
     "privacy": "Privacy Policy",
-    "rights": "All rights reserved."
+    "rights": "All rights reserved.",
+    "cookie": "Cookie Policy"
   },
   "meta": {
     "home": {
