@@ -533,7 +533,7 @@
     "marketing": {
       "eyebrow": "Pazarlama Katmanı Dahil",
       "title": "Sahanızı sadece müşterilere değil. Kitlelere taşırız.",
-      "desc": "Replash sadece bir altyapı sağlayıcısı değil. Partner sahalarını görünür kılan bir pazarlama katmanıdır. Web sitemizde logonuzu ve konumunuzu öne çıkarırız. Oyuncular highlight'larını sosyal medyada paylaştıkça sahanız çevredeki topluluklara organik olarak ulaşır. Pazarlama, kullanıcı davranışı üzerinden gerçekleşir.",
+      "desc": "Replash yalnızca altyapı değil: partner tesisleri görünür kılar. Web sitemizde logonu ve konumunu öne çıkarırız. Oyuncular kliplerini sosyal medyada paylaştıkça, tesisin çevredeki topluluklara organik olarak ulaşır.",
       "items": {
         "1": {
           "title": "Replash'te Öne Çıkar",
@@ -716,8 +716,8 @@
   "about": {
     "hero": {
       "eyebrow": "Replash Hakkında",
-      "title": "Amatör spor için replay katmanını inşa ediyoruz.",
-      "subtitle": "Replash, profesyonel tarzda video deneyimini günlük amatör maçlara getirmek için kurulmuş bir spor-teknoloji girişimidir."
+      "title": "Tekrar izlemeyi günlük amatör spora getiriyoruz.",
+      "subtitle": "Replash, her gün oynanan amatör futbol ve padel maçlarına profesyonel kalitede video deneyimi getirir."
     },
     "unimi": {
       "eyebrow": "Università degli Studi di Milano",
@@ -740,13 +740,13 @@
       }
     },
     "founders": {
-      "eyebrow": "Kurucu Ekip",
-      "title": "Bir gözlem. Bir ürün.",
-      "desc": "Replash, davranışsal ekonomi altyapısına sahip kuruculardan çıktı. Alışkanlıkların nasıl oluştuğunu, piyasaların nasıl tepki verdiğini okumak üzerine bir düşünce dünyası. Alan ile şirketin yaptığı iş arasındaki örtüşme, projenin köşe taşı.",
+      "eyebrow": "Arkasındaki ekip",
+      "title": "Oynamayı sevenlerden, oynamayı sevenlere.",
+      "desc": "Replash'i her hafta gördüğümüz basit bir şeyden yola çıkarak kurduk: güzel bir maç oynuyorsun ve geriye tekrar izleyecek hiçbir şey kalmıyor. Amatör futbol ve padel de, en güzel anlarını yeniden yaşama şansını profesyonel spor kadar hak ediyor.",
       "values": {
-        "1": "Davranışsal ekonomi perspektifi",
-        "2": "Gözlemlenmiş kalıp üzerine inşa edildi, spekülasyon değil",
-        "3": "Avrupa amatör pazarı için tasarlandı"
+        "1": "Bir sunumdan değil, amatör spordan doğdu",
+        "2": "Gerçek bir oyuncu ihtiyacı üzerine kuruldu",
+        "3": "Avrupa'daki tesisler ve oyuncular için tasarlandı"
       }
     },
     "mission": {

@@ -533,7 +533,7 @@
     "marketing": {
       "eyebrow": "Marketing Layer Included",
       "title": "We carry your venue to audiences. Not just customers.",
-      "desc": "Replash isn't only an infrastructure provider. It's a marketing layer that makes its partner venues visible. On our website we feature your logo and location. As players share their highlights on social media, your venue reaches surrounding communities organically. Marketing happens through user behavior.",
+      "desc": "Replash isn't just infrastructure: it makes partner facilities visible. On our website we feature your logo and location. When players share their highlights on social media, your facility organically reaches nearby communities.",
       "items": {
         "1": {
           "title": "Featured on Replash",
@@ -716,8 +716,8 @@
   "about": {
     "hero": {
       "eyebrow": "About Replash",
-      "title": "We are building the replay layer for amateur sports.",
-      "subtitle": "Replash is a sports-tech startup created to bring professional-style video experiences to everyday amateur matches."
+      "title": "Bringing the replay to everyday amateur sport.",
+      "subtitle": "Replash brings professional-grade video to everyday amateur football and padel matches."
     },
     "unimi": {
       "eyebrow": "Università degli Studi di Milano",
@@ -740,13 +740,13 @@
       }
     },
     "founders": {
-      "eyebrow": "Founding Team",
-      "title": "One observation. One product.",
-      "desc": "Replash was started by founders with a background in behavioural economics. Reading how habits form and how markets respond. The overlap between that field and what the company does is the cornerstone of the project.",
+      "eyebrow": "Who's behind it",
+      "title": "From people who love to play, for people who love to play.",
+      "desc": "We built Replash from something simple we see every week: you play a great match, and there's nothing left to rewatch. Amateur football and padel deserve the same chance to relive their best moments that professional sport has.",
       "values": {
-        "1": "Behavioral economics perspective",
-        "2": "Built from observed pattern, not speculation",
-        "3": "Designed for the European amateur market"
+        "1": "Born from amateur sport, not from a slide",
+        "2": "Built on a real player need",
+        "3": "Made for facilities and players across Europe"
       }
     },
     "mission": {

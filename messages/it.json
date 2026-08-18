@@ -533,7 +533,7 @@
     "marketing": {
       "eyebrow": "Layer Marketing Incluso",
       "title": "Portiamo il tuo centro a pubblici, non solo a clienti.",
-      "desc": "Replash non è solo un fornitore di infrastruttura. È anche un layer di marketing che rende visibili i centri partner. Sul nostro sito mettiamo in evidenza il tuo logo e la posizione. Mentre i giocatori condividono gli highlights sui social media, il tuo centro raggiunge le comunità circostanti in modo organico. Il marketing avviene attraverso il comportamento degli utenti.",
+      "desc": "Replash non è solo infrastruttura: rende visibili i centri partner. Sul nostro sito mettiamo in evidenza il tuo logo e la tua posizione. Quando i giocatori condividono i loro highlights sui social media, il tuo centro raggiunge in modo organico le comunità vicine.",
       "items": {
         "1": {
           "title": "In Evidenza su Replash",
@@ -716,8 +716,8 @@
   "about": {
     "hero": {
       "eyebrow": "Chi Siamo",
-      "title": "Stiamo costruendo il replay layer per lo sport amatoriale.",
-      "subtitle": "Replash è una startup sports-tech creata per portare esperienze video di livello professionale alle partite amatoriali di tutti i giorni."
+      "title": "Portiamo il replay allo sport amatoriale di tutti i giorni.",
+      "subtitle": "Replash porta esperienze video di livello professionale alle partite di calcio e padel amatoriale, ogni giorno."
     },
     "unimi": {
       "eyebrow": "Università degli Studi di Milano",
@@ -740,13 +740,13 @@
       }
     },
     "founders": {
-      "eyebrow": "Il Team Fondatore",
-      "title": "Un'osservazione. Un prodotto.",
-      "desc": "Replash è stata avviata da founder con background in economia comportamentale: leggere come si formano le abitudini e come rispondono i mercati. La sovrapposizione tra quel campo e ciò che fa l'azienda è la pietra angolare del progetto.",
+      "eyebrow": "Chi c'è dietro",
+      "title": "Da chi ama giocare, per chi ama giocare.",
+      "desc": "Abbiamo creato Replash partendo da una cosa semplice che vediamo ogni settimana: giochi una bella partita, e non resta niente da rivedere. Il calcio e il padel amatoriale meritano la stessa possibilità di rivivere i momenti migliori che ha lo sport professionistico.",
       "values": {
-        "1": "Prospettiva di economia comportamentale",
-        "2": "Costruito su un pattern osservato, non speculato",
-        "3": "Pensato per il mercato amatoriale europeo"
+        "1": "Nati dallo sport amatoriale, non da una slide",
+        "2": "Costruito su un bisogno reale dei giocatori",
+        "3": "Pensato per i centri e i giocatori in Europa"
       }
     },
     "mission": {

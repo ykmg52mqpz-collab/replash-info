@@ -533,7 +533,7 @@
     "marketing": {
       "eyebrow": "Capa de Marketing Incluida",
       "title": "Llevamos tu centro a audiencias. No solo a clientes.",
-      "desc": "Replash no es solo un proveedor de infraestructura. Es una capa de marketing que hace visibles a sus centros asociados. En nuestra web destacamos tu logo y ubicación. Mientras los jugadores comparten sus highlights en redes sociales, tu centro llega a las comunidades circundantes de forma orgánica. El marketing ocurre a través del comportamiento del usuario.",
+      "desc": "Replash no es solo infraestructura: hace visibles a los centros partner. En nuestra web destacamos tu logo y tu ubicación. Cuando los jugadores comparten sus highlights en redes sociales, tu centro llega de forma orgánica a las comunidades cercanas.",
       "items": {
         "1": {
           "title": "Destacado en Replash",
@@ -716,8 +716,8 @@
   "about": {
     "hero": {
       "eyebrow": "Sobre Replash",
-      "title": "Estamos construyendo la capa de replay para el deporte amateur.",
-      "subtitle": "Replash es una startup sports-tech creada para llevar experiencias de video de estilo profesional a los partidos amateur cotidianos."
+      "title": "Llevamos la repetición al deporte amateur de cada día.",
+      "subtitle": "Replash lleva vídeo de nivel profesional a los partidos amateur de fútbol y pádel de cada día."
     },
     "unimi": {
       "eyebrow": "Università degli Studi di Milano",
@@ -740,13 +740,13 @@
       }
     },
     "founders": {
-      "eyebrow": "Equipo Fundador",
-      "title": "Una observación. Un producto.",
-      "desc": "Replash fue iniciado por fundadores con formación en economía del comportamiento: leer cómo se forman los hábitos y cómo responde el mercado. La superposición entre ese campo y lo que hace la empresa es la piedra angular del proyecto.",
+      "eyebrow": "Quién está detrás",
+      "title": "De quienes aman jugar, para quienes aman jugar.",
+      "desc": "Creamos Replash a partir de algo simple que vemos cada semana: juegas un gran partido y no queda nada que volver a ver. El fútbol y el pádel amateur merecen la misma oportunidad de revivir sus mejores momentos que el deporte profesional.",
       "values": {
-        "1": "Perspectiva de economía conductual",
-        "2": "Construido a partir de patrón observado, no especulación",
-        "3": "Diseñado para el mercado amateur europeo"
+        "1": "Nacido del deporte amateur, no de una diapositiva",
+        "2": "Construido sobre una necesidad real de los jugadores",
+        "3": "Pensado para centros y jugadores de toda Europa"
       }
     },
     "mission": {
